@@ -1,0 +1,43 @@
+<h1 class="footnote padded">This component is not yet released.</h1>
+<nav class="dds__nav-anchored dds__tabs-container" data-toggle="nav" aria-label="Example description of navigation">
+    <ul class="dds__tabs">
+        <li class="dds__flex-tab" role="none">
+            <button class="dds__tab-link dds__active" data-target="#section1" aria-controls="section1" aria-selected="true">
+                Section 1
+            </button>
+        </li>
+        <li class="dds__flex-tab" role="none">
+            <button class="dds__tab-link" tabindex="-1" data-target="#section2" aria-controls="section2" aria-selected="false">
+                Section 2
+            </button>
+        </li>
+        <li class="dds__flex-tab" role="none">
+            <button class="dds__tab-link" tabindex="-1" data-target="#section3" aria-controls="section3" aria-selected="false">
+                Section 3
+            </button>
+        </li>
+    </ul>
+</nav>
+<div class="dds__nav-content">
+    <div id="section1" class="dds__nav-section" role="tabpanel" aria-labelledby="section1">
+        <h2>Section 1</h2>
+        <p>The quick brown fox jumped over the lazy dog.</p>
+		<p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+    </div>
+    <div id="section2" class="dds__nav-section" role="tabpanel" aria-labelledby="section2">
+        <h2>Section 2</h2>
+		<p>Several fabulous dixieland jazz groups played with quick tempo.</p>
+		<p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+    </div>
+    <div id="section3" class="dds__nav-section" role="tabpanel" aria-labelledby="section3">
+        <h2>Section 3</h2>
+        <p>Back in my quaint garden, jaunty zinnias vie with flaunting phlox.</p>
+		<p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+    </div>
+</div>
+
+<script>
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"nav\"]"), function(element) {
+    new UIC.Nav(element);
+  });
+</script>

@@ -1,0 +1,25 @@
+<div class="padded">
+  <div class="dds__slider dds__d-flex dds__flex-column dds__h-100 dds__position-relative" data-toggle="dds__slider">
+    <div class="dds__slider-container dds__d-flex">
+      <div class="dds__slider-wrapper dds__d-block dds__w-100 dds__h-100">
+          <div class="dds__slider-target dds__position-relative"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__slider\"]"), function (element) {
+		var options = {
+					start: [700,1100],
+					step: 1,
+					margin: 1,
+					range: {
+						"min": 700,
+						"max": 1100
+					},
+					content: "Price:"
+				};
+		new UIC.Slider(element, options);
+	});
+</script>

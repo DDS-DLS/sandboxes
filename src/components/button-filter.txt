@@ -1,0 +1,85 @@
+<h2 class="csTitle">Simple Button Filter</h2>
+  <fieldset>
+    <legend>
+        <h4>Button Filter Title</h4>
+    </legend>
+    <div class="dds__row dds__no-gutters dds__btn-filter-container" data-toggle="dds__button-filter">
+        <div class="dds__filter-item dds__active" tabindex="-1">
+            <input type="radio" id="RadioButtonFilter1a" name="ExampleRadioButtonFilter" value="RadioButtonFilter1a"
+                class="dds__btn-input dds__sr-only" checked>
+            <label for="RadioButtonFilter1a" class="dds__btn-filter dds__active" data-filter-value="Option 1">Option 1</label>
+        </div>
+        <div class="dds__filter-item" tabindex="-1">
+            <input type="radio" id="RadioButtonFilter2a" name="ExampleRadioButtonFilter" value="RadioButtonFilter2a"
+                class="dds__btn-input dds__sr-only">
+            <label for="RadioButtonFilter2a" class="dds__btn-filter" data-filter-value="Option 2">Option 2</label>
+        </div>
+        <div class="dds__filter-item" tabindex="-1">
+            <input type="radio" id="RadioButtonFilter3a" name="ExampleRadioButtonFilter" value="RadioButtonFilter3a"
+                class="dds__btn-input dds__sr-only">
+            <label for="RadioButtonFilter3a" class="dds__btn-filter" data-filter-value="Option 3">Option 3</label>
+        </div>
+    </div>
+</fieldset>
+
+<h2 class="csTitle">Radio buttons as stroked containers</h2>
+<div class="dds__radio-btn-wrapper-stroked" data-toggle="dds__button-filter">
+  <div class="dds__card-stroked dds__filter-item dds__active" tabindex="-1"> <input type="radio" id="RadioButtonFilter1"
+    name="ExampleRadioButtonFilter" value="RadioButtonFilter1" class="dds__btn-input dds__sr-only" checked> <label
+    class="dds__card-label-stroked dds__btn-filter" for="RadioButtonFilter1" data-filter-value="Option A">
+    <div class="dds__card-label-container">
+    <p class="dds__card-title-stroked">Option A</p>
+    </div>
+  </label> </div>
+  <div class="dds__card-stroked dds__filter-item" tabindex="-1"> <input type="radio" id="RadioButtonFilter2"
+    name="ExampleRadioButtonFilter" value="RadioButtonFilter2" class="dds__btn-input dds__sr-only"> <label
+    class="dds__card-label-stroked dds__btn-filter" for="RadioButtonFilter2" data-filter-value="Option B">
+    <div class="dds__card-label-container">
+    <p class="dds__card-title-stroked">Option B</p>
+    <p class="dds__card-txt-stroked-supporting">Supporting text</p>
+    </div>
+  </label> </div>
+  <div class="dds__card-stroked dds__filter-item" tabindex="-1"> <input type="radio" id="RadioButtonFilter3"
+    name="ExampleRadioButtonFilter" value="RadioButtonFilter3" class="dds__btn-input dds__sr-only"> <label
+    class="dds__card-label-stroked dds__btn-filter" for="RadioButtonFilter3" data-filter-value="Option C">
+    <div class="dds__card-label-container">
+    <p class="dds__card-title-stroked">Option C</p>
+    <p class="dds__card-txt-stroked-secondary">Marketing text</p>
+    <p class="dds__card-txt-stroked-supporting">Supporting text</p>
+    </div>
+  </label> </div>
+  <div class="dds__card-stroked dds__filter-item" tabindex="-1"> <input type="radio" id="RadioButtonFilter4"
+    name="ExampleRadioButtonFilter" value="RadioButtonFilter4" class="dds__btn-input dds__sr-only"> <label
+    class="dds__card-label-stroked dds__btn-filter" for="RadioButtonFilter4" data-filter-value="Option D">
+    <div class="dds__card-label-container"> <img
+      src="https://assets.website-files.com/5c76c529d2ffcf0165d4365b/5dd2dd661e22cb7de5b67ce4_card-marketing-1.png"
+      alt="" class="dds__card-img-stroked">
+    <p class="dds__card-title-stroked">Option D</p>
+    <p class="dds__card-txt-stroked-supporting">Supporting text</p>
+    </div>
+  </label> </div>
+  <div class="dds__card-stroked dds__filter-item" tabindex="-1"> <input type="radio" id="RadioButtonFilter5"
+    name="ExampleRadioButtonFilter" value="RadioButtonFilter5" class="dds__btn-input dds__sr-only"> <label
+    class="dds__card-label-stroked dds__btn-filter" for="RadioButtonFilter5" data-filter-value="Option E">
+    <div class="dds__card-label-container"> <img
+      src="https://assets.website-files.com/5c76c529d2ffcf0165d4365b/5dd2dd661e22cb7de5b67ce4_card-marketing-1.png"
+      alt="" class="dds__card-img-stroked">
+    <p class="dds__card-title-stroked">Option E</p>
+    <p class="dds__card-txt-stroked-secondary">Marketing text</p>
+    <p class="dds__card-txt-stroked-supporting">Supporting text</p>
+    </div>
+  </label> </div>
+  <div class="dds__card-stroked dds__filter-item" tabindex="-1"> <input type="radio" id="RadioButtonFilter6"
+    name="ExampleRadioButtonFilter" value="RadioButtonFilter6" class="dds__btn-input dds__sr-only"> <label
+    class="dds__card-label-stroked dds__btn-filter" for="RadioButtonFilter6" data-filter-value="Option F">
+    <div class="dds__card-label-container">
+    <p class="dds__card-title-stroked">Option F</p>
+    </div>
+  </label> </div>
+</div>
+
+<script>
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__button-filter\"]"), function(element) {
+    new UIC.ButtonFilter(element);
+  });
+</script>

@@ -1,0 +1,91 @@
+<h1>Buttons</h1>
+
+<h2 class="csTitle">Link</h2>
+<button class="dds__btn-link dds__text-truncate">Sample Button Link</button>
+
+<h2 class="csTitle">Primary Aria Disabled</h2>
+<button type="button" class="dds__btn dds__btn-primary dds__disabled dds__text-truncate" aria-disabled="true">Primary Learn Aria Disabled</button>
+
+<h2 class="csTitle">Primary Block</h2>
+<button type="button" class="dds__btn dds__btn-primary dds__btn-block dds__text-truncate">Primary Learn Block Level</button>
+
+<h2 class="csTitle">Pimary Default</h2>
+<button role="button" type="button" class="dds__btn dds__btn-primary dds__text-truncate">Primary Learn</button>
+
+<h2 class="csTitle">Primary Disabled</h2>
+<button type="button" class="dds__btn dds__btn-primary dds__text-truncate dds__text-truncate" disabled>Primary Learn Disabled</button>
+
+<h2 class="csTitle">Pimary Mini</h2>
+<button type="button" class="dds__btn dds__btn-primary dds__btn-sm dds__text-truncate">Primary Learn Mini</button>
+
+<h2 class="csTitle">Purchase Aria Disabled</h2>
+<button type="button" class="dds__btn dds__btn-purchase dds__disabled dds__text-truncate" aria-disabled="true">Primary Purchase Aria Disabled</button>
+
+<h2 class="csTitle">Purchase Block</h2>
+<button type="button" class="dds__btn dds__btn-purchase dds__btn-block dds__text-truncate">Primary Purchase Block Level</button>
+
+<h2 class="csTitle">Purchase Default</h2>
+<button role="button" type="button" class="dds__btn dds__btn-purchase dds__text-truncate">Primary Purchase</button>
+
+<h2 class="csTitle">Purchase Disabled</h2>
+<button type="button" class="dds__btn dds__btn-purchase dds__text-truncate" disabled>Primary Purchase Disabled</button>
+
+<h2 class="csTitle">Purchase Mini</h2>
+<button type="button" class="dds__btn dds__btn-purchase dds__btn-sm dds__text-truncate">Primary Purchase Mini</button>
+
+<h2 class="csTitle">Secondary Aria Disabled</h2>
+<button type="button" class="dds__btn dds__btn-secondary dds__disabled dds__text-truncate" aria-disabled="true">Secondary General Aria Disabled</button>
+
+<h2 class="csTitle">Secondary Block</h2>
+<button type="button" class="dds__btn dds__btn-secondary dds__btn-block dds__text-truncate">Secondary General Block Level</button>
+
+<h2 class="csTitle">Secondary Default</h2>
+<button role="button" type="button" class="dds__btn dds__btn-secondary dds__text-truncate">Secondary General</button>
+
+<h2 class="csTitle">Secondary Disabled</h2>
+<button type="button" class="dds__btn dds__btn-secondary dds__text-truncate" disabled>Secondary General Disabled</button>
+
+<h2 class="csTitle">Secondary Mini</h2>
+<button type="button" class="dds__btn dds__btn-secondary dds__btn-sm dds__text-truncate">Secondary General Mini</button>
+
+<h2 class="csTitle">Secondary Toggle</h2>
+<section>
+  <button class="dds__btn-toggle-container dds__btn-toggle" type="button" data-toggle="dds__button" role="switch" aria-checked="false" aria-label="button toggle example 1">
+    <span class="dds__toggle-txt-off" aria-hidden="false">izklopljeno</span>
+    <span class="dds__toggle-txt-on" aria-hidden="true">naprej</span>
+    <span class="dds__toggle-circle"></span>
+  </button>
+</section>
+
+<section>
+  <div class="dds__btn-toggle-container" data-toggle="dds__button">
+    <label id="toggleLabel">Subscribe to emails: </label>
+    <button class="dds__btn-toggle" type="button" role="switch" aria-checked="false" aria-labelledby="toggleLabel">
+      <span class="dds__toggle-txt-off" aria-hidden="false"></span>
+      <span class="dds__toggle-txt-on" aria-hidden="true"></span>
+      <span class="dds__toggle-circle"></span>
+    </button>
+  </div>
+</section>
+
+<section>
+  <button class="dds__btn-toggle-container dds__btn-toggle" type="button" data-toggle="dds__button" role="switch" aria-checked="false" aria-label="button toggle disabled off" disabled>
+    <span class="dds__toggle-txt-off" aria-hidden="false">Disabled Off</span>
+    <span class="dds__toggle-txt-on" aria-hidden="true">Disabled On</span>
+    <span class="dds__toggle-circle"></span>
+  </button>
+</section>
+
+<section>
+  <button class="dds__btn-toggle-container dds__btn-toggle" type="button" data-toggle="dds__button" role="switch" aria-checked="true" aria-label="button toggle disabled on" disabled>
+    <span class="dds__toggle-txt-off" aria-hidden="true">Disabled Off</span>
+    <span class="dds__toggle-txt-on" aria-hidden="false">Disabled On</span>
+    <span class="dds__toggle-circle"></span>
+  </button>
+</section>
+
+<script>
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__button\"]"), function(element) {
+    new UIC.Button(element);
+  });
+</script>

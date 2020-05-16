@@ -1,0 +1,91 @@
+
+	<!-- BEGIN Tabs component -->
+<div class="dds__tabs-container dds__container-overflow">
+	<ul class="dds__tabs dds__mb-4" role="tablist" aria-label="Example description of tabs">
+		<li role="none"> <button id="home-tab" class="dds__tab-link dds__active" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="home4" aria-selected="true"> Home <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="profile-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="profile4" aria-selected="false"> Profile <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="contact-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="contact4" aria-selected="false"> Contact <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="home-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="home5" aria-selected="true"> Home (1) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="profile-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="profile5" aria-selected="false"> Profile (1) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="contact-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="contact5" aria-selected="false"> Contact (1) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="home-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="home6" aria-selected="true"> Home (2) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="profile-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="profile6" aria-selected="false"> Profile (2) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="contact-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="contact6" aria-selected="false"> Contact (2) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="home-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="home7" aria-selected="true"> Home (3) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="profile-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="profile7" aria-selected="false"> Profile (3) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+		<li role="none"> <button id="contact-tab" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab"
+				data-target="#exampleResponsiveTab" role="tab" aria-controls="contact7" aria-selected="false"> Contact (3) <i
+					class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+	</ul>
+</div>
+<div class="dds__tab-content">
+	<div id="home4" class="dds__tab-pane dds__fade dds__show dds__active" role="tabpanel" tabindex="0"
+		aria-labelledby="home-tab">
+		<p>Home content</p>
+	</div>
+	<div id="profile4" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="profile-tab">
+		<p>Profile content</p>
+	</div>
+	<div id="contact4" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="contact-tab">
+		<p>Contact content</p>
+	</div>
+	<div id="home5" class="dds__tab-pane dds__fade " role="tabpanel" tabindex="0" aria-labelledby="home-tab">
+		<p>Home content</p>
+	</div>
+	<div id="profile5" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="profile-tab">
+		<p>Profile content</p>
+	</div>
+	<div id="contact5" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="contact-tab">
+		<p>Contact content</p>
+	</div>
+	<div id="home6" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="home-tab">
+		<p>Home content</p>
+	</div>
+	<div id="profile6" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="profile-tab">
+		<p>Profile content</p>
+	</div>
+	<div id="contact6" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="contact-tab">
+		<p>Contact content</p>
+	</div>
+	<div id="home7" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="home-tab">
+		<p>Home content</p>
+	</div>
+	<div id="profile7" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="profile-tab">
+		<p>Profile content</p>
+	</div>
+	<div id="contact7" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="contact-tab">
+		<p>Contact content</p>
+	</div>
+</div>
+<!--// Sample Modal used for responsive/mobile tabs. This div only needs to be inserted on the page once to work for all tabs, as long as each tab's data-target matches the modal's id. <div id="exampleResponsiveTab" tabindex="-1" class="dds__modal dds__modal-offcanvas" role="dialog"> <div class="dds__modal-content"> <div class="dds__container-fluid dds__p-1"> <div class="dds__row"> <div class="dds__col-6"> <button class="dds__btn dds__btn-link" data-dismiss="dds__modal" aria-label="Back"> <i class="dds__icons dds__chevron-left" aria-hidden="true"></i> <span>Back</span> </button> </div> </div> </div> <div class="dds__modal-body"> // intentionally left blank </div> </div></div> -->
+<!-- END Tabs component -->
+
+<script>
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/0.2.9/svgs/dds__chevron-left.svg","//uicore.dellcdn.com/0.2.9/svgs/dds__chevron-right.svg"], false);
+    
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__tab\"]"), function(element) {
+    new UIC.Tab(element, {lazyload: false});
+  });
+</script>

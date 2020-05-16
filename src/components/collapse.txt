@@ -1,0 +1,16 @@
+<button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-parent="#standard-accordion" data-target="#YourCollapseIDGoesHere" aria-expanded="true" aria-controls="YourCollapseIDGoesHere">
+  <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+  <span class="dds__mx-2">Headline title goes here</span>
+</button>
+<div id="YourCollapseIDGoesHere" class="dds__collapse dds__hide" aria-labelledby="heading-standard-one" aria-expanded="true" role="region">
+  <div class="dds__accordion-card-body">
+    The Content Area provides a space for displaying other patterns or content. The Content Area is not part of this pattern. This pattern rather controls the opening and closing of the content area.  
+  </div>
+</div>
+
+<script>
+  // Initialize component (if framework lifecycle requires it)
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__collapse\"]"), function(element) {
+    new UIC.Collapse(element);
+  });
+</script>

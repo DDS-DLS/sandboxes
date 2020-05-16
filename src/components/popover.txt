@@ -1,0 +1,14 @@
+<button class="dds__btn dds__btn-secondary" data-toggle="dds__popover" data-placement="bottom" aria-haspopup="dialog" tabindex="0">
+  Popover on bottom
+</button>
+
+<h1 class="footnote padded">Note CodeSandbox implementation is not working right.  TODO.</h1>
+
+<script>
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__popover\"]"), function (element) {
+    new UIC.Popover(element, {
+          data_title: 'Usage',
+          data_content: 'Divot points to the object that spawned the popover. Initiating object could be any CTA, text link, image, or icon, as defined at the project level.' 
+        });
+  });
+</script>

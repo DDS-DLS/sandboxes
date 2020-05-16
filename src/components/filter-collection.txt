@@ -1,0 +1,915 @@
+<div data-toggle="dds__filter-collection" data-target="#horizontalcollection" class="dds__filter-collection-wrapper">
+    <div class="dds__filter-input-container">
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown0" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown0">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 1</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown0" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox1">
+                        <input type="checkbox" id="multiSelectCheckbox1" name="Value 1" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 1</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox2">
+                        <input type="checkbox" id="multiSelectCheckbox2" name="Value 2" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 2</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox3">
+                        <input type="checkbox" id="multiSelectCheckbox3" name="Value 3" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 3</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox4">
+                        <input type="checkbox" id="multiSelectCheckbox4" name="Value 4" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 4</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox5">
+                        <input type="checkbox" id="multiSelectCheckbox5" name="Value 5" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 5</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown1" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown1">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 2</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown1" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox6">
+                        <input type="checkbox" id="multiSelectCheckbox6" name="Value 6" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 6</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox7">
+                        <input type="checkbox" id="multiSelectCheckbox7" name="Value 7" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 7</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox8">
+                        <input type="checkbox" id="multiSelectCheckbox8" name="Value 8" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 8</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox9">
+                        <input type="checkbox" id="multiSelectCheckbox9" name="Value 9" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 9</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox10">
+                        <input type="checkbox" id="multiSelectCheckbox10" name="Value 10" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 10</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown2" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown2">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 3</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown2" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox11">
+                        <input type="checkbox" id="multiSelectCheckbox11" name="Value 11" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 11</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox12">
+                        <input type="checkbox" id="multiSelectCheckbox12" name="Value 12" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 12</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox13">
+                        <input type="checkbox" id="multiSelectCheckbox13" name="Value 13" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 13</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox14">
+                        <input type="checkbox" id="multiSelectCheckbox14" name="Value 14" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 14</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox15">
+                        <input type="checkbox" id="multiSelectCheckbox15" name="Value 15" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 15</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown3" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown3">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 4</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown3" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox16">
+                        <input type="checkbox" id="multiSelectCheckbox16" name="Value 16" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 16</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox17">
+                        <input type="checkbox" id="multiSelectCheckbox17" name="Value 17" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 17</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox18">
+                        <input type="checkbox" id="multiSelectCheckbox18" name="Value 18" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 18</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox19">
+                        <input type="checkbox" id="multiSelectCheckbox19" name="Value 19" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 19</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox20">
+                        <input type="checkbox" id="multiSelectCheckbox20" name="Value 20" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 20</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown4" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown4">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 5</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown4" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox21">
+                        <input type="checkbox" id="multiSelectCheckbox21" name="Value 21" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 21</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox22">
+                        <input type="checkbox" id="multiSelectCheckbox22" name="Value 22" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 22</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox23">
+                        <input type="checkbox" id="multiSelectCheckbox23" name="Value 23" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 23</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox24">
+                        <input type="checkbox" id="multiSelectCheckbox24" name="Value 24" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 24</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox25">
+                        <input type="checkbox" id="multiSelectCheckbox25" name="Value 25" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 25</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown5" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown5">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 6</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown5" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox26">
+                        <input type="checkbox" id="multiSelectCheckbox26" name="Value 26" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 26</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox27">
+                        <input type="checkbox" id="multiSelectCheckbox27" name="Value 27" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 27</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox28">
+                        <input type="checkbox" id="multiSelectCheckbox28" name="Value 28" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 28</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox29">
+                        <input type="checkbox" id="multiSelectCheckbox29" name="Value 29" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 29</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox30">
+                        <input type="checkbox" id="multiSelectCheckbox30" name="Value 30" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 30</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown6" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown6">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 7</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown6" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox31">
+                        <input type="checkbox" id="multiSelectCheckbox31" name="Value 31" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 31</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox32">
+                        <input type="checkbox" id="multiSelectCheckbox32" name="Value 32" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 32</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox33">
+                        <input type="checkbox" id="multiSelectCheckbox33" name="Value 33" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 33</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox34">
+                        <input type="checkbox" id="multiSelectCheckbox34" name="Value 34" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 34</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox35">
+                        <input type="checkbox" id="multiSelectCheckbox35" name="Value 35" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 35</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown7" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown7">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 8</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown7" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox36">
+                        <input type="checkbox" id="multiSelectCheckbox36" name="Value 36" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 36</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox37">
+                        <input type="checkbox" id="multiSelectCheckbox37" name="Value 37" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 37</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox38">
+                        <input type="checkbox" id="multiSelectCheckbox38" name="Value 38" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 38</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox39">
+                        <input type="checkbox" id="multiSelectCheckbox39" name="Value 39" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 39</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox40">
+                        <input type="checkbox" id="multiSelectCheckbox40" name="Value 40" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 40</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
+            <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-filter="dds__multi-select"
+                data-target="#buttonMultiSelectDropdown8" tabindex="0" aria-expanded="false" aria-controls="buttonMultiSelectDropdown8">
+                <p class="dds__d-flex dds__text-truncate dds__mb-0">
+                    <span class="dds__text-truncate dds__mb-0">Sample Multi-Select 9</span>    
+                </p>
+                <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true">
+                    <title>dds__arrow-tri-solid-right</title>
+                    <path d="M21.997 16.002l-11.994-12.356v24.708z"></path>
+                </svg>
+            </button>
+            <ul id="buttonMultiSelectDropdown8" class="dds__button-dropdown-container dds__collapse" role="menu">
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox41">
+                        <input type="checkbox" id="multiSelectCheckbox41" name="Value 41" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 41</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox42">
+                        <input type="checkbox" id="multiSelectCheckbox42" name="Value 42" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 42</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox43">
+                        <input type="checkbox" id="multiSelectCheckbox43" name="Value 43" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 43</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox44">
+                        <input type="checkbox" id="multiSelectCheckbox44" name="Value 44" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 44</span>
+                    </label>
+                </li>
+                <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                    <label class="dds__form-check-label" for="multiSelectCheckbox45">
+                        <input type="checkbox" id="multiSelectCheckbox45" name="Value 45" tabindex="-1" class="dds__form-check-input">
+                        <span>Value 45</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dds__filter-keyword dds__col-md-4 dds__col-lg-3" data-filter="dds__keyword-filter">
+            <label id="filtering-keyword-label-horizontal" for="filtering-keyword-input-horizontal-1" aria-label="Keyword Filtering">Keyword:</label>
+            <div class="dds__filter-container">
+                <input id="filtering-keyword-input-horizontal-1" aria-labelledby="filtering-keyword-label-horizontal" type="text" class="dds__form-control dds__filter-input" aria-label="keyword-filter">
+                <button type="submit" class="dds__btn dds__btn-secondary dds__filter-btn" aria-label="filter-add">
+                    <svg class="dds__icon-svg" tabindex="-1" focusable="false">
+                        <use xlink:href="#dds__search"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <button role="button" class="dds__btn dds__btn-secondary dds__col-sm-12 dds__filter-btn-mobile" data-toggle="dds__modal" data-target="#exampleFilterOffcanvas">Filter and Search</button>
+    
+    <div class="dds__filter-collection-wrapper">
+        <div class="dds__filter-collection dds__justify-content-start" id="horizontalcollection">
+            <div class="dds__filter-results">
+                <label class="dds__filter-label-results dds__d-none"><span id="resultCount">99</span> results:</label>
+                <button class="dds__btn dds__btn-secondary dds__btn-sm dds__filter-btn-clear dds__d-none" id="ClearAllDesktop">
+                    <label class="dds__filter-clear-all">Clear All</label>
+                </button>                
+            </div>
+        </div>
+    
+        <div class="dds__filter-sort dds__form-group dds__justify-content-end">
+            <label for="exampleFormControlSelect3">Sort by:</label>
+            <select class="dds__form-control" id="exampleFormControlSelect3">
+                <option>Lowest Price</option>
+                <option>Highest Price</option>
+                <option>Relevance</option>
+                <option>Highest Rated</option>
+                <option>Most Rated</option>
+            </select>
+        </div>
+    </div>
+    
+    <div id="exampleFilterOffcanvas" tabindex="-1" class="dds__modal dds__modal-offcanvas" role="dialog" aria-labelledby="dds__modal-title3">
+        <div class="dds__modal-content">
+            <div class="dds__container-fluid dds__p-1">
+                <div class="dds__offcanvas-modal-topbar">  
+                    <button class="dds__btn dds__btn-link" data-dismiss="dds__modal" aria-label="Back">
+                        <i class="dds__icons dds__chevron-left" aria-hidden="true"></i>
+                        <span>Cancel</span>
+                    </button>
+                    <div class="dds__text-right">
+                        <button class="dds__btn dds__btn-primary"> Apply </button>
+                        <button class="dds__btn dds__btn-secondary dds__d-none">Clear All</button>
+                    </div>
+                </div>
+            </div>
+            <div class="dds__modal-body">
+                <div id="independent-accordion" class="dds__accordion dds__mb-3">
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                                <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseOneNested"
+                                aria-expanded="false" aria-controls="collapseOneNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline1" class="dds__ml-2">Sample Multi-Select 1 </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOneNested" role="region" class="dds__collapse" aria-labelledby="headline1" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown00" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox1OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox1OffCanvas" name="Value 1" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 1</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox2OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox2OffCanvas" name="Value 2" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 2</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox3OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox3OffCanvas" name="Value 3" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 3</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox4OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox4OffCanvas" name="Value 4" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 4</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox5OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox5OffCanvas" name="Value 5" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 5</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                            <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseTwoNested"
+                                aria-expanded="false" aria-controls="collapseTwoNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline2" class="dds__ml-2">Sample Multi-Select 2 </span>
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwoNested" role="region" class="dds__collapse" aria-labelledby="headline2" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown01" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox6OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox6OffCanvas" name="Value 6" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 6</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox7OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox7OffCanvas" name="Value 7" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 7</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox8OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox8OffCanvas" name="Value 8" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 8</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox9OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox9OffCanvas" name="Value 9" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 9</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox10OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox10OffCanvas" name="Value 10" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 10</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                            <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseThreeNested"
+                                aria-expanded="false" aria-controls="collapseThreeNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline3" class="dds__ml-2">Sample Multi-Select 3 </span>
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThreeNested" role="region" class="dds__collapse" aria-labelledby="headline3Nested" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown02" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox11OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox11OffCanvas" name="Value 11" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 11</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox12OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox12OffCanvas" name="Value 12" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 12</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox13OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox13OffCanvas" name="Value 13" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 13</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox14OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox14OffCanvas" name="Value 14" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 14</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox15OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox15OffCanvas" name="Value 15" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 15</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                            <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseFourNested"
+                                aria-expanded="false" aria-controls="collapseFourNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline4" class="dds__ml-2">Sample Multi-Select 4 </span>
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFourNested" role="region" class="dds__collapse" aria-labelledby="headline3Nested" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown03" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox16OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox16OffCanvas" name="Value 16" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 16</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox17OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox17OffCanvas" name="Value 17" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 17</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox18OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox18OffCanvas" name="Value 18" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 18</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox19OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox19OffCanvas" name="Value 19" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 19</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox20OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox20OffCanvas" name="Value 20" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 20</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                            <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseFiveNested"
+                                aria-expanded="false" aria-controls="collapseFiveNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline5" class="dds__ml-2">Sample Multi-Select 5 </span>
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFiveNested" role="region" class="dds__collapse" aria-labelledby="headline5" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown04" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox21OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox21OffCanvas" name="Value 21" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 21</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox22OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox22OffCanvas" name="Value 22" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 22</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox23OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox23OffCanvas" name="Value 23" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 23</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox24OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox24OffCanvas" name="Value 24" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 24</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox25OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox25OffCanvas" name="Value 25" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 25</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                            <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseSixNested"
+                                aria-expanded="false" aria-controls="collapseSixNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline6" class="dds__ml-2">Sample Multi-Select 6 </span>
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSixNested" role="region" class="dds__collapse" aria-labelledby="headline6" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown05" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox26OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox26OffCanvas" name="Value 26" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 26</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox27OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox27OffCanvas" name="Value 27" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 27</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox28OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox28OffCanvas" name="Value 28" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 28</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox29OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox29OffCanvas" name="Value 29" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 29</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox30OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox30OffCanvas" name="Value 30" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 30</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                            <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseSevenNested"
+                                aria-expanded="false" aria-controls="collapseSevenNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline7" class="dds__ml-2">Sample Multi-Select 7 </span>
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSevenNested" role="region" class="dds__collapse" aria-labelledby="headline7" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown06" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox31OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox31OffCanvas" name="Value 31" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 31</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox32OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox32OffCanvas" name="Value 32" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 32</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox33OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox33OffCanvas" name="Value 33" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 33</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox34OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox34OffCanvas" name="Value 34" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 34</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox35OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox35OffCanvas" name="Value 35" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 35</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                            <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseEightNested"
+                                aria-expanded="false" aria-controls="collapseEightNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline8" class="dds__ml-2">Sample Multi-Select 8 </span>
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseEightNested" role="region" class="dds__collapse" aria-labelledby="headline8" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown07" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox36OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox36OffCanvas" name="Value 36" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 36</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox37OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox37OffCanvas" name="Value 37" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 37</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox38OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox38OffCanvas" name="Value 38" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 38</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox39OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox39OffCanvas" name="Value 39" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 39</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox40OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox40OffCanvas" name="Value 40" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 40</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__accordion-card">
+                        <div class="dds__accordion-card-header">
+                            <h5 class="dds__mb-0">
+                            <button class="dds__accordion-btn dds__collapsed dds__d-flex" type="button" data-toggle="dds__collapse" data-target="#collapseNineNested"
+                                aria-expanded="false" aria-controls="collapseNineNested">
+                                <i class="dds__icons dds__chevron-right" aria-hidden="true"></i>
+                                <span id="headline9" class="dds__ml-2">Sample Multi-Select 9 </span>
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseNineNested" role="region" class="dds__collapse" aria-labelledby="headline9" aria-expanded="false">
+                            <div class="dds__accordion-card-body">
+                                <ul id="buttonMultiSelectDropdown08" role="menu">
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox41OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox41OffCanvas" name="Value 41" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 41</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox42OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox42OffCanvas" name="Value 42" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 42</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox43OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox43OffCanvas" name="Value 43" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 43</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox44OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox44OffCanvas" name="Value 44" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 44</span>
+                                        </label>
+                                    </li>
+                                    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false">
+                                        <label class="dds__form-check-label" for="multiSelectCheckbox45OffCanvas">
+                                            <input type="checkbox" id="multiSelectCheckbox45OffCanvas" name="Value 45" tabindex="-1" class="dds__form-check-input">
+                                            <span>Value 45</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                                                            
+                </div>
+                <div class="dds__filter-keyword dds__col-sm-12 dds__my-3" data-filter="dds__keyword-filter">
+                    <label id="filtering-keyword-label-offcanvas" for="filtering-keyword-input-horizontal-2" aria-label="Keyword Filtering">Keyword:</label>
+                    <div class="dds__filter-container">
+                        <input id="filtering-keyword-input-horizontal-2" aria-labelledby="filtering-keyword-label-offcanvas" type="text" class="dds__form-control dds__filter-input" aria-label="keyword-filter">
+                        <button type="submit" class="dds__btn dds__btn-secondary dds__filter-btn" aria-label="filter-add">
+                            <svg class="dds__icon-svg" tabindex="-1" focusable="false">
+                                <use xlink:href="#dds__search"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="dds__filter-collection dds__justify-content-start" id="horizontalcollectionOffcanvas">
+                    <div class="dds__filter-results"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/0.3.0/svgs/dds__close-x.svg","//uicore.dellcdn.com/0.3.0/svgs/dds__search.svg"]);
+
+  [].forEach.call(document.querySelectorAll("[data-toggle='dds__filter-keyword']"), function (element) {
+    new UIC.FilterKeyword(element);
+  });
+
+  [].forEach.call(document.querySelectorAll("[data-toggle='dds__filter-collection']"), function (element) {
+    var filter = new UIC.FilterCollection(element);
+  });
+</script>

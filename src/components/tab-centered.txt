@@ -1,0 +1,59 @@
+	<!-- BEGIN Tab component -->
+	<div class="dds__tabs-container">
+		<div class="dds__tabs-centered-container">
+			<ul class="dds__tabs dds__flex-nowrap dds__tab-centered" role="tablist" aria-label="Example description of tabs">
+				<li class="dds__flex-tab" role="none"> <button class="dds__tab-link dds__active" id="inspiron-tab"
+						data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="inspiron"
+						aria-selected="true"> <span> <span class="dds__h4">Inspiron Laptops</span> For home and home office </span>
+						<i class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+				<li class="dds__flex-tab" role="none"> <button class="dds__tab-link" id="latitude-tab" tabindex="-1"
+						data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="latitude"
+						aria-selected="false"> <span> <span class="dds__h4">Latitude Laptops</span> For business-class security and
+							reliability </span> <i class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i>
+					</button> </li>
+				<li class="dds__flex-tab" role="none"> <button class="dds__tab-link" id="vostro-tab" tabindex="-1"
+						data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="vostro"
+						aria-selected="false"> <span> <span class="dds__h4">Vostro Laptops</span> For small business computing
+						</span> <i class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+				<li class="dds__flex-tab" role="none"> <button class="dds__tab-link" id="xps-tab" tabindex="-1"
+						data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="xps"
+						aria-selected="false"> <span> <span class="dds__h4">XPS Laptops</span> For ultimate experience </span> <i
+							class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i> </button> </li>
+				<li class="dds__flex-tab" role="none"> <button class="dds__tab-link" id="precision-tab" tabindex="-1"
+						data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="precision"
+						aria-selected="false"> <span> <span class="dds__h4">Dell Precision Mobile Workstations</span> For
+							professional creators </span> <i class="dds__icons dds__chevron-right dds__tab-icon"
+							aria-hidden="true"></i> </button> </li>
+			</ul>
+		</div>
+		<div class="dds__tab-content dds__mt-4" id="myTabContent">
+			<div class="dds__tab-pane dds__fade dds__show dds__active" id="inspiron" tabindex="0" role="tabpanel"
+				aria-labelledby="inspiron-tab">
+				<h4>Inspiron Laptops</h4>
+				<p>For home and home office</p>
+			</div>
+			<div class="dds__tab-pane dds__fade" id="latitude" tabindex="0" role="tabpanel" aria-labelledby="latitude-tab">
+				<h4>Latitude Laptops</h4>
+				<p>For business-class security and reliability</p>
+			</div>
+			<div class="dds__tab-pane dds__fade" id="vostro" tabindex="0" role="tabpanel" aria-labelledby="vostro-tab">
+				<h4>Vostro Laptops</h4>
+				<p>For small business computing</p>
+			</div>
+			<div class="dds__tab-pane dds__fade" id="xps" tabindex="0" role="tabpanel" aria-labelledby="xps-tab">
+				<h4>XPS Laptops</h4>
+				<p>For ultimate experience</p>
+			</div>
+			<div class="dds__tab-pane dds__fade" id="precision" tabindex="0" role="tabpanel" aria-labelledby="precision-tab">
+				<h4>Dell Precision Mobile Workstations</h4>
+				<p>For professional creators</p>
+			</div>
+		</div>
+
+		<!-- END Tab component -->
+
+  <script>
+		[].forEach.call(document.querySelectorAll("[data-toggle=\"dds__tab\"]"), function(element) {
+			new UIC.Tab(element, {lazyload: false});
+		});
+	</script>

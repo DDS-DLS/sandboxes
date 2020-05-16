@@ -1,0 +1,66 @@
+
+		<table data-table="dds__table" class="dds__table dds__table-hover dds__table-cmplx dds__table-striped">
+			<caption class="dds__sr-only">A Complex Tables
+				<span>Table used to display User information</span>
+			</caption>
+		</table>
+		<nav class="dds__pagination dds__pagination-justified-filter" data-toggle="dds__pagination" aria-label="pagination">
+		</nav>
+			
+
+		<script>
+							
+			// Some UICore components require SVGs; loadURLSVGs accepts two parameters: an array of the SVGs to load, and a boolean for whether or not to lazy-load.  True by default; this Sandbox requires False.
+			UIC.loadURLSVGs(["https://uicore.dellcdn.com/0.2.10/svgs/dds__search.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__import-alt.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__handle.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__chevron-right.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__chevron-left.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__loading-sqrs.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__chevron-right.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__arrow-tri-solid-right.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__printer.svg","https://uicore.dellcdn.com/0.2.10/svgs/dds__gear.svg"], false);
+
+			var randomAll = mock.tableRow(80);
+
+			// Setting up the options to send in for the table
+			var options = {
+				search: true,
+				actions: true,
+				settings: true,
+				print: true,
+				sort: true,
+				expand: true,
+					condensed: false,
+					fixedColumns: true,
+					fixedHeight: true,
+					header: true,
+				perPage: 12,
+				items: randomAll.length,
+				layout: {
+					row1: "{placeholder:2:end}{settings:1:end}",
+					row2: "{actions:1:start}{placeholder:1}{search:1:end}"
+				},
+				data: {
+					headings: [
+						"Name",
+						"Company",
+						"Ext.",
+						"Start Date",
+						"Email",
+						"Phone No.",
+						"Link"
+					],
+					columns: [
+						// Sort the second column in ascending order
+						// and make it fixed at that position.
+						// sort on multiple selects , select[1,2], does not work
+						{ select: 0, sort: "asc", fixed: true },
+
+						// Set multiple selects to hidden
+						{ select: [1,2], hidden: true, fixed: true }, 
+
+						// Set the third column as date string matching the format "MM/DD/YYY" and sortable
+						{ select: 3, type: "date", format: "MM/DD/YYYY", sortable: true }
+					],
+					rows: randomAll
+				}
+			};
+
+			// Initializes every table on the page
+			[].forEach.call(document.querySelectorAll("[data-table=\"dds__table\"]"), function (element) {
+				new UIC.Table(element,options);
+			});
+		</script>

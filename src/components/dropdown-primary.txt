@@ -1,0 +1,18 @@
+<div class="dds__mb-0 dds__btn-group dds__btn-dropdown" tabindex="-1" role="menu">
+  <button id="buttonSplitPurchaseTitle" class="dds__btn dds__btn-purchase dds__text-truncate" onclick="javascript: void(0);"> Primary Purchase Split Button </button>
+  <button class="dds__btn dds__btn-purchase dds__btn-split-arrow dds__d-flex" tabindex="0" data-toggle="dds__dropdown" data-target="#buttonSplitPurchase" aria-expanded="false" aria-labelledby="buttonSplitPurchaseTitle"> <svg class="dds__arrow-tri-solid-right" viewBox="0 0 32 32" focusable="false"> <title>dds__arrow-tri-solid-right</title> <path d="M21.997 16.002l-11.994-12.356v24.708z"></path> </svg> </button>
+  <ul id="buttonSplitPurchase" class="dds__button-dropdown-container dds__collapse dds__split-container" role="menu">
+    <li class="dds__dropdown-list-item" role="none" tabindex="0"> <button class="dds__dropdown-item dds__text-truncate" role="menuitem" onclick="javascript: void(0);" tabindex="-1">Secondary Action</button> </li>
+    <li class="dds__dropdown-list-item" role="none" tabindex="0"> <a class="dds__dropdown-item dds__text-truncate" role="menuitem" href="#" tabindex="-1">Tertiary Link</a> </li> 
+    <hr class="dds__dropdown-divider" tabindex="-1"> 
+    <li class="dds__dropdown-list-item" role="none" tabindex="0"> <a class="dds__dropdown-item dds__text-truncate" role="menuitem" href="#" tabindex="-1">Separate Link</a> </li> 
+  </ul>
+</div>
+
+<script>
+  // Initialize component (if framework lifecycle requires it)
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__dropdown\"]"), function(element) { 
+    new UIC.Dropdown(element); 
+    // new UIC.Dropdown(element, {"persist":true}); 
+  }); 
+</script>

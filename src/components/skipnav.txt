@@ -1,0 +1,21 @@
+<div class="dds__skip-nav" data-skip="skip-nav">
+    <div class="dds__container">
+        <a href="#sample1" data-inset="true"  class="dds__btn dds__btn-secondary"  tabindex="0">Skip to Area1</a>
+        <a href="#sample2" class="dds__btn dds__btn-secondary"  tabindex="0">Skip to Area2</a>
+        <a href="#sample3" class="dds__btn dds__btn-secondary"  tabindex="0">Skip to Area3</a>
+    </div>
+</div>
+
+<h1>This component is best viewed in a full screen window.  Then, press TAB to demonstrate its functionality.</h1>
+
+<div class="pretendContentArea">
+  <div id="sample1" style="background:aliceblue; height:400px;">Area1</div>
+  <div id="sample2" style="background:mauve; height:600px;">Area2</div>
+  <div id="sample3" style="background:lightgray; height:300px;">Area3</div>
+</div>
+
+<script>
+  [].forEach.call(document.querySelectorAll("[data-skip=\"skip-nav\"]"), function(element) {
+    new UIC.SkipNav(element); 
+  });
+</script>

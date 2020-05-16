@@ -1,0 +1,23 @@
+<h1 class="footnote padded">Remember the drawer appears at the bottom at small width breakpoints.</h1>
+
+<aside class="dds__drawer dds__drawer-open" data-toggle="dds__contact-drawer" aria-label="Contact Us"
+	style="transition: all 500ms ease 0s;"> <a href="#" class="dds__drawer-tab">
+		<div class="dds__drawer-tab-text">Contact Us</div>
+	</a>
+	<div class="dds__drawer-content" aria-hidden="false">
+    <button class="dds__icons dds__close-x" aria-label="Close Contact Us"></button>
+		<p>Need help? We're here for you.</p>
+		<ul class="dds__drawer-list">
+			<li> <a href="https://marketing.dell.com/learn/ssi?ref=stpchatlink"> <i class="dell-tech-icon dds__comment"></i> <span>Contact an expert</span> </a> </li>
+			<li> <a href="tel:+1-888-346-2289"> <i class="dell-tech-icon dds__phone"></i> <span>Call 888-346-2289</span> </a></li>
+			<li> <a href="mailto:US_SALES_SOHO@dell.com"> <i class="dell-tech-icon dds__mail"></i> <span>Email Dell sales</span> </a> </li>
+		</ul>
+	</div>
+</aside>
+
+<script>
+  // Initialize component (if framework lifecycle requires it)
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__contact-drawer\"]"), function (element) { 
+    new UIC.ContactDrawer(element); 
+  });
+</script>

@@ -1,0 +1,23 @@
+<fieldset>
+    <div class="dds__card-body">
+        <div class="dds__picker-btn-ctnr" data-toggle="dds__linkpicker">
+            <div class="dds__form-select">
+                <select name="LinkPicker_Interest" aria-label="I'm interested in" class="dds__form-control" id="exampleFormControlSelect1" data-select='{"text":["I\u0027m interested in","Laptops","Dell Support","Printers, Ink, \u0026 Toner","Electronics and Accessories","Replacement Parts \u0026 Upgrades","Servers, Storage \u0026 Networking","Workstations","Desktop","Gaming"],"value":["interest","laptops","support","printers","electronics","parts","servers","workstations","desktops","gaming"]}'>
+                </select>
+            </div>
+            <div class="dds__form-select">
+                <select name="LinkPicker_ToUse" aria-label="To use" class="dds__form-control" id="exampleFormControlSelect2"  data-select='{ "ToUse": { "interest": {"text": ["To use"],"value": [""]}, "laptops": {"text": ["To use","for Home","for Work","for School"],"value": ["","//www.dell.com/en-us/shop/scc/sc/laptops","//www.dell.com/en-us/work/shop/scc/sc/laptops","//www.dell.com/en-us/member/shop/scc/sc/laptops"]}, "support": {"text": ["To use","for Dell Products"],"value": ["","//www.dell.com/support/home/us/en/04?c=us\u0026l=en\u0026~ck=mn"]}, "printers": {"text": ["To use","for Home","for Work","for School"], "value": ["","//www.dell.com/en-us/shop/printers-and-ink/ac/4014","//www.dell.com/en-us/work/shop/printers-ink-toner/ac/4014","//www.dell.com/en-us/member/shop/printers-and-ink/ac/4014"]}, "electronics": {"text": ["To use","for Home","for Work","for School"], "value": ["","//www.dell.com/en-us/shop/accessories","//www.dell.com/en-us/work/shop/accessories","//www.dell.com/en-us/member/shop/accessories"]}, "parts": {"text": ["To use","for Home","for Work"], "value": ["","//www.dell.com/en-us/shop/partsforyourdell/index","//www.dell.com/en-us/work/shop/partsforyourdell/index"]}, "servers": {"text": ["To use","for Work"], "value": ["","//www.dell.com/en-us/work/shop/ecat/enterprise-products"]}, "workstations": {"text": ["To use","for Work"], "value": ["","//www.dell.com/en-us/work/shop/category/workstations"]}, "desktops": {"text": ["To use","for Home","for Work","for School"], "value": ["","//www.dell.com/en-us/shop/scc/sc/desktops","//www.dell.com/en-us/work/shop/category/desktops-n-workstations","//www.dell.com/en-us/member/shop/scc/sc/desktops"]}, "gaming": {"text": ["To use","for Home"], "value": ["","//www.dell.com/en-us/gaming/alienware"]}}}' disabled>  
+                </select>
+            </div>
+            <div class="dds__display-text-ctnr">
+                <button name="LinkPicker_Find" href="" class="dds__btn dds__btn-primary dds__disabled" disabled>Find</button>
+            </div>
+        </div>
+    </div>
+</fieldset>
+
+<script>
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__linkpicker\"]"), function(element) {
+    new UIC.LinkPicker(element);
+  });
+</script>

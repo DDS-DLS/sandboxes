@@ -1,0 +1,14 @@
+<div style="padding:10rem;">
+	<button class="dds__icons dds__alert-info-cir dds__tooltip-icon" data-toggle="dds__tooltip" data-placement="left" aria-label="information" data-title="Tooltip on left. Used to display very short, helpful information." data-original-title="Tooltip on left. Used to display very short, helpful information." aria-describedby="tooltiponleftus"></button>	
+	<button class="dds__icons dds__alert-info-cir dds__tooltip-icon" data-toggle="dds__tooltip" data-placement="top" aria-label="information" data-title="Tooltip on top. Used to display very short, helpful information." data-original-title="Tooltip on top. Used to display very short, helpful information." aria-describedby="tooltipontopuse"></button>
+	<button class="dds__icons dds__alert-info-cir dds__tooltip-icon" data-toggle="dds__tooltip" data-placement="bottom" aria-label="information" data-title="Tooltip on bottom. Used to display very short, helpful information." data-original-title="Tooltip on bottom. Used to display very short, helpful information." aria-describedby="tooltiponbottom"></button>
+	<button class="dds__icons dds__alert-info-cir dds__tooltip-icon" data-toggle="dds__tooltip" data-placement="right" aria-label="information" data-title="Tooltip on right. Used to display very short, helpful information." data-original-title="Tooltip on right. Used to display very short, helpful information." aria-describedby="tooltiponrightu"></button>
+</div>	
+<script>
+  [].forEach.call(
+    document.querySelectorAll("[data-toggle='dds__tooltip']"),
+    function(element) {
+      new UIC.Tooltip(element);
+    }
+  );
+</script>

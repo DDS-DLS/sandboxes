@@ -1,0 +1,34 @@
+<div>
+  <!-- The first div is used as a full screen background overlay. There are a few components that use this overlay so it only needs to be added once preferably at the top of the page below the body tag. This is a usable example. <div id="dds__full-screen-overlay" class="dds__overlay"></div> -->
+  <div id="exampleModal" tabindex="-1" class="dds__modal dds__fade" role="dialog" aria-labelledby="dds__modal-title1" aria-hidden="true" style="">
+    <div class="dds__modal-dialog" role="document">
+      <div class="dds__modal-content">
+        <div class="dds__modal-header">
+          <h3 class="dds__modal-title" id="dds__modal-title1">
+            Sample Title
+          </h3>
+        </div>
+        <button class="dds__close" data-dismiss="dds__modal" aria-label="Close">
+          <span class="dds__icons dds__close-x" aria-hidden="true"></span>
+        </button>
+        <div class="dds__modal-body"><p>Modal body text goes here.</p></div>
+        <div class="dds__modal-footer">
+          <button class="dds__btn dds__btn-secondary" data-dismiss="dds__modal">
+            Close
+          </button>
+          <button class="dds__btn dds__btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Button trigger modal -->
+  <button role="button" class="dds__btn dds__btn-primary" data-toggle="dds__modal" data-target="#exampleModal">
+    Launch Modal
+  </button>
+</div>
+
+<script>
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__modal\"]"), function(element) { 
+    new UIC.Modal(element, {"persist":true}); 
+  }); 
+</script>

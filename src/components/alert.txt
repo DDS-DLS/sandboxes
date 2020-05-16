@@ -1,0 +1,23 @@
+<div class="dds__alert dds__alert-dismissible" data-dismiss="dds__alert" aria-expanded="true" role="alert">
+    <div class="dds__less">
+        <div class="dds__d-flex dds__justify-content-between">
+               <div class="dds__alert-heading dds__d-flex dds__align-items-center">
+                   <i class="dds__icons dds__alert-info-cir dds__icon-h4" aria-hidden="true"></i>
+                   <h4 class="alert-title">Informational alert sample title (optional)</h4>
+            </div>
+            <button type="button" class="dds__icons dds__close-x" aria-label="Close"></button>
+        </div>
+        <p class="dds__alert-body">Put your alert content here</p>
+    </div>
+    
+    <div class="dds__more">
+        <button type="button" class="dds__dismiss">View Dismissed Alert</button>
+    </div>
+</div>
+
+<script>
+  // Initialize component (if framework lifecycle requires it)
+  [].forEach.call(document.querySelectorAll("[data-dismiss=\"dds__alert\"]"), function(element) {
+    new UIC.Alert(element);
+  });
+</script>

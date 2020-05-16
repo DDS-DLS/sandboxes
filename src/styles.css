@@ -1,0 +1,21 @@
+
+#fileDisplayArea {
+  width: 100%;
+  min-height: 800px;
+  overflow-x: auto;
+}
+
+.padded {
+  margin: 2rem 4rem;
+}
+
+.footnote {
+  font-style: italic;
+  color: gray;
+}
+
+.csTitle {
+  background-color: aliceblue;
+  padding: 0.625rem;
+  margin-top: 4rem;
+}

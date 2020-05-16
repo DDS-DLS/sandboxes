@@ -1,0 +1,34 @@
+	<!-- BEGIN Tab component -->
+	<div class="dds__tabs-container">
+		<ul class="dds__tabs dds__mb-4" role="tablist" aria-label="Example description of tabs">
+			<li class="dds__flex-tab" role="none">
+				<button class="dds__tab-link dds__active" id="example-tab" data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="example" aria-selected="true"> <span class="dds__tab-span_blue">If this text wraps, the remaining tab buttons will maintain the same height</span></button>
+			</li>
+			<li class="dds__flex-tab" role="none">
+				<button class="dds__tab-link" id="automobile-tab" tabindex="-1" data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="automobile" aria-selected="false"> <span class="dds__tab-span_blue">Automobile</span></button>
+			</li>
+			<li class="dds__flex-tab" role="none">
+				<button class="dds__tab-link" id="boats-tab" tabindex="-1" data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="boats" aria-selected="false"> <span class="dds__tab-span_blue">Boats</span></button>
+			</li>
+			<li class="dds__flex-tab" role="none">
+				<button class="dds__tab-link" id="planes-tab" tabindex="-1" data-toggle="dds__tab" data-target="#exampleResponsiveTab" role="tab" aria-controls="planes" aria-selected="false"> <span class="dds__tab-span_blue">Planes</span></button>
+			</li>
+		</ul>
+		<div class="dds__tab-content" id="defaultJustifiedTabContent">
+			<div class="dds__tab-pane dds__fade dds__show dds__active" id="example" tabindex="0" role="tabpanel"
+			aria-labelledby="example-tab">Example</div>
+			<div class="dds__tab-pane dds__fade" id="automobile" tabindex="0" role="tabpanel"
+				aria-labelledby="automobile-tab">Automobile</div>
+				<div class="dds__tab-pane dds__fade" id="boats" tabindex="0" role="tabpanel" aria-labelledby="boats-tab">Boats
+			</div>
+			<div class="dds__tab-pane dds__fade" id="planes" tabindex="0" role="tabpanel" aria-labelledby="planes-tab">
+				Planes</div>
+		</div>
+	</div>
+	<!-- END Tab component -->
+	
+  <script>
+		[].forEach.call(document.querySelectorAll("[data-toggle=\"dds__tab\"]"), function(element) {
+			new UIC.Tab(element, {lazyload: false});
+		});
+	</script>

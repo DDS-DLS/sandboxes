@@ -1,0 +1,14 @@
+	<div class="dds__progress-bar">
+		<div class="dds__progress-bar-standard dds__progress-bar-striped dds__progress-bar-animated" role="progressbar"
+			style="width: 52%;" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100" data-toggle="dds__progress"
+			data-showtext="true">52%</div>
+	</div>
+	
+  <script>
+    // set element, speed of progress bar, and showText 
+    // new UIC.Progress(elements, {timeToComplete: 10000, showText: true});
+
+    [].forEach.call(document.querySelectorAll('[data-toggle="dds__progress"]'), function(element) {
+      new UIC.Progress(element);
+    });
+  </script>

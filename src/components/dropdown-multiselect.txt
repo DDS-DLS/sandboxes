@@ -1,0 +1,18 @@
+<div class="dds__btn-dropdown dds__multi-select" tabindex="-1">
+  <button class="dds__btn dds__btn-secondary dds__text-truncate dds__d-flex" data-toggle="dds__dropdown" data-target="#buttonMultiSelectDropdown" tabindex="0" aria-expanded="false" aria-controls="buttonDropdownPrimary"> <span class="dds__text-truncate dds__mb-0">Multi-select Dropdown Button</span> <svg class="dds__arrow-tri-solid-right dds__align-self-center dds__ml-1" viewBox="0 0 32 32" focusable="false" aria-hidden="true"> <title>dds__arrow-tri-solid-right</title> <path d="M21.997 16.002l-11.994-12.356v24.708z"></path> </svg> </button>
+  <ul id="buttonMultiSelectDropdown" class="dds__button-dropdown-container dds__collapse" role="menu"> 
+    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false"> <label class="dds__form-check-label" for="multiSelectCheckboxName1"> <input type="checkbox" id="multiSelectCheckboxName1" name="multiSelectCheckboxName1" tabindex="-1" class="dds__form-check-input"> <span>Value 1</span> </label> </li> 
+    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false"> <label class="dds__form-check-label" for="multiSelectCheckboxName2"> <input type="checkbox" id="multiSelectCheckboxName2" name="multiSelectCheckboxName2" tabindex="-1" class="dds__form-check-input"> <span>Value 2</span> </label> </li> 
+    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false"> <label class="dds__form-check-label" for="multiSelectCheckboxName3"> <input type="checkbox" id="multiSelectCheckboxName3" name="multiSelectCheckboxName3" tabindex="-1" class="dds__form-check-input"> <span>Value 3</span> </label> </li> 
+    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false"> <label class="dds__form-check-label" for="multiSelectCheckboxName4"> <input type="checkbox" id="multiSelectCheckboxName4" name="multiSelectCheckboxName4" tabindex="-1" class="dds__form-check-input"> <span>Value 4</span> </label> </li> 
+    <li class="dds__dropdown-list-item dds__form-check" role="menuitemcheckbox" tabindex="0" aria-checked="false"> <label class="dds__form-check-label" for="multiSelectCheckboxName5"> <input type="checkbox" id="multiSelectCheckboxName5" name="multiSelectCheckboxName5" tabindex="-1" class="dds__form-check-input"> <span>Value 5</span> </label> </li> 
+  </ul>
+</div>
+
+<script>
+  // Initialize component (if framework lifecycle requires it)
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__dropdown\"]"), function(element) { 
+    // new UIC.Dropdown(element); 
+    new UIC.Dropdown(element, {"persist":true}); 
+  }); 
+</script>

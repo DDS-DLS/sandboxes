@@ -1,0 +1,56 @@
+<h1 class="footnote padded" style="height:200px">
+  Pretend there would be a site in this spot.<br />
+</h1>
+<footer class="dds__default-footer" data-toggle="dds__footer">
+		<nav class="dds__footer-nav">
+				<div class="dds__container">
+						<ul class="dds__page-nav">
+								<li>
+										<a href="//www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright" class="">About Dell</a>
+								</li>
+						</ul>
+						<div class="dds__country-selector dds__btn-dropdown">
+								<button class="dds__footer-icon-ctnr" data-target="footer-country-selector" aria-label="Country Selector" aria-haspopup="true" aria-expanded="false">
+										<img src="//i.dell.com/images/global/masthead/smlflags/us.gif" alt="USA">
+										<span class="dds__footer-label dds__text-truncate">United States</span>
+										<svg focusable="false" class="dds__svg-icons" name="chevron-right">
+												<use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
+										</svg>
+								</button>
+								<ul id="footer-country-selector" class="dds__country-list dds__button-dropdown-container dds__collapse">
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/af/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Afghanistan" data-country-code="af">Afghanistan</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/aa/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Africa | Afrique" data-country-code="aa">Africa | Afrique</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/al/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Albania" data-country-code="al">Albania</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/dz/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Algeria | Algérie" data-country-code="dz">Algeria | Algérie</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ao/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Angola" data-country-code="ao">Angola</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ai/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Anguilla" data-country-code="ai">Anguilla</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ag/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Antigua &amp; Barbuda" data-country-code="ag">Antigua &amp; Barbuda</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ar/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Argentina" data-country-code="ar">Argentina</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/am/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Armenia" data-country-code="am">Armenia</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/aw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Aruba" data-country-code="aw">Aruba</a></li>
+										<li tabindex="-1"><a class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ap/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Asia Pacific" data-country-code="ap">Asia Pacific</a></li>
+								</ul>
+						</div>
+				</div>
+		</nav>
+		<nav class="dds__footer-legal-nav">
+				<div  class="dds__container">
+						<ul>
+								<li>
+										<a href="//www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright" class="">© 2019 Dell</a>
+								</li>
+								<!-- other links would go here -->
+						</ul>
+				</div>
+		</nav>
+</footer>
+
+<script>
+  // Some UICore components require SVGs; loadURLSVGs accepts two parameters: an array of the SVGs to load, and a boolean for whether or not to lazy-load.  True by default; this Sandbox requires False.
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/0.2.10/svgs/dds__chevron-right.svg"], false);
+
+  // Initializes every instance on the page
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__footer\"]"), function(element) {
+    new UIC.Footer(element); //, {"persist":true});
+  });
+</script>

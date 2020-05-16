@@ -1,0 +1,47 @@
+<div class="dds__container">
+    <div class="dds__row">
+        <div class="dds__col-12 dds__col-md-6">
+            <!-- spinbox vertical example -->
+            <div class="dds__spinbox-vertical" data-toggle="dds__spinbox" data-spinmin="0" data-spinmax="50"
+                data-spinstep="1" data-spindefault="5">
+                <button class="dds__spinbox-btn" tabindex="-1">
+                    <svg focusable="false" class="dds__svg-icons">
+                        <use xlink:href="#dds__plus-add" class="dds__svg-icons-item"></use>
+                    </svg>
+                </button>
+                <input class="dds__form-control dds__spinbox-input" role="spinbutton"
+                    aria-label="spinbox vertical"></input>
+                <button class="dds__spinbox-btn" tabindex="-1">
+                    <svg focusable="false" class="dds__svg-icons">
+                        <use xlink:href="#dds__minus-minimize" class="dds__svg-icons-item"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="dds__col-md-6">
+            <!-- spinbox horizontal example -->
+            <div class="dds__spinbox-horizontal" data-toggle="dds__spinbox">
+                <button class="dds__spinbox-btn" tabindex="-1">
+                    <svg focusable="false" class="dds__svg-icons">
+                        <use xlink:href="#dds__minus-minimize" class="dds__svg-icons-item"></use>
+                    </svg>
+                </button>
+                <input class="dds__form-control dds__spinbox-input" role="spinbutton"
+                    aria-label="spinbox horizontal"></input>
+                <button class="dds__spinbox-btn" tabindex="-1">
+                    <svg focusable="false" class="dds__svg-icons">
+                        <use xlink:href="#dds__plus-add" class="dds__svg-icons-item"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/0.2.10/svgs/dds__plus-add.svg","//uicore.dellcdn.com/0.2.10/svgs/dds__minus-minimize.svg"], false);
+
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__spinbox\"]"), function (element) {
+    new UIC.Spinbox(element, {spinmin: 0, spinmax: 100, spinstep: 2, spindefault: 0});
+  });
+</script>

@@ -1,0 +1,29 @@
+<div id="banner-carousel-no-arrows" class="dds__carousel slide" data-ride="dds__carousel" data-interval="5000" data-pause="hover">
+  <div class="dds__carousel-inner">
+    <div class="dds__carousel-item dds__active">
+      <a href="javascript:;"><img class="dds__img-fluid" alt="First slide" src="//placehold.it/2160x480?text=First+Slide"></a>
+    </div>
+    <div class="dds__carousel-item">
+      <a href="javascript:;"><img class="dds__img-fluid" alt="Second slide" src="//placehold.it/2160x480?text=Second+Slide"></a>
+    </div>
+    <div class="dds__carousel-item">
+      <a href="javascript:;"><img class="dds__img-fluid" alt="Third slide" src="//placehold.it/2160x480?text=Third+Slide"></a>
+    </div>
+    <div class="dds__carousel-item">
+      <a href="javascript:;"><img class="dds__img-fluid" alt="Third slide" src="//placehold.it/2160x480?text=Fourth+Slide"></a>
+    </div>				
+  </div>
+  <ol class="dds__carousel-indicators">
+    <li data-target="#banner-carousel-no-arrows" data-slide-to="0" class="dds__active"></li>
+    <li data-target="#banner-carousel-no-arrows" data-slide-to="1" class=""></li>
+    <li data-target="#banner-carousel-no-arrows" data-slide-to="2" class=""></li>
+    <li data-target="#banner-carousel-no-arrows" data-slide-to="3" class=""></li>
+  </ol>
+</div>
+
+<script>
+  // Initialize component (if framework lifecycle requires it)
+  [].forEach.call(document.querySelectorAll("[data-ride=\"dds__carousel\"]"), function (element) {
+    new  UIC.Carousel(element);
+  });
+</script>
