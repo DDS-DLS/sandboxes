@@ -28,7 +28,6 @@
 					fixedHeight: true,
 					header: true,
 				perPage: 12,
-				items: randomAll.length,
 				layout: {
 					row1: "{placeholder:2:end}{settings:1:end}",
 					row2: "{actions:1:start}{placeholder:1}{search:1:end}"
