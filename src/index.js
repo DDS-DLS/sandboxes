@@ -67,13 +67,18 @@ function writePage(text) {
 }
 
 if (doc) {
-    fileSelection.style.display = "none";
-    _getFile(dir + "/" + doc + ext)
-        .then(text => {
-            writePage(text);
-        }).catch((err) => {
-            console.log("Unable to retrieve file from querystring.\n" + err);
-        });
+    if (doc.toLowerCase() === "nav") {
+        // EXCEPTION :( for nav, which does not like to be sticky for some reason. TODO: See if this can be fixed - it's likely a failure of the import/eval magic
+        window.location = "nav.html";
+    } else {
+        fileSelection.style.display = "none";
+        _getFile(dir + "/" + doc + ext)
+            .then(text => {
+                writePage(text);
+            }).catch((err) => {
+                console.log("Unable to retrieve file from querystring.\n" + err);
+            });
+    }
 } else {
     fileSelection.addEventListener("change", e => {
         setLink(docName(fileSelection.value));

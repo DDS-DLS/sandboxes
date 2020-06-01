@@ -36,29 +36,36 @@
     <div id="section1" class="dds__pt-5" role="tabpanel" aria-labelledby="section1">
         <h2>Section 1</h2>
         <p>The quick brown fox jumped over the lazy dog.</p>
-        <p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+        <p><img src="https://placehold.it/320x1600?text=TallPage" /></p>
     </div>
     <div id="section2" class="dds__pt-5" role="tabpanel" aria-labelledby="section2">
         <h2>Section 2</h2>
-		<p>Several fabulous dixieland jazz groups played with quick tempo.</p>
-		<p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+        <p>Several fabulous dixieland jazz groups played with quick tempo.</p>
+        <p><img src="https://placehold.it/320x1600?text=TallPage" /></p>
     </div>
     <div id="section3" class="dds__pt-5" role="tabpanel" aria-labelledby="section3">
         <h2>Section 3</h2>
         <p>Back in my quaint garden, jaunty zinnias vie with flaunting phlox.</p>
-		<p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+        <p><img src="https://placehold.it/320x1600?text=TallPage" /></p>
     </div>
     <div id="section4" class="dds__pt-5" role="tabpanel" aria-labelledby="section4">
         <h2>Section 4</h2>
         <p>Back in June we delivered oxygen equipment of the same size.</p>
-		<p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+        <p><img src="https://placehold.it/320x1600?text=TallPage" /></p>
     </div>
     <div id="section5" class="dds__pt-5" role="tabpanel" aria-labelledby="section5">
         <h2>Section 5</h2>
         <p>Six big devils from Japan quickly forgot how to waltz.</p>
-		<p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+        <p><img src="https://placehold.it/320x1600?text=TallPage" /></p>
     </div>
 </div>
+<div id="OtherContent">
+    <h2>Other Content that may be on the page</h2>
+    <p>About sixty codfish eggs will make a quarter pound of very fizzy jelly.</p>
+    <p><img src="http://placehold.it/320x1600?text=MuchContent-VeryWow" /></p>
+    <p><img src="https://i.picsum.photos/id/1025/4951/3301.jpg" width="320" height="240" /></p>
+</div>
+
 <!-- Optional modal responsive implementation. The div below along with data-target set on the above nav element with the 
     id below will create an off canvas modal version of the tab elements. If reponsive is not wanted then the below div and the 
     data-target on the above nav element can be removed. The below div class=dds__modal-body is intentionally and should be left blank.
@@ -81,7 +88,7 @@
 </div>
 
 <script>
-  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__nav-anchored\"]"), function(element) {
-    new UIC.NavAnchored(element);
-  });
+    [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__nav-anchored\"]"), function (element) {
+        new UIC.NavAnchored(element);
+    });
 </script>
