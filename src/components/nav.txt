@@ -1,4 +1,3 @@
-<h1 class="footnote padded">This component is not yet released.</h1>
 <nav class="dds__nav-anchored dds__tabs-container" data-toggle="nav" aria-label="Example description of navigation">
     <ul class="dds__tabs">
         <li class="dds__flex-tab" role="none">
