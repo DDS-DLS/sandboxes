@@ -1,0 +1,32 @@
+<form data-toggle="dds__form-validation" novalidate>
+    <div class="dds__datepicker" data-toggle="dds__datepicker" data-target="#myCalendar">
+        <label for="datepicker-input">Date Picker Label</label>
+        <div class="dds__form-group dds__datepicker-form">
+            <input type="text" class="dds__form-control dds__input-masked" pattern="(0[1-9]|1[0-2])\/[0-3]{1}[0-9]{1}\/[0-9]{4}" data-charset="XX/XX/XXXX" maxlength="10" name="date" id="datepicker-input" required aria-invalid="false" aria-describedby="">
+            <button class="dds__datepicker-btn" aria-label="select date" type="button">
+                <svg class="dds__calendar" aria-hidden="true" focusable="false"><use xlink:href="#dds__calendar"></use></svg>
+            </button>
+        </div>
+        <small class="dds__form-text dds__text-muted">
+            Date format mm/dd/yyyy.
+        </small>
+        <div class="dds__invalid-feedback" id="datepicker-inputFeedback">
+            Please enter a valid date.
+        </div>
+        <div id="myCalendar" class="dds__datepicker-calendar dds__d-none" tabindex="0"></div>
+    </div>
+</form>
+
+<script>
+    UIC.loadURLSVGs([
+      "//uicore.dellcdn.com/1.1.0/svgs/dds__plus-add.svg",
+      "//uicore.dellcdn.com/1.1.0/svgs/dds__minus-minimize.svg",
+      "//uicore.dellcdn.com/1.1.0/svgs/dds__calendar.svg",
+      "//uicore.dellcdn.com/1.1.0/svgs/dds__chevron-right.svg",
+      "//uicore.dellcdn.com/1.1.0/svgs/dds__chevron-left.svg"
+    ], false);
+
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__datepicker\"]"), function(element) {
+    new UIC.DatePicker(element, {selector: "#myCalendar", datesFilter: true, pastDates: false, notAfterDate: new Date("01/02/2021")});
+  });
+</script>
