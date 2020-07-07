@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 
 document.getElementById("app").innerHTML = `
 <a id="thisLink" style="display:none; float:right;" href="">Link to this page</a>
@@ -8,7 +8,7 @@ document.getElementById("app").innerHTML = `
 <div id="fileDisplayArea"><div>
 `;
 
-const dir = "./src/components";
+const dir = "/src/components";
 const ext = ".txt";
 const thisLink = document.getElementById("thisLink");
 const fileDisplayArea = document.getElementById("fileDisplayArea");
@@ -20,15 +20,50 @@ const _getAllFilesFromFolder = function (dir) {
     const filesystem = require("fs");
     let results = [];
 
-    filesystem.readdirSync(dir).forEach(function (file) {
-        file = dir + "/" + file;
-        const stat = filesystem.statSync(file);
+    if (typeof filesystem.readdirSync === "function") {
+        filesystem.readdirSync(dir).forEach(function (file) {
+            file = dir + "/" + file;
+            const stat = filesystem.statSync(file);
 
-        if (stat && stat.isDirectory()) {
-            results = results.concat(_getAllFilesFromFolder(file));
-        } else results.push(file);
-    });
-
+            if (stat && stat.isDirectory()) {
+                results = results.concat(_getAllFilesFromFolder(file));
+            } else results.push(file);
+        });
+    } else {
+        console.log("readdirSync unavailable"); // currently and intentionally only processes locally
+        const comps = [
+            "Alert",
+            "Button",
+            "ButtonFilter",
+            "Carousel",
+            "Collapse",
+            "Complex-Table",
+            "Contact-Drawer",
+            "Contributor-Model",
+            "Datepicker",
+            "Dropdown",
+            "Filmstrip-Carousel",
+            "Footer",
+            "Form",
+            "Linkpicker",
+            "Masthead",
+            "Modal",
+            "Nav",
+            "Pagination",
+            "Popover",
+            "Progress-Bar",
+            "Skipnav",
+            "Slider",
+            "Spinbox",
+            "Tab",
+            "Tooltip"
+        ];
+        results = [];
+        comps.forEach((comp) => {
+          results.push(dir + "/" + comp + ext)
+        })
+    }
+    
     return results;
 };
 
@@ -43,7 +78,8 @@ _getAllFilesFromFolder(dir).forEach(file => {
 });
 
 async function _getFile(filename) {
-    return fetch(filename)
+    // console.log(filename);
+    return fetch(filename, { redirect: "error" })
         .then(response => response.text())
         .then(text => {
             return text;
@@ -70,6 +106,9 @@ if (doc) {
     if (doc.toLowerCase() === "nav") {
         // EXCEPTION :( for nav, which does not like to be sticky for some reason. TODO: See if this can be fixed - it's likely a failure of the import/eval magic
         window.location = "nav.html";
+    } else if (doc.toLowerCase() === "nav-left") {
+        // EXCEPTION :( for left-nav, but this might be replaced once the next bugfix goes out. Hopeful.
+        window.location = "nav-left.html";
     } else {
         fileSelection.style.display = "none";
         _getFile(dir + "/" + doc + ext)
@@ -81,15 +120,14 @@ if (doc) {
     }
 } else {
     fileSelection.addEventListener("change", e => {
-        setLink(docName(fileSelection.value));
+        const selectedValue = fileSelection.value.toLowerCase();
+        setLink(docName(selectedValue));
         thisLink.style.display = "block";
-        fetch(fileSelection.value)
-        .then(response => response.text())
-        .then(text => {                
-                writePage(text);
-            })
-            .catch(err => {
-                console.log("Unable to retrieve selected file.\n" + err);
-            });
+        _getFile(selectedValue)
+        .then(text => {
+            writePage(text);
+        }).catch((err) => {
+            console.log("Unable to retrieve selected file.\n" + err);
+        });
     });
 }
