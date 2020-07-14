@@ -1,0 +1,28 @@
+<form class="dds__d-flex" data-toggle="dds__bar-select">
+    <div class="dds__bar-select" tabindex="-1">
+        <input id="bar1" class="dds__sr-only" value="1" type="radio" name="bar-select">
+        <label aria-label="Bar Select" for="bar1"></label>
+    </div>
+    <div class="dds__bar-select" tabindex="-1">
+        <input id="bar2" class="dds__sr-only" value="2" type="radio" name="bar-select">
+        <label aria-label="Bar Select" for="bar2"></label>
+    </div>
+    <div class="dds__bar-select" tabindex="-1">
+        <input id="bar3" class="dds__sr-only" value="3" type="radio" name="bar-select">
+        <label aria-label="Bar Select" for="bar3"></label>
+    </div>
+    <div class="dds__bar-select" tabindex="-1">
+      <input id="bar4" class="dds__sr-only" value="4" type="radio" name="bar-select">
+      <label aria-label="Bar Select" for="bar4"></label>
+    </div>
+    <div class="dds__bar-select" tabindex="-1">
+        <input id="bar5" class="dds__sr-only" value="5" type="radio" name="bar-select">
+        <label aria-label="Bar Select" for="bar5"></label>
+    </div>
+</form>
+
+<script>
+    [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__bar-select\"]"), function(element) {
+      new UIC.BarSelect(element);
+    });
+</script>
