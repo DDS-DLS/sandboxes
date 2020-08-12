@@ -52,6 +52,7 @@ const _getAllFilesFromFolder = function (dir) {
             "Pagination",
             "Popover",
             "Progress-Bar",
+            "Radio-Button-Css",
             "Skipnav",
             "Slider",
             "Spinbox",
