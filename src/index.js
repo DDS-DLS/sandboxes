@@ -143,11 +143,18 @@ function skipOnExceptions(selection) {
 if (doc) {
     if (!skipOnExceptions(doc.toLowerCase())) {        
         fileSelection.style.display = "none";
-        getFile(dir + "/" + doc + ext, function(text) {
-            if (text) {
+        // getFile(dir + "/" + doc + ext, function(text) {
+        //     if (text) {
+        //         writePage(text);
+        //     }
+        // });
+
+        _getFile(dir + "/" + doc + ext)
+            .then(text => {
                 writePage(text);
-            }
-        });
+            }).catch((err) => {
+                console.log("Unable to retrieve file from querystring.\n" + err);
+            });
     }
 } else {
     fileSelection.addEventListener("change", e => {
@@ -155,11 +162,18 @@ if (doc) {
         if(!skipOnExceptions(selectedValue)) {
             setLink(docName(selectedValue));
             thisLink.style.display = "block";
-            getFile(selectedValue, function(text) {
-                if (text) {
+            // getFile(selectedValue, function(text) {
+            //     if (text) {
+            //         writePage(text);
+            //     }
+            // });
+
+            _getFile(selectedValue)
+                .then(text => {
                     writePage(text);
-                }
-            });
+                }).catch((err) => {
+                    console.log("Unable to retrieve selected file.\n" + err);
+                });
         }
     });
 }
