@@ -2,8 +2,6 @@
   Popover on bottom
 </button>
 
-<h1 class="footnote padded">Note CodeSandbox implementation is not working right.  TODO.</h1>
-
 <script>
   [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__popover\"]"), function (element) {
     new UIC.Popover(element, {

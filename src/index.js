@@ -1,12 +1,11 @@
 import "./styles.scss";
 
-document.getElementById("app").innerHTML = `
-<a id="thisLink" style="display:none; float:right;" href="">Link to this page</a>
-<select id="fileSelection">
-    <option value="">Select One</option>
-</select>
-<div id="fileDisplayArea"><div>
-`;
+document.getElementById("app").innerHTML = 
+    '<a id="thisLink" style="display:none; float:right;" href="">Link to this page</a>' +
+    '<select id="fileSelection">' +
+    '    <option value="">Select One</option>' +
+    '</select>' +
+    '<div id="fileDisplayArea"><div>';
 
 const dir = "/src/components";
 const ext = ".txt";
@@ -32,32 +31,41 @@ const _getAllFilesFromFolder = function (dir) {
     } else {
         console.log("readdirSync unavailable"); // currently and intentionally only processes locally
         const comps = [
-            "Alert",
-            "Button",
-            "ButtonFilter",
-            "Carousel",
-            "Collapse",
-            "Complex-Table",
-            "Contact-Drawer",
-            "Contributor-Model",
-            "Datepicker",
-            "Dropdown",
-            "Filmstrip-Carousel",
-            "Footer",
-            "Form",
-            "Linkpicker",
-            "Masthead",
-            "Modal",
-            "Nav",
-            "Pagination",
-            "Popover",
-            "Progress-Bar",
-            "Radio-Button-Css",
-            "Skipnav",
-            "Slider",
-            "Spinbox",
-            "Tab",
-            "Tooltip"
+            "alert",
+            "button",
+            "button-filter",
+            "carousel",
+            "carousel-buttons",
+            "carousel-filmstrip",
+            "carousel-filmstrip-page",
+            "collapse",
+            "collapse-showmore",
+            "contact-drawer",
+            "datepicker",
+            "dropdown-multiselect",
+            "dropdown-primary",
+            "filter-collection",
+            "footer",
+            "form",
+            "linkpicker",
+            "masthead",
+            "modal",
+            "nav",
+            "nav-left",
+            "pagination",
+            "popover",
+            "progress-bar",
+            "progress-bar-loading",
+            "radio-button-css",
+            "select-bar",
+            "skipnav",
+            "slider-horizontal",
+            "spinbox",
+            "tab-centered",
+            "tab-justified",
+            "tab-overflow",
+            "table-complex",
+            "tooltip"            
         ];
         results = [];
         comps.forEach((comp) => {
@@ -88,6 +96,23 @@ async function _getFile(filename) {
             return (err);
         });
 }
+function getFile(path, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            // The request is done; did it work?
+            if (xhr.status == 200) {
+                // ***Yes, use `xhr.responseText` here***
+                callback(xhr.responseText);
+            } else {
+                // ***No, tell the callback the call failed***
+                callback(null);
+            }
+        }
+    };
+    xhr.open("GET", path);
+    xhr.send();
+}
 
 function docName(inp) {
     return inp.replace(dir + "/", "").replace(ext, "")
@@ -103,32 +128,38 @@ function writePage(text) {
     eval(evalScript);
 }
 
+function skipOnExceptions(selection) {
+    // EXCEPTIONS :( These are likely a failure of the import/eval magic
+    if (selection === "nav" || selection.indexOf("nav" + ext) > -1) {
+        window.location = dir + "/" + "nav.html";
+        return true;
+    } else if (selection === "nav-left" || selection.indexOf("nav-left" + ext) > -1) {
+        window.location = dir + "/" + "nav-left.html";
+        return true;
+    }
+    return false;
+}
+
 if (doc) {
-    if (doc.toLowerCase() === "nav") {
-        // EXCEPTION :( for nav, which does not like to be sticky for some reason. TODO: See if this can be fixed - it's likely a failure of the import/eval magic
-        window.location = "nav.html";
-    } else if (doc.toLowerCase() === "nav-left") {
-        // EXCEPTION :( for left-nav, but this might be replaced once the next bugfix goes out. Hopeful.
-        window.location = "nav-left.html";
-    } else {
+    if (!skipOnExceptions(doc.toLowerCase())) {        
         fileSelection.style.display = "none";
-        _getFile(dir + "/" + doc + ext)
-            .then(text => {
+        getFile(dir + "/" + doc + ext, function(text) {
+            if (text) {
                 writePage(text);
-            }).catch((err) => {
-                console.log("Unable to retrieve file from querystring.\n" + err);
-            });
+            }
+        });
     }
 } else {
     fileSelection.addEventListener("change", e => {
         const selectedValue = fileSelection.value.toLowerCase();
-        setLink(docName(selectedValue));
-        thisLink.style.display = "block";
-        _getFile(selectedValue)
-        .then(text => {
-            writePage(text);
-        }).catch((err) => {
-            console.log("Unable to retrieve selected file.\n" + err);
-        });
+        if(!skipOnExceptions(selectedValue)) {
+            setLink(docName(selectedValue));
+            thisLink.style.display = "block";
+            getFile(selectedValue, function(text) {
+                if (text) {
+                    writePage(text);
+                }
+            });
+        }
     });
 }

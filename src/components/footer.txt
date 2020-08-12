@@ -1,6 +1,7 @@
-<h1 class="footnote padded" style="height:200px">
-  Pretend there would be a site in this spot.<br />
-</h1>
+<h2>Section 1</h2>
+<p>The quick brown fox jumped over the lazy dog.</p>
+<p><img src="https://placehold.it/320x1600?text=TallPage" /></p>
+
 <footer class="dds__default-footer" data-toggle="dds__footer">
 		<nav class="dds__footer-nav">
 				<div class="dds__container">
