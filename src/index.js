@@ -86,16 +86,6 @@ _getAllFilesFromFolder(dir).forEach(file => {
     }
 });
 
-async function _getFile(filename) {
-    // console.log(filename);
-    return fetch(filename, { redirect: "error" })
-        .then(response => response.text())
-        .then(text => {
-            return text;
-        }).catch((err) => {
-            return (err);
-        });
-}
 function getFile(path, callback) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
@@ -131,10 +121,10 @@ function writePage(text) {
 function skipOnExceptions(selection) {
     // EXCEPTIONS :( These are likely a failure of the import/eval magic
     if (selection === "nav" || selection.indexOf("nav" + ext) > -1) {
-        window.location = dir + "/" + "nav.html";
+        window.location = "nav.html";
         return true;
     } else if (selection === "nav-left" || selection.indexOf("nav-left" + ext) > -1) {
-        window.location = dir + "/" + "nav-left.html";
+        window.location = "nav-left.html";
         return true;
     }
     return false;
@@ -143,18 +133,11 @@ function skipOnExceptions(selection) {
 if (doc) {
     if (!skipOnExceptions(doc.toLowerCase())) {        
         fileSelection.style.display = "none";
-        // getFile(dir + "/" + doc + ext, function(text) {
-        //     if (text) {
-        //         writePage(text);
-        //     }
-        // });
-
-        _getFile(dir + "/" + doc + ext)
-            .then(text => {
+        getFile(dir + "/" + doc + ext, function(text) {
+            if (text) {
                 writePage(text);
-            }).catch((err) => {
-                console.log("Unable to retrieve file from querystring.\n" + err);
-            });
+            }
+        });
     }
 } else {
     fileSelection.addEventListener("change", e => {
@@ -162,18 +145,11 @@ if (doc) {
         if(!skipOnExceptions(selectedValue)) {
             setLink(docName(selectedValue));
             thisLink.style.display = "block";
-            // getFile(selectedValue, function(text) {
-            //     if (text) {
-            //         writePage(text);
-            //     }
-            // });
-
-            _getFile(selectedValue)
-                .then(text => {
+            getFile(selectedValue, function(text) {
+                if (text) {
                     writePage(text);
-                }).catch((err) => {
-                    console.log("Unable to retrieve selected file.\n" + err);
-                });
+                }
+            });
         }
     });
 }

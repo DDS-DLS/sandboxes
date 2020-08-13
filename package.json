@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "secure": "parcel index.html --open --https",
-    "build": "parcel build index.html"
+    "start": "parcel index.html --open --no-cache",
+    "secure": "parcel index.html --open --https --no-cache",
+    "build": "parcel build index.html --no-cache"
   },
   "dependencies": {
     "@babel/runtime": "^7.9.6"
@@ -19,7 +19,6 @@
     "@babel/preset-env": "7.1.0",
     "@babel/preset-react": "7.0.0",
     "parcel-bundler": "^1.6.1",
-    "parcel-plugin-static-files-copy": "^2.5.0",
     "sass": "^1.26.5"
   },
   "keywords": [],
@@ -32,9 +31,5 @@
         }
       ]
     ]
-  },
-  "staticFiles": {
-    "staticPath": "src/components",
-    "watcherGlob": "**"
   }
 }
