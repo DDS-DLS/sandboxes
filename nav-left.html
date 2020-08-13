@@ -682,22 +682,23 @@
       </footer>
           
       <script>
-          UIC.loadURLSVGs(["//uicore.dellcdn.com/1.2.0/svgs/dds__chevron-right.svg",
-                          "//uicore.dellcdn.com/1.2.0/svgs/dds__chevron-left.svg"], false);
+            UIC.loadURLSVGs([
+                "//uicore.dellcdn.com/1.2.0/svgs/dds__chevron-right.svg",
+                "//uicore.dellcdn.com/1.2.0/svgs/dds__chevron-left.svg"
+            ], false);
   
-          [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__collapse\"]"), function(element) {
-          new UIC.Collapse(element);
-          });
+            [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__collapse\"]"), function(element) {
+                new UIC.Collapse(element);
+            });
   
-          [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__nav-left\"]"), function(element) {
-              new UIC.NavLeft(element);
-          })
+            [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__nav-left\"]"), function(element) {
+                new UIC.NavLeft(element);
+            })
   
-          var countrySelectorBtn = document.querySelector("[data-toggle=\"dds__footer\"] .dds__footer-icon-ctnr");
-          if(countrySelectorBtn) {
-              new UIC.Dropdown(countrySelectorBtn); 
-          }
-          
+            var countrySelectorBtn = document.querySelector("[data-toggle=\"dds__footer\"] .dds__footer-icon-ctnr");
+            if(countrySelectorBtn) {
+                new UIC.Dropdown(countrySelectorBtn); 
+            }
       </script>
       
     </body>

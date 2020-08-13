@@ -19,7 +19,8 @@
     "@babel/preset-env": "7.1.0",
     "@babel/preset-react": "7.0.0",
     "parcel-bundler": "^1.6.1",
-    "sass": "^1.26.5"
+    "sass": "^1.26.5",
+    "parcel-plugin-static-files-copy": "^2.5.0"
   },
   "keywords": [],
   "babel": {
@@ -31,5 +32,20 @@
         }
       ]
     ]
-  }
+    },
+    "staticFiles": {
+        "staticPath": [
+          {
+            "staticPath": "src/components",
+            "staticOutDir": "src/components"
+          },
+          {
+            "staticPath": "nav.html"
+          },
+          {
+            "staticPath": "nav-left.html"
+          }
+        ],
+        "watcherGlob": "**"
+      }
 }
