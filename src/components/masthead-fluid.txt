@@ -1,0 +1,129 @@
+<div class="dds__msthd" data-toggle="dds__msthd">
+  <nav class="dds__navbar dds__msthd-navbar-top">
+    <div class="dds__msthd-top dds__container-fluid dds__no-gutters">
+      <div class="dds__row dds__no-gutter">
+        <div class="dds__msthd-top-ctnr">
+          <div class="dds__msthd-icon-ctnr dds__msthd-logo">
+            <a class="dds__icons dds__msthd-dell-icon" href="//www.dell.com" tabindex="0" aria-label="Dell"></a>
+          </div>
+        </div>
+        <div class="dds__msthd-brand-ctnr dds__d-none dds__d-lg-block">
+          <span>Simple and Fluid Masthead</span>
+        </div>
+        <div class="dds__msthd-search" role="search">
+          <button class="dds__msthd-icon-ctnr dds__d-sm-flex dds__d-md-none" data-target="msthd-search-ctnr" aria-haspopup="true" aria-expanded="false">
+              <svg focusable="false">
+                  <use xlink:href="#dds__search"/>
+              </svg>
+              <span class="dds__msthd-label dds__text-truncate">Search</span>
+          </button>
+          <div id="msthd-search-ctnr" class="dds__msthd-search-ctnr dds__d-md-block dds__d-none">
+            <form action="/masthead">
+              <input type="search" class="dds__msthd-search-input" tabindex="0" placeholder="What can we help you find?" aria-label="Search"/>
+              <button type="submit" class="dds__msthd-search-btn dds__d-md-block dds__d-none" aria-label="search" tabindex="0"><i class="dds__icons dds__search"></i>Search</button> 
+              <button type="submit" class="dds__msthd-search-btn dds__d-md-none" aria-label="search" tabindex="0"><i class="dds__icons dds__search"></i></button> 
+            </form>
+          </div>
+        </div>
+        <div class="dds__msthd-top-ctnr">
+          <button class="dds__msthd-icon-ctnr" data-target="msthd-signin-ctnr" aria-label="Sign in" aria-haspopup="true" aria-expanded="false">
+            <svg focusable="false">
+                <use xlink:href="#dds__user"/>
+            </svg>
+            <span class="dds__badge dds__badge-success" hidden>
+              <i class="dds__icons dds__check"></i>
+            </span>
+            <span class="dds__msthd-label dds__text-truncate">Sign In</span>
+          </button>
+          <div id="msthd-signin-ctnr" class="dds__msthd-ctnr dds__pb-0" role="menu">
+            <div class="dds__col-sm-12 dds__col-md-12 dds__col-lg-12">
+              <h5>My Account</h5>
+              <div class="dds__row">
+                <ul class="dds__list-group dds__mt-0 dds__mb-3">
+                  <li class="dds__list-group-item-unordered dds__mb-1">Place orders quickly and easily</li>
+                  <li class="dds__list-group-item-unordered dds__mb-1">View orders and track your shipping status</li>
+                  <li class="dds__list-group-item-unordered dds__mb-1">Enjoy members-only rewards and discounts</li>
+                  <li class="dds__list-group-item-unordered dds__mb-1">Create and access a list of your products</li>
+                </ul>
+              </div>
+              <div class="dds__row dds__no-gutters">
+                <div class="dds__col-sm-12">
+                  <a class="dds__btn dds__btn-primary dds__btn-block" href="//www.dell.com/identity/global/in/98254675-AC6F-47D9-A7E4-4537724F135D?redirectUrl=https%3a%2f%2fwww.dell.com%2fen-us%3flfs%3db&amp;c=us&amp;l=en&amp;r=us&amp;s=dhs&amp;cs=19&amp;~ck=mn">Sign In</a>
+                </div>
+              </div>
+              <div class="dds__row dds__no-gutters">
+                <div class="dds__col-sm-12">
+                  <a class="dds__btn dds__btn-secondary dds__btn-block dds__mt-2" href="//www.dell.com/identity/global/in/98254675-AC6F-47D9-A7E4-4537724F135D?redirectUrl=https%3a%2f%2fwww.dell.com%2fen-us%3flfs%3db&amp;c=us&amp;l=en&amp;r=us&amp;s=dhs&amp;cs=19&amp;~ck=mn">Create an account</a>
+                </div>
+              </div>
+              <hr class="dds__dropdown-divider">
+              <h5>
+                <a href="//dfs.dell.com/pages/dfshomepage.aspx?~ck=mn">Dell Financial Services</a>
+              </h5>
+              <hr class="dds__dropdown-divider">
+              <h5>
+                <a href="//www.dell.com/identity/global/login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn">Premier Sign In</a>
+              </h5>
+              <hr class="dds__dropdown-divider">
+              <h5>
+                <a href="//www.dell.com/content/public/xdbredirect.aspx?link=global:nav:partnerprogram:signin&amp;~ck=mn">Partner Program Sign In</a>
+              </h5>
+            </div>
+          </div>
+          <div id="msthd-signout-ctnr" class="dds__msthd-ctnr" role="menu">
+            <div class="dds__col-sm-12 dds__col-md-12 dds__col-lg-12">
+              <h5>
+                  <a href="//www.dell.com/en-us/gc/myaccount?~ck=mn">Account Settings</a>
+              </h5>
+              <hr class="dds__dropdown-divider">
+              <h5>
+                  <a href="//www.dell.com/support/orders?~ck=mn">Order Status</a>
+              </h5>
+              <hr class="dds__dropdown-divider">
+              <h5>
+                  <a href="//dfs.dell.com/pages/dfshomepage.aspx?~ck=mn">Dell Financial Services</a>
+              </h5>
+              <hr class="dds__dropdown-divider">
+              <h5>
+                  <a href="//www.dell.com/en-us/shop/dell-rewards-program/cp/dell-rewards-program?~ck=mn">Dell Rewards</a>
+              </h5>
+              <hr class="dds__dropdown-divider">
+              <h5>
+                  <a href="//www.dell.com/identity/global/login/75814991-4252-4cc4-a977-670cc21309a7?~ck=mn">Premier Sign In</a>
+              </h5>
+              <hr class="dds__dropdown-divider">
+              <h5>
+                  <a href="//www.dell.com/content/public/xdbredirect.aspx?link=global:nav:partnerprogram:signin&amp;~ck=mn">Partner Program Sign In</a>
+              </h5>
+              <div class="dds__row dds__no-gutters">
+                  <div class="dds__col-sm-12">
+                      <a class="dds__btn dds__btn-secondary dds__btn-block dds__mt-2" href="/en-us/security/authentication/signoutreturntoreferrer?~ck=mn">Sign Out</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  <div id="dds__msthd-overlay" class="dds__msthd-overlay"></div>
+</div>
+
+
+<script>
+    UIC.loadURLSVGs([
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__chevron-right.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__search.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__user.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__cart.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__menu-closed.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__arrow-tri-solid-right.svg"
+    ], false); // boolean is for lazy loading
+
+  // Initialize component (if framework lifecycle requires it)
+  [].forEach.call(document.querySelectorAll("[data-toggle='dds__msthd']"), function(element) {
+    window.Masthead = new UIC.Masthead(element); 
+  });
+
+</script>

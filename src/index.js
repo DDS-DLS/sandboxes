@@ -49,6 +49,7 @@ const _getAllFilesFromFolder = function (dir) {
             "form",
             "linkpicker",
             "masthead",
+            "masthead-fluid",
             "modal",
             "nav",
             "nav-left",
