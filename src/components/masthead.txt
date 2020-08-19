@@ -7,7 +7,7 @@
             <a class="dds__icons dds__msthd-dell-icon" href="//www.dell.com" tabindex="0" aria-label="Dell"></a>
           </div>
         </div>
-        <!-- If you're using a Domain label uncomment this code and chage the span
+        <!-- If your using a Domain label uncomment this code and chage the span
           to the appropiate value, other wise you can delete this section all
           together.
         <div class="dds__msthd-brand-ctnr dds__d-none dds__d-lg-block">
@@ -184,6 +184,7 @@
                         <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="loading-icon">Loading Icon</a></li>
                         <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="masthead">Masthead</a></li>
                         <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="modal">Modal</a></li>
+                        <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="nav">Nav</a></li>
                         <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="notification">Notification</a></li>
                         <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="pagination">Pagination</a></li>
                         <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="popover">Popover</a></li>
@@ -272,220 +273,220 @@
               </ul>
           </aside>
         </div>
-        <div class="dds__msthd-top-ctnr dds__d-none dds__d-lg-block">
+        <div class="dds__msthd-top-ctnr dds__btn-dropdown dds__d-none dds__d-lg-block">
           <button class="dds__msthd-icon-ctnr" data-target="msthd-country-ctnr" aria-label="Country Selector" aria-haspopup="true" aria-expanded="false">
             <img src="//i.dell.com/images/global/masthead/smlflags/us.gif" alt="USA">
             <span class="dds__msthd-label dds__text-truncate">USA</span>
           </button>
-          <ul id="msthd-country-ctnr" class="dds__msthd-ctnr dds__msthd-ctnr-restricted" role="menu">
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/af/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Afghanistan" data-country-code="af">Afghanistan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/aa/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Africa | Afrique" data-country-code="aa">Africa | Afrique</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/al/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Albania" data-country-code="al">Albania</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/dz/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Algeria | Algérie" data-country-code="dz">Algeria | Algérie</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ao/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Angola" data-country-code="ao">Angola</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ai/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Anguilla" data-country-code="ai">Anguilla</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ag/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Antigua &amp; Barbuda" data-country-code="ag">Antigua &amp; Barbuda</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ar/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Argentina" data-country-code="ar">Argentina</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/am/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Armenia" data-country-code="am">Armenia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/aw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Aruba" data-country-code="aw">Aruba</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ap/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Asia Pacific" data-country-code="ap">Asia Pacific</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-au?~ck=cr" title="Australia" data-country-code="au">Australia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/de-at?~ck=cr" title="Austria | Österreich" data-country-code="at">Austria | Österreich</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/az/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Azerbaijan | Азербайджан" data-country-code="az">Azerbaijan | Азербайджан</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bs/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bahamas" data-country-code="bs">Bahamas</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bh/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bahrain" data-country-code="bh">Bahrain</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bd/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bangladesh" data-country-code="bd">Bangladesh</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bb/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Barbados" data-country-code="bb">Barbados</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/by/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Belarus" data-country-code="by">Belarus</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/nl-be?~ck=cr" title="Belgium | België | Belgique" data-country-code="be">Belgium | België | Belgique</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Belize | Belice" data-country-code="bz">Belize | Belice</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bj/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Benin" data-country-code="bj">Benin</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bermuda" data-country-code="bm">Bermuda</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bhutan" data-country-code="bt">Bhutan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bo/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bolivia" data-country-code="bo">Bolivia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ba/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bosnia-Herzegovina" data-country-code="ba">Bosnia-Herzegovina</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Botswana" data-country-code="bw">Botswana</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pt-br?~ck=cr" title="Brazil | Brasil" data-country-code="br">Brazil | Brasil</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/vg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="British Virgin Islands" data-country-code="vg">British Virgin Islands</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Brunei" data-country-code="bn">Brunei</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bulgaria" data-country-code="bg">Bulgaria</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bf/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Burkina Faso" data-country-code="bf">Burkina Faso</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/bi/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Burundi" data-country-code="bi">Burundi</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/kh/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cambodia" data-country-code="kh">Cambodia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cameroon | Cameroun" data-country-code="cm">Cameroon | Cameroun</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-ca?~ck=cr" title="Canada" data-country-code="ca">Canada</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cv/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cape Verde | Cabo Verde" data-country-code="cv">Cape Verde | Cabo Verde</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ky/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cayman Islands" data-country-code="ky">Cayman Islands</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cf/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Central African Republic | République centrafricaine" data-country-code="cf">Central African Republic | République centrafricaine</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/td/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Chad | Tchad" data-country-code="td">Chad | Tchad</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cl/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Chile" data-country-code="cl">Chile</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/zh-cn?~ck=cr" title="China | 中国大陆地区" data-country-code="cn">China | 中国大陆地区</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cx/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Christmas Island" data-country-code="cx">Christmas Island</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/rs/ru/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="CIS" data-country-code="rs">CIS</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/co/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Colombia" data-country-code="co">Colombia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/km/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Comoros" data-country-code="km">Comoros</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cg/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Congo" data-country-code="cg">Congo</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ck/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cook Islands" data-country-code="ck">Cook Islands</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cr/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Costa Rica" data-country-code="cr">Costa Rica</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/hr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Croatia" data-country-code="hr">Croatia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cy/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cyprus" data-country-code="cy">Cyprus</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cz/cs/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Czech Republic | Česká republika" data-country-code="cz">Czech Republic | Česká republika</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cd/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Democratic Republic of the Congo | République démocratique du Congo" data-country-code="cd">Democratic Republic of the Congo | République démocratique du Congo</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/da-dk?~ck=cr" title="Denmark | Danmark" data-country-code="dk">Denmark | Danmark</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/dj/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Djibouti" data-country-code="dj">Djibouti</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/dm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Dominica" data-country-code="dm">Dominica</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/do/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Dominican Republic | República Dominicana" data-country-code="do">Dominican Republic | República Dominicana</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tl/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="East Timor" data-country-code="tl">East Timor</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ec/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ecuador" data-country-code="ec">Ecuador</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/eg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Egypt" data-country-code="eg">Egypt</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sv/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="El Salvador" data-country-code="sv">El Salvador</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ed/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Emerging Countries – EMEA" data-country-code="ed">Emerging Countries – EMEA</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gq/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Equatorial Guinea | Guinea Ecuatorial" data-country-code="gq">Equatorial Guinea | Guinea Ecuatorial</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ee/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Estonia" data-country-code="ee">Estonia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/et/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ethiopia" data-country-code="et">Ethiopia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/fj/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Fiji" data-country-code="fj">Fiji</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/fi/fi/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Finland | Suomi" data-country-code="fi">Finland | Suomi</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/fr-fr?~ck=cr" title="France" data-country-code="fr">France</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gf/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="French Guiana | Guyane française" data-country-code="gf">French Guiana | Guyane française</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/fo/en/bsd/df.aspx?refid=df&amp;s=bsd&amp;~ck=cr" title="French Overseas Territories | France d'outre-mer" data-country-code="fo">French Overseas Territories | France d'outre-mer</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pf/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="French Polynesia | Polynésie française" data-country-code="pf">French Polynesia | Polynésie française</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ga/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Gabon" data-country-code="ga">Gabon</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Gambia" data-country-code="gm">Gambia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ge/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Georgia" data-country-code="ge">Georgia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/de-de?~ck=cr" title="Germany | Deutschland" data-country-code="de">Germany | Deutschland</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gh/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ghana" data-country-code="gh">Ghana</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gr/el/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Greece | Ελλάδα" data-country-code="gr">Greece | Ελλάδα</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gd/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Grenada" data-country-code="gd">Grenada</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gp/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guadeloupe" data-country-code="gp">Guadeloupe</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gu/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guam" data-country-code="gu">Guam</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gt/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guatemala" data-country-code="gt">Guatemala</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guinea | Guinée" data-country-code="gn">Guinea | Guinée</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/gy/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guyana" data-country-code="gy">Guyana</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ht/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Haiti | Haïti" data-country-code="ht">Haiti | Haïti</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/hn/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Honduras" data-country-code="hn">Honduras</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/zh-hk?~ck=cr" title="Hong Kong | 香港" data-country-code="hk">Hong Kong | 香港</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/hu/hu/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Hungary | Magyarország" data-country-code="hu">Hungary | Magyarország</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/is/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Iceland" data-country-code="is">Iceland</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-in?~ck=cr" title="India" data-country-code="in">India</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/id/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Indonesia" data-country-code="id">Indonesia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/iq/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Iraq" data-country-code="iq">Iraq</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-ie?~ck=cr" title="Ireland" data-country-code="ie">Ireland</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/il/he/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Israel | ישראל" data-country-code="il">Israel | ישראל</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/it-it?~ck=cr" title="Italy | Italia" data-country-code="it">Italy | Italia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ci/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ivory Coast | Cote D'Ivoire" data-country-code="ci">Ivory Coast | Cote D'Ivoire</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/jm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Jamaica" data-country-code="jm">Jamaica</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ja-jp?~ck=cr" title="Japan | 日本" data-country-code="jp">Japan | 日本</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/jo/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Jordan" data-country-code="jo">Jordan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/kz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kazakhstan" data-country-code="kz">Kazakhstan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ke/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kenya" data-country-code="ke">Kenya</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ki/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kiribati" data-country-code="ki">Kiribati</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ko-kr?~ck=cr" title="Korea | 대한민국" data-country-code="kr">Korea | 대한민국</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/kw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kuwait" data-country-code="kw">Kuwait</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/kg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kyrgyzstan" data-country-code="kg">Kyrgyzstan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/lo/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Laos" data-country-code="lo">Laos</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/la/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Latin America &amp; Caribbean | América Latina y Caribe" data-country-code="la">Latin America &amp; Caribbean | América Latina y Caribe</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/lv/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Latvia" data-country-code="lv">Latvia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/lb/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Lebanon" data-country-code="lb">Lebanon</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ls/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Lesotho" data-country-code="ls">Lesotho</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/lr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Liberia" data-country-code="lr">Liberia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ly/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Libya" data-country-code="ly">Libya</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/lt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Lithuania" data-country-code="lt">Lithuania</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/lu/fr/grandes-entreprises/df.aspx?refid=df&amp;s=pad&amp;~ck=cr" title="Luxembourg" data-country-code="lu">Luxembourg</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mk/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Macedonia" data-country-code="mk">Macedonia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Madagascar" data-country-code="mg">Madagascar</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Malawi" data-country-code="mw">Malawi</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-my?~ck=cr" title="Malaysia" data-country-code="my">Malaysia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mv/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Maldives" data-country-code="mv">Maldives</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ml/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mali" data-country-code="ml">Mali</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Malta" data-country-code="mt">Malta</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mq/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Martinique" data-country-code="mq">Martinique</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mauritania | Mauritanie" data-country-code="mr">Mauritania | Mauritanie</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mu/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mauritius | Maurice" data-country-code="mu">Mauritius | Maurice</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/yt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mayotte" data-country-code="yt">Mayotte</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mx/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mexico | México" data-country-code="mx">Mexico | México</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ae/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Middle East" data-country-code="ae">Middle East</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/md/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Moldova" data-country-code="md">Moldova</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mongolia" data-country-code="mn">Mongolia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/cs/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Montenegro" data-country-code="cs">Montenegro</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ms/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Montserrat" data-country-code="ms">Montserrat</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ma/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Morocco | Maroc" data-country-code="ma">Morocco | Maroc</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mozambique | Moçambique" data-country-code="mz">Mozambique | Moçambique</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Myanmar" data-country-code="mm">Myanmar</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/na/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Namibia" data-country-code="na">Namibia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/nr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Nauru" data-country-code="nr">Nauru</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/np/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Nepal" data-country-code="np">Nepal</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/nl-nl?~ck=cr" title="Netherlands | Nederland" data-country-code="nl">Netherlands | Nederland</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/an/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Netherlands Antilles/Curaçao" data-country-code="an">Netherlands Antilles/Curaçao</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/nc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="New Caledonia | Nouvelle-Calédonie" data-country-code="nc">New Caledonia | Nouvelle-Calédonie</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-nz?~ck=cr" title="New Zealand" data-country-code="nz">New Zealand</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ni/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Nicaragua" data-country-code="ni">Nicaragua</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ne/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Niger" data-country-code="ne">Niger</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ng/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Nigeria" data-country-code="ng">Nigeria</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/mp/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Northern Marianas Islands" data-country-code="mp">Northern Marianas Islands</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/no-no?~ck=cr" title="Norway | Norge" data-country-code="no">Norway | Norge</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/om/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Oman" data-country-code="om">Oman</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pk/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Pakistan" data-country-code="pk">Pakistan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Palau" data-country-code="pw">Palau</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pa/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Panama | Panamá" data-country-code="pa">Panama | Panamá</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Papua New Guinea" data-country-code="pg">Papua New Guinea</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/py/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Paraguay" data-country-code="py">Paraguay</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pe/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Peru | Perú" data-country-code="pe">Peru | Perú</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ph/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Philippines" data-country-code="ph">Philippines</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pl-pl?~ck=cr" title="Poland | Polska" data-country-code="pl">Poland | Polska</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pt/pt/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Portugal" data-country-code="pt">Portugal</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/pr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Puerto Rico" data-country-code="pr">Puerto Rico</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/qa/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Qatar" data-country-code="qa">Qatar</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/re/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Reunion | Réunion" data-country-code="re">Reunion | Réunion</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ro/ro/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Romania | România" data-country-code="ro">Romania | România</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ru/ru/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Russia | Россия" data-country-code="ru">Russia | Россия</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/rw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Rwanda" data-country-code="rw">Rwanda</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ws/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Samoa" data-country-code="ws">Samoa</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sa/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Saudi Arabia" data-country-code="sa">Saudi Arabia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sn/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Senegal | Sénégal" data-country-code="sn">Senegal | Sénégal</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/yu/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Serbia" data-country-code="yu">Serbia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Seychelles" data-country-code="sc">Seychelles</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sl/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Sierra Leone" data-country-code="sl">Sierra Leone</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-sg?~ck=cr" title="Singapore" data-country-code="sg">Singapore</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sk/sk/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Slovakia" data-country-code="sk">Slovakia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/si/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Slovenia" data-country-code="si">Slovenia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sb/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Solomon Islands" data-country-code="sb">Solomon Islands</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/so/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Somalia" data-country-code="so">Somalia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/za/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="South Africa" data-country-code="za">South Africa</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/es-es?~ck=cr" title="Spain | España" data-country-code="es">Spain | España</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/lk/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Sri Lanka" data-country-code="lk">Sri Lanka</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/kn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="St. Kitts &amp; Nevis" data-country-code="kn">St. Kitts &amp; Nevis</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/lc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="St. Lucia" data-country-code="lc">St. Lucia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/vc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="St. Vincent &amp; Grenadines" data-country-code="vc">St. Vincent &amp; Grenadines</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Suriname" data-country-code="sr">Suriname</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Swaziland" data-country-code="sz">Swaziland</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/sv-se?~ck=cr" title="Sweden | Sverige" data-country-code="se">Sweden | Sverige</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/de-ch?~ck=cr" title="Switzerland | Schweiz | Suisse" data-country-code="ch">Switzerland | Schweiz | Suisse</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tw/zh/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Taiwan | 台灣" data-country-code="tw">Taiwan | 台灣</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tj/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tajikistan" data-country-code="tj">Tajikistan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tanzania" data-country-code="tz">Tanzania</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/th/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Thailand" data-country-code="th">Thailand</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Togo" data-country-code="tg">Togo</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/to/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tonga" data-country-code="to">Tonga</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Trinidad &amp; Tobago" data-country-code="tt">Trinidad &amp; Tobago</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tn/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tunisia | Tunisie" data-country-code="tn">Tunisia | Tunisie</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tr/tr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Turkey | Türkiye" data-country-code="tr">Turkey | Türkiye</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Turkmenistan" data-country-code="tm">Turkmenistan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Turks &amp; Caicos Islands" data-country-code="tc">Turks &amp; Caicos Islands</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/tv/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tuvalu" data-country-code="tv">Tuvalu</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ug/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Uganda" data-country-code="ug">Uganda</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ua/ru/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ukraine" data-country-code="ua">Ukraine</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/me/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="United Arab Emirates" data-country-code="me">United Arab Emirates</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-uk?~ck=cr" title="United Kingdom" data-country-code="uk">United Kingdom</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/en-us?~ck=cr" title="United States" data-country-code="us">United States</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/uy/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Uruguay" data-country-code="uy">Uruguay</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/vi/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="US Virgin Islands" data-country-code="vi">US Virgin Islands</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/uz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Uzbekistan" data-country-code="uz">Uzbekistan</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/vu/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Vanuatu" data-country-code="vu">Vanuatu</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ve/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Venezuela" data-country-code="ve">Venezuela</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/vn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Vietnam" data-country-code="vn">Vietnam</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/ye/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Yemen" data-country-code="ye">Yemen</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/zm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Zambia" data-country-code="zm">Zambia</a></li>
-            <li tabindex="-1"><a class="dds__msthd-dropdown-item" href="//www.dell.com/zw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Zimbabwe" data-country-code="zw">Zimbabwe</a></li>
+          <ul id="msthd-country-ctnr" class="dds__msthd-ctnr dds__country-list dds__button-dropdown-container dds__collapse" role="menu">
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/af/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Afghanistan" data-country-code="af">Afghanistan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/aa/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Africa | Afrique" data-country-code="aa">Africa | Afrique</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/al/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Albania" data-country-code="al">Albania</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/dz/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Algeria | Algérie" data-country-code="dz">Algeria | Algérie</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ao/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Angola" data-country-code="ao">Angola</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ai/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Anguilla" data-country-code="ai">Anguilla</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ag/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Antigua &amp; Barbuda" data-country-code="ag">Antigua &amp; Barbuda</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ar/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Argentina" data-country-code="ar">Argentina</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/am/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Armenia" data-country-code="am">Armenia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/aw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Aruba" data-country-code="aw">Aruba</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ap/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Asia Pacific" data-country-code="ap">Asia Pacific</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-au?~ck=cr" title="Australia" data-country-code="au">Australia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/de-at?~ck=cr" title="Austria | Österreich" data-country-code="at">Austria | Österreich</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/az/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Azerbaijan | Азербайджан" data-country-code="az">Azerbaijan | Азербайджан</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bs/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bahamas" data-country-code="bs">Bahamas</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bh/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bahrain" data-country-code="bh">Bahrain</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bd/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bangladesh" data-country-code="bd">Bangladesh</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bb/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Barbados" data-country-code="bb">Barbados</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/by/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Belarus" data-country-code="by">Belarus</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/nl-be?~ck=cr" title="Belgium | België | Belgique" data-country-code="be">Belgium | België | Belgique</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Belize | Belice" data-country-code="bz">Belize | Belice</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bj/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Benin" data-country-code="bj">Benin</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bermuda" data-country-code="bm">Bermuda</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bhutan" data-country-code="bt">Bhutan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bo/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bolivia" data-country-code="bo">Bolivia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ba/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bosnia-Herzegovina" data-country-code="ba">Bosnia-Herzegovina</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Botswana" data-country-code="bw">Botswana</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pt-br?~ck=cr" title="Brazil | Brasil" data-country-code="br">Brazil | Brasil</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/vg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="British Virgin Islands" data-country-code="vg">British Virgin Islands</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Brunei" data-country-code="bn">Brunei</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Bulgaria" data-country-code="bg">Bulgaria</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bf/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Burkina Faso" data-country-code="bf">Burkina Faso</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/bi/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Burundi" data-country-code="bi">Burundi</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/kh/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cambodia" data-country-code="kh">Cambodia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cameroon | Cameroun" data-country-code="cm">Cameroon | Cameroun</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-ca?~ck=cr" title="Canada" data-country-code="ca">Canada</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cv/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cape Verde | Cabo Verde" data-country-code="cv">Cape Verde | Cabo Verde</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ky/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cayman Islands" data-country-code="ky">Cayman Islands</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cf/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Central African Republic | République centrafricaine" data-country-code="cf">Central African Republic | République centrafricaine</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/td/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Chad | Tchad" data-country-code="td">Chad | Tchad</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cl/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Chile" data-country-code="cl">Chile</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/zh-cn?~ck=cr" title="China | 中国大陆地区" data-country-code="cn">China | 中国大陆地区</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cx/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Christmas Island" data-country-code="cx">Christmas Island</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/rs/ru/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="CIS" data-country-code="rs">CIS</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/co/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Colombia" data-country-code="co">Colombia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/km/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Comoros" data-country-code="km">Comoros</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cg/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Congo" data-country-code="cg">Congo</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ck/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cook Islands" data-country-code="ck">Cook Islands</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cr/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Costa Rica" data-country-code="cr">Costa Rica</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/hr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Croatia" data-country-code="hr">Croatia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cy/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Cyprus" data-country-code="cy">Cyprus</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cz/cs/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Czech Republic | Česká republika" data-country-code="cz">Czech Republic | Česká republika</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cd/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Democratic Republic of the Congo | République démocratique du Congo" data-country-code="cd">Democratic Republic of the Congo | République démocratique du Congo</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/da-dk?~ck=cr" title="Denmark | Danmark" data-country-code="dk">Denmark | Danmark</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/dj/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Djibouti" data-country-code="dj">Djibouti</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/dm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Dominica" data-country-code="dm">Dominica</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/do/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Dominican Republic | República Dominicana" data-country-code="do">Dominican Republic | República Dominicana</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tl/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="East Timor" data-country-code="tl">East Timor</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ec/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ecuador" data-country-code="ec">Ecuador</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/eg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Egypt" data-country-code="eg">Egypt</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sv/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="El Salvador" data-country-code="sv">El Salvador</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ed/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Emerging Countries – EMEA" data-country-code="ed">Emerging Countries – EMEA</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gq/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Equatorial Guinea | Guinea Ecuatorial" data-country-code="gq">Equatorial Guinea | Guinea Ecuatorial</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ee/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Estonia" data-country-code="ee">Estonia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Eswatini" data-country-code="sz">Eswatini</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/et/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ethiopia" data-country-code="et">Ethiopia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/fj/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Fiji" data-country-code="fj">Fiji</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/fi/fi/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Finland | Suomi" data-country-code="fi">Finland | Suomi</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/fr-fr?~ck=cr" title="France" data-country-code="fr">France</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gf/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="French Guiana | Guyane française" data-country-code="gf">French Guiana | Guyane française</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/fo/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="French Overseas Territories | France d'outre-mer" data-country-code="fo">French Overseas Territories | France d'outre-mer</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pf/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="French Polynesia | Polynésie française" data-country-code="pf">French Polynesia | Polynésie française</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ga/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Gabon" data-country-code="ga">Gabon</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Gambia" data-country-code="gm">Gambia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ge/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Georgia" data-country-code="ge">Georgia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/de-de?~ck=cr" title="Germany | Deutschland" data-country-code="de">Germany | Deutschland</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gh/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ghana" data-country-code="gh">Ghana</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gr/el/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Greece | Ελλάδα" data-country-code="gr">Greece | Ελλάδα</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gd/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Grenada" data-country-code="gd">Grenada</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gp/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guadeloupe" data-country-code="gp">Guadeloupe</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gu/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guam" data-country-code="gu">Guam</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gt/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guatemala" data-country-code="gt">Guatemala</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guinea | Guinée" data-country-code="gn">Guinea | Guinée</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/gy/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Guyana" data-country-code="gy">Guyana</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ht/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Haiti | Haïti" data-country-code="ht">Haiti | Haïti</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/hn/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Honduras" data-country-code="hn">Honduras</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/zh-hk?~ck=cr" title="Hong Kong | 香港" data-country-code="hk">Hong Kong | 香港</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/hu/hu/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Hungary | Magyarország" data-country-code="hu">Hungary | Magyarország</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/is/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Iceland" data-country-code="is">Iceland</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-in?~ck=cr" title="India" data-country-code="in">India</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/id/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Indonesia" data-country-code="id">Indonesia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/iq/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Iraq" data-country-code="iq">Iraq</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-ie?~ck=cr" title="Ireland" data-country-code="ie">Ireland</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/il/he/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Israel | ישראל" data-country-code="il">Israel | ישראל</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/it-it?~ck=cr" title="Italy | Italia" data-country-code="it">Italy | Italia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ci/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ivory Coast | Cote D'Ivoire" data-country-code="ci">Ivory Coast | Cote D'Ivoire</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/jm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Jamaica" data-country-code="jm">Jamaica</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ja-jp?~ck=cr" title="Japan | 日本" data-country-code="jp">Japan | 日本</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/jo/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Jordan" data-country-code="jo">Jordan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/kz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kazakhstan" data-country-code="kz">Kazakhstan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ke/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kenya" data-country-code="ke">Kenya</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ki/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kiribati" data-country-code="ki">Kiribati</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ko-kr?~ck=cr" title="Korea | 대한민국" data-country-code="kr">Korea | 대한민국</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/kw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kuwait" data-country-code="kw">Kuwait</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/kg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Kyrgyzstan" data-country-code="kg">Kyrgyzstan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/lo/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Laos" data-country-code="lo">Laos</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/la/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Latin America &amp; Caribbean | América Latina y Caribe" data-country-code="la">Latin America &amp; Caribbean | América Latina y Caribe</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/lv/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Latvia" data-country-code="lv">Latvia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/lb/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Lebanon" data-country-code="lb">Lebanon</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ls/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Lesotho" data-country-code="ls">Lesotho</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/lr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Liberia" data-country-code="lr">Liberia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ly/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Libya" data-country-code="ly">Libya</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/lt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Lithuania" data-country-code="lt">Lithuania</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/lu/fr/grandes-entreprises/df.aspx?refid=df&amp;s=pad&amp;~ck=cr" title="Luxembourg" data-country-code="lu">Luxembourg</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mk/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Macedonia" data-country-code="mk">Macedonia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Madagascar" data-country-code="mg">Madagascar</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Malawi" data-country-code="mw">Malawi</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-my?~ck=cr" title="Malaysia" data-country-code="my">Malaysia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mv/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Maldives" data-country-code="mv">Maldives</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ml/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mali" data-country-code="ml">Mali</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Malta" data-country-code="mt">Malta</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mq/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Martinique" data-country-code="mq">Martinique</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mauritania | Mauritanie" data-country-code="mr">Mauritania | Mauritanie</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mu/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mauritius | Maurice" data-country-code="mu">Mauritius | Maurice</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/yt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mayotte" data-country-code="yt">Mayotte</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mx/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mexico | México" data-country-code="mx">Mexico | México</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ae/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Middle East" data-country-code="ae">Middle East</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/md/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Moldova" data-country-code="md">Moldova</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mongolia" data-country-code="mn">Mongolia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/cs/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Montenegro" data-country-code="cs">Montenegro</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ms/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Montserrat" data-country-code="ms">Montserrat</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ma/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Morocco | Maroc" data-country-code="ma">Morocco | Maroc</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Mozambique | Moçambique" data-country-code="mz">Mozambique | Moçambique</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Myanmar" data-country-code="mm">Myanmar</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/na/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Namibia" data-country-code="na">Namibia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/nr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Nauru" data-country-code="nr">Nauru</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/np/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Nepal" data-country-code="np">Nepal</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/nl-nl?~ck=cr" title="Netherlands | Nederland" data-country-code="nl">Netherlands | Nederland</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/an/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Netherlands Antilles/Curaçao" data-country-code="an">Netherlands Antilles/Curaçao</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/nc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="New Caledonia | Nouvelle-Calédonie" data-country-code="nc">New Caledonia | Nouvelle-Calédonie</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-nz?~ck=cr" title="New Zealand" data-country-code="nz">New Zealand</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ni/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Nicaragua" data-country-code="ni">Nicaragua</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ne/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Niger" data-country-code="ne">Niger</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ng/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Nigeria" data-country-code="ng">Nigeria</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/mp/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Northern Mariana Islands" data-country-code="mp">Northern Mariana Islands</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/no-no?~ck=cr" title="Norway | Norge" data-country-code="no">Norway | Norge</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/om/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Oman" data-country-code="om">Oman</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pk/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Pakistan" data-country-code="pk">Pakistan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Palau" data-country-code="pw">Palau</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pa/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Panama | Panamá" data-country-code="pa">Panama | Panamá</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Papua New Guinea" data-country-code="pg">Papua New Guinea</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/py/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Paraguay" data-country-code="py">Paraguay</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pe/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Peru | Perú" data-country-code="pe">Peru | Perú</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ph/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Philippines" data-country-code="ph">Philippines</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pl-pl?~ck=cr" title="Poland | Polska" data-country-code="pl">Poland | Polska</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pt/pt/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Portugal" data-country-code="pt">Portugal</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/pr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Puerto Rico" data-country-code="pr">Puerto Rico</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/qa/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Qatar" data-country-code="qa">Qatar</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/re/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Reunion | Réunion" data-country-code="re">Reunion | Réunion</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ro/ro/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Romania | România" data-country-code="ro">Romania | România</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ru/ru/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Russia | Россия" data-country-code="ru">Russia | Россия</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/rw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Rwanda" data-country-code="rw">Rwanda</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ws/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Samoa" data-country-code="ws">Samoa</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sa/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Saudi Arabia" data-country-code="sa">Saudi Arabia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sn/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Senegal | Sénégal" data-country-code="sn">Senegal | Sénégal</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/yu/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Serbia" data-country-code="yu">Serbia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Seychelles" data-country-code="sc">Seychelles</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sl/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Sierra Leone" data-country-code="sl">Sierra Leone</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-sg?~ck=cr" title="Singapore" data-country-code="sg">Singapore</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sk/sk/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Slovakia" data-country-code="sk">Slovakia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/si/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Slovenia" data-country-code="si">Slovenia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sb/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Solomon Islands" data-country-code="sb">Solomon Islands</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/so/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Somalia" data-country-code="so">Somalia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/za/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="South Africa" data-country-code="za">South Africa</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/es-es?~ck=cr" title="Spain | España" data-country-code="es">Spain | España</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/lk/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Sri Lanka" data-country-code="lk">Sri Lanka</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/kn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="St. Kitts &amp; Nevis" data-country-code="kn">St. Kitts &amp; Nevis</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/lc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="St. Lucia" data-country-code="lc">St. Lucia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/vc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="St. Vincent &amp; Grenadines" data-country-code="vc">St. Vincent &amp; Grenadines</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sr/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Suriname" data-country-code="sr">Suriname</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/sv-se?~ck=cr" title="Sweden | Sverige" data-country-code="se">Sweden | Sverige</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/de-ch?~ck=cr" title="Switzerland | Schweiz | Suisse" data-country-code="ch">Switzerland | Schweiz | Suisse</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/zh-tw?~ck=cr" title="Taiwan | 台灣" data-country-code="tw">Taiwan | 台灣</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tj/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tajikistan" data-country-code="tj">Tajikistan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tanzania" data-country-code="tz">Tanzania</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/th/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Thailand" data-country-code="th">Thailand</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tg/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Togo" data-country-code="tg">Togo</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/to/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tonga" data-country-code="to">Tonga</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tt/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Trinidad &amp; Tobago" data-country-code="tt">Trinidad &amp; Tobago</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tn/fr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tunisia | Tunisie" data-country-code="tn">Tunisia | Tunisie</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tr/tr/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Turkey | Türkiye" data-country-code="tr">Turkey | Türkiye</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Turkmenistan" data-country-code="tm">Turkmenistan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tc/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Turks &amp; Caicos Islands" data-country-code="tc">Turks &amp; Caicos Islands</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/tv/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Tuvalu" data-country-code="tv">Tuvalu</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ug/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Uganda" data-country-code="ug">Uganda</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ua/ru/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Ukraine" data-country-code="ua">Ukraine</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/me/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="United Arab Emirates" data-country-code="me">United Arab Emirates</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-uk?~ck=cr" title="United Kingdom" data-country-code="uk">United Kingdom</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/en-us?~ck=cr" title="United States" data-country-code="us">United States</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/uy/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Uruguay" data-country-code="uy">Uruguay</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/vi/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="US Virgin Islands" data-country-code="vi">US Virgin Islands</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/uz/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Uzbekistan" data-country-code="uz">Uzbekistan</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/vu/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Vanuatu" data-country-code="vu">Vanuatu</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ve/es/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Venezuela" data-country-code="ve">Venezuela</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/vn/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Vietnam" data-country-code="vn">Vietnam</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/ye/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Yemen" data-country-code="ye">Yemen</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/zm/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Zambia" data-country-code="zm">Zambia</a></li>
+            <li tabindex="-1"><a tabindex="-1" class="dds__dropdown-item dds__text-truncate" href="//www.dell.com/zw/en/gen/df.aspx?refid=df&amp;s=gen&amp;~ck=cr" title="Zimbabwe" data-country-code="zw">Zimbabwe</a></li>
           </ul>
         </div>
       </div>
@@ -943,17 +944,25 @@
   </nav>
   <div id="dds__msthd-overlay" class="dds__msthd-overlay"></div>
 </div>
-
-
-<div class="footnote">Note: Country Selector does not work properly in this sandbox.</div>
 	
+    <main class="dds__container dds__pt-5">
+        <div class="footnote">Note: Off-Canvas menu does not work properly in this sandbox, due to limitations of Codesandbox.io</div>
+    </main>
+
 
 <script>
-  UIC.loadURLSVGs(["//uicore.dellcdn.com/0.2.10/svgs/dds__chevron-right.svg","//uicore.dellcdn.com/0.2.10/svgs/dds__search.svg","//uicore.dellcdn.com/0.2.10/svgs/dds__user.svg","//uicore.dellcdn.com/0.2.10/svgs/dds__cart.svg","//uicore.dellcdn.com/0.2.10/svgs/dds__menu-closed.svg","//uicore.dellcdn.com/0.2.10/svgs/dds__arrow-tri-solid-right.svg"]);
+    UIC.loadURLSVGs([
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__chevron-right.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__search.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__user.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__cart.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__menu-closed.svg",
+    "https://uicore.dellcdn.com/1.2.0/svgs/dds__arrow-tri-solid-right.svg"
+    ], false); // boolean is for lazy loading
 
   // Initialize component (if framework lifecycle requires it)
   [].forEach.call(document.querySelectorAll("[data-toggle='dds__msthd']"), function(element) {
-    console.log(element.parentNode.querySelector(".dds__button-dropdown-container"));
     window.Masthead = new UIC.Masthead(element); 
   });
+
 </script>
