@@ -1,0 +1,61 @@
+<!-- BEGIN component -->
+<nav class="dds__progress" aria-label="Progress Tracker">
+    <ol>
+        <li>
+            <a href="https://www.dell.com" class="dds__d-flex dds__flex-column">
+                <div class="dds__progress-bar dds__bar-complete" aria-hidden="true">
+                    <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                </div>
+                <div class="dds__btn-link dds__font-weight-bold">Step 1</div>
+            </a>
+        </li>
+        <li>
+            <a class="dds__d-flex dds__flex-column">
+                <div class="dds__progress-bar dds__bar-disabled" aria-hidden="true">
+                    <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                </div>
+                <div class="dds__progress-bar-text dds__font-weight-bold">Step 2</div>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.dell.com" class="dds__d-flex dds__flex-column">
+                <div class="dds__progress-bar dds__bar-complete" aria-hidden="true">
+                    <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                </div>
+                <div class="dds__btn-link dds__font-weight-bold">Step 3</div>
+            </a>
+        </li>
+        <li aria-current="step">
+            <a class="dds__d-flex dds__flex-column dds__disabled">
+                <div class="dds__progress-bar dds__bar-in-progress" aria-hidden="true">
+                    <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                </div>
+                <div class="dds__btn-link dds__font-weight-bold">Step 4</div>
+            </a>
+        </li>
+        <li>
+            <a class="dds__d-flex dds__flex-column dds__disabled">
+                <div class="dds__progress-bar dds__bar-not-started" aria-hidden="true">
+                    <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                </div>
+                <div class="dds__btn-link">Step 5</div>
+            </a>
+        </li>
+        <li>
+            <a class="dds__d-flex dds__flex-column dds__disabled">
+                <div class="dds__progress-bar dds__bar-not-started" aria-hidden="true">
+                    <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                </div>
+                <div class="dds__btn-link">Step 6</div>
+            </a>
+        </li>
+    </ol>
+</nav>
+<!-- END component -->
+
+<script>
+    UIC.loadURLSVGs([
+        "//uicore.dellcdn.com/1.3.1/svgs/dds__check.svg",
+        "//uicore.dellcdn.com/1.3.1/svgs/dds__arrow-tri-solid-right.svg"
+    ], false);
+</script>

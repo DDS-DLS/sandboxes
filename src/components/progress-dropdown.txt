@@ -1,0 +1,88 @@
+<!-- BEGIN component -->
+<div class="dds__mb-0 dds__btn-dropdown dds__dropdown-progress" tabindex="-1">
+    <button class="dds__btn dds__btn-secondary dds__text-truncate" tabindex="0" data-toggle="dds__dropdown"
+    data-target="#dropdownProgressStatus" aria-expanded="false" aria-controls="dropdownProgressStatus">
+        Step 6 of 9: StepName
+        <svg class="dds__arrow-tri-solid-right" focusable="false" aria-hidden="true">
+            <use xlink:href="#dds__arrow-tri-solid-right"></use>
+        </svg>
+    </button>
+    <ul id="dropdownProgressStatus" class="dds__button-dropdown-container dds__collapse" role="menu">
+        <li class="dds__dropdown-list-item" role="none" tabindex="0">
+            <a class="dds__dropdown-item dds__text-truncate" role="menuitem" href="https://www.dell.com/en-us" tabindex="-1" >
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 1 of 9: StepName
+            </a>
+        </li>
+        <li class="dds__dropdown-list-item" role="none" tabindex="-1">
+            <a class="dds__dropdown-item dds__text-truncate dds__disabled" role="menuitem" href="#" tabindex="-1" aria-disabled="true">
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 2 of 9: StepName
+            </a>
+        </li>
+        <li class="dds__dropdown-list-item" role="none" tabindex="0">
+            <a class="dds__dropdown-item dds__text-truncate dds__completed" role="menuitem" href="#" tabindex="-1" aria-disabled="true">
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 3 of 9: StepName
+            </a>
+        </li>
+        <li class="dds__dropdown-list-item" role="none" tabindex="0">
+            <a class="dds__dropdown-item dds__text-truncate" role="menuitem" href="#" tabindex="-1" >
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 4 of 9: StepName
+            </a>
+        </li>
+        <li class="dds__dropdown-list-item" role="none" tabindex="0">
+            <a class="dds__dropdown-item dds__text-truncate" role="menuitem" href="#" tabindex="-1" >
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 5 of 9: StepName
+            </a>
+        </li>
+        <li class="dds__dropdown-list-item" role="none" tabindex="-1">
+            <a class="dds__dropdown-item dds__text-truncate dds__current" role="menuitem" href="#" tabindex="-1" >
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 6 of 9: StepName
+            </a>
+        </li>
+        <li class="dds__dropdown-list-item" role="none" tabindex="-1">
+            <a class="dds__dropdown-item dds__text-truncate dds__disabled" role="menuitem" href="#" tabindex="-1" aria-disabled="true">
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 7 of 9: StepName
+            </a>
+        </li>
+        <li class="dds__dropdown-list-item" role="none" tabindex="-1">
+            <a class="dds__dropdown-item dds__text-truncate dds__disabled" role="menuitem" href="#" tabindex="-1" aria-disabled="true">
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 8 of 9: StepName
+            </a>
+        </li>
+        <li class="dds__dropdown-list-item" role="none" tabindex="-1">
+            <a class="dds__dropdown-item dds__text-truncate dds__disabled" role="menuitem" href="#" tabindex="-1" aria-disabled="true">
+                <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+                Step 9 of 9: StepName
+            </a>
+        </li>
+        <hr class="dds__dropdown-divider" tabindex="-1"></hr>
+        <li class="dds__dropdown-list-item" role="none" tabindex="0">
+            <a class="dds__dropdown-item dds__text-truncate dds__dropdown-progress-no-checkmark" role="menuitem" href="#" tabindex="-1"> Summary </a>
+        </li>
+    </ul>
+</div> 
+<!-- END component -->
+
+<script>
+    UIC.loadURLSVGs([
+        "//uicore.dellcdn.com/1.3.1/svgs/dds__check.svg",
+        "//uicore.dellcdn.com/1.3.1/svgs/dds__arrow-tri-solid-right.svg"
+    ], false);
+
+    // set element, speed of progress bar, and showText
+    // new UIC.Progress(elements, {timeToComplete: 10000, showText: true});
+    [].forEach.call(document.querySelectorAll('[data-toggle="dds__progress"]'), function(element) {
+        new UIC.Progress(element);
+    });
+
+    [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__dropdown\"]"), function(element) {
+        new UIC.Dropdown(element); //, {"persist":true});
+    });
+</script>

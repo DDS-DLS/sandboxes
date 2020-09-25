@@ -1,0 +1,31 @@
+<!-- BEGIN component -->
+<nav class="dds__progress" aria-label="Progress Tracker" >
+    <ol>
+        <li>
+            <div class="dds__d-flex dds__flex-column">
+                <div class="dds__progress-bar dds__bar-disabled" aria-hidden="true"></div>
+                <div class="dds__progress-bar-text dds__font-weight-bold">Step 1</div>
+            </div>
+        </li>
+        <li aria-current="step">
+            <div class="dds__d-flex dds__flex-column">
+                <div class="dds__progress-bar dds__bar-progress-disabled" aria-hidden="true"></div>
+                <div class="dds__progress-bar-text dds__font-weight-bold">Step 2</div>
+            </div>
+        </li>
+        <li>
+            <div class="dds__d-flex dds__flex-column">
+                <div class="dds__progress-bar dds__bar-not-started" aria-hidden="true"></div>
+                <div class="dds__progress-bar-text">Step 3</div>
+            </div>
+        </li>
+    </ol>
+</nav>
+<!-- END component -->
+
+<script>
+    UIC.loadURLSVGs([
+        "//uicore.dellcdn.com/1.3.1/svgs/dds__check.svg",
+        "//uicore.dellcdn.com/1.3.1/svgs/dds__arrow-tri-solid-right.svg"
+    ], false);
+</script>
