@@ -1,1 +1,5 @@
 <div>Please see Modal-Loading</div>
+
+<script>
+    console.log("This page has been moved.");
+</script>
