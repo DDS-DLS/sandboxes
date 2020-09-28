@@ -1,4 +1,4 @@
-<div>Please see Modal-Loading</div>
+<div>Please see <a href="/?doc=modal-loading">Modal-Loading</a></div>
 
 <script>
     console.log("This page has been moved.");
