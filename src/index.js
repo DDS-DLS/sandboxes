@@ -69,6 +69,7 @@ const _getAllFilesFromFolder = function (dir) {
             "spinbox",
             "tab-centered",
             "tab-justified",
+            "tab-lazyload",
             "tab-overflow",
             "table-complex",
             "tooltip"            

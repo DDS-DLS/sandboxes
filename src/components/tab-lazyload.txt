@@ -1,0 +1,68 @@
+
+<!-- BEGIN Tabs component -->
+<div class="dds__tabs-container dds__container-overflow">
+	<ul class="dds__tabs dds__mb-4" role="tablist" aria-label="Example description of tabs">
+		<li role="none"> <button id="tab01" class="dds__tab-link dds__active"   data-toggle="dds__tab" role="tab" aria-controls="content01" aria-selected="true" >Tab 01</button></li>
+		<li role="none"> <button id="tab02" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content02" aria-selected="false">Tab 02</button></li>
+		<li role="none"> <button id="tab03" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content03" aria-selected="false">Tab 03</button></li>
+		<li role="none"> <button id="tab04" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content04" aria-selected="false">Tab 04</button></li>
+		<li role="none"> <button id="tab05" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content05" aria-selected="false">Tab 05</button></li>
+		<li role="none"> <button id="tab06" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content06" aria-selected="false">Tab 06</button></li>
+		<li role="none"> <button id="tab07" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content07" aria-selected="false">Tab 07</button></li>
+		<li role="none"> <button id="tab08" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content08" aria-selected="false">Tab 08</button></li>
+		<li role="none"> <button id="tab09" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content09" aria-selected="false">Tab 09</button></li>
+		<li role="none"> <button id="tab10" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content10" aria-selected="false">Tab 10</button></li>
+		<li role="none"> <button id="tab11" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content11" aria-selected="false">Tab 11</button></li>
+		<li role="none"> <button id="tab12" class="dds__tab-link" tabindex="-1" data-toggle="dds__tab" role="tab" aria-controls="content12" aria-selected="false">Tab 12</button></li>
+	</ul>
+</div>
+<div class="dds__tab-content">
+	<div id="content01" class="dds__tab-pane dds__fade dds__show dds__active" role="tabpanel" tabindex="0" aria-labelledby="tab01"><p>Content 01</p></div>
+	<div id="content02" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab02"><p>Content 02</p></div>
+	<div id="content03" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab03"><p>Content 03</p></div>
+	<div id="content04" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab04"><p>Content 04</p></div>
+	<div id="content05" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab05"><p>Content 05</p></div>
+	<div id="content06" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab06"><p>Content 06</p></div>
+	<div id="content07" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab07"><p>Content 07</p></div>
+	<div id="content08" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab08"><p>Content 08</p></div>
+	<div id="content09" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab09"><p>Content 09</p></div>
+	<div id="content10" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab10"><p>Content 10</p></div>
+	<div id="content11" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab11"><p>Content 11</p></div>
+	<div id="content12" class="dds__tab-pane dds__fade"                       role="tabpanel" tabindex="0" aria-labelledby="tab12"><p>Content 12</p></div>
+</div>
+<!-- END Tabs component -->
+<div id="fakeloading" class="dds__container dds__text-center">
+    Data is "loading"...<span id="countdown"></span>
+</div>
+
+<script>
+  UIC.loadURLSVGs([
+      "//uicore.dellcdn.com/1.3.1/svgs/dds__chevron-left.svg",
+      "//uicore.dellcdn.com/1.3.1/svgs/dds__chevron-right.svg"
+    ], false);
+    
+    var countdown = 3, // for sample purpose only
+        tabs = []; // if you wish to save a reference to the tab component (each tab button is a tab component), push them into an array
+
+    // initialize each tab component
+    [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__tab\"]"), function(element) {
+        tabs.push(new UIC.Tab(element, {lazyload: true}));
+    });
+
+    // sample code showing the usage of tab.lazyLoad(), at a later render time.
+    setTimeout(function() {
+        document.getElementById("fakeloading").style.display = "none";
+        tabs.forEach(function(tab) {
+            tab.lazyLoad();
+        });
+    }, countdown * 1000);
+
+    // for sample purpose only
+    for(var intI = 0; intI < countdown; intI++) {
+        setTimeout(function() {
+            document.getElementById("countdown").innerText = countdown;
+            countdown--;
+        }, intI * 1000);
+    }
+
+</script>
