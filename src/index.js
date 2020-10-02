@@ -1,16 +1,17 @@
 import "./styles.scss";
 
-document.getElementById("app").innerHTML = 
-    '<a id="thisLink" style="display:none; float:right;" href="">Link to this page</a>' +
-    '<select id="fileSelection">' +
-    '    <option value="">Select One</option>' +
-    '</select>' +
-    '<div id="fileDisplayArea"><div>';
+var theBod = document.querySelector('body');
+
+var fileSel = document.createElement('select');
+fileSel.id = 'fileSelection';
+theBod.appendChild(fileSel);
+
+var selOpt = document.createElement('option');
+selOpt.text = 'Select One';
+fileSel.appendChild(selOpt);
 
 const dir = "/src/components";
 const ext = ".txt";
-const thisLink = document.getElementById("thisLink");
-const fileDisplayArea = document.getElementById("fileDisplayArea");
 const fileSelection = document.getElementById("fileSelection");
 const urlParams = new URLSearchParams(window.location.search);
 const doc = urlParams.get('doc');
@@ -115,48 +116,27 @@ function docName(inp) {
     return inp.replace(dir + "/", "").replace(ext, "")
 }
 
-function setLink(page) {
-    thisLink.href = "./?doc=" + page;
-}
-
 function writePage(text) {
     var evalScript = text.substring(text.indexOf('<script>') + 8, text.lastIndexOf('</script>'));
-    fileDisplayArea.innerHTML = text;
+    theBod.innerHTML = '<div id="codesandboxFileDisplay" class="dds__container codesandbox-container">' + text + '</div>';
+    // theBod.innerHTML = text;
     eval(evalScript);
 }
 
-function skipOnExceptions(selection) {
-    // EXCEPTIONS :( These are likely a failure of the import/eval magic
-    if (selection === "nav" || selection.indexOf("nav" + ext) > -1) {
-        window.location = "nav.html";
-        return true;
-    } else if (selection === "nav-left" || selection.indexOf("nav-left" + ext) > -1) {
-        window.location = "nav-left.html";
-        return true;
-    }
-    return false;
-}
-
 if (doc) {
-    if (!skipOnExceptions(doc.toLowerCase())) {        
-        fileSelection.style.display = "none";
-        getFile(dir + "/" + doc + ext, function(text) {
+    fileSelection.style.display = "none";
+    getFile(dir + "/" + doc + ext, function(text) {
+        if (text) {
+            writePage(text);
+        }
+    });
+} else {
+    fileSelection.addEventListener("change", e => {
+        const selectedValue = fileSelection.value.toLowerCase();
+        getFile(selectedValue, function(text) {
             if (text) {
                 writePage(text);
             }
         });
-    }
-} else {
-    fileSelection.addEventListener("change", e => {
-        const selectedValue = fileSelection.value.toLowerCase();
-        if(!skipOnExceptions(selectedValue)) {
-            setLink(docName(selectedValue));
-            thisLink.style.display = "block";
-            getFile(selectedValue, function(text) {
-                if (text) {
-                    writePage(text);
-                }
-            });
-        }
     });
 }

@@ -1,3 +1,6 @@
+<div id="dds__full-screen-overlay" class="dds__overlay"></div>
+<!-- .dds__overlay div is required once per application -->
+
 <!-- BEGIN component -->
 <div id="exampleModalLoading" class="dds__modal dds__loading-modal" tabindex="-1" role="dialog">
     <div class="dds__modal-dialog" role="document">

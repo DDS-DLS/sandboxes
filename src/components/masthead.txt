@@ -1,3 +1,6 @@
+<div id="dds__full-screen-overlay" class="dds__overlay"></div>
+<!-- .dds__overlay div is required once per application -->
+
 <div class="dds__msthd" data-toggle="dds__msthd">
   <nav class="dds__navbar dds__msthd-navbar-top">
     <div class="dds__msthd-top dds__container dds__no-gutters">
@@ -944,11 +947,6 @@
   </nav>
   <div id="dds__msthd-overlay" class="dds__msthd-overlay"></div>
 </div>
-	
-    <main class="dds__container dds__pt-5">
-        <div class="footnote">Note: Off-Canvas menu does not work properly in this sandbox, due to limitations of Codesandbox.io</div>
-    </main>
-
 
 <script>
     UIC.loadURLSVGs([

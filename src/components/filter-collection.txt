@@ -1,3 +1,6 @@
+<div id="dds__full-screen-overlay" class="dds__overlay"></div>
+<!-- .dds__overlay div is required once per application -->
+
 <div data-toggle="dds__filter-collection" data-target="#horizontalcollection" class="dds__filter-collection-wrapper">
     <div class="dds__filter-input-container">
         <div class="dds__btn-dropdown dds__multi-select dds__col-md-4 dds__col-lg-3" tabindex="-1">
