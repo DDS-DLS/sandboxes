@@ -1,4 +1,4 @@
-<button class="dds__btn dds__btn-secondary" data-toggle="dds__popover" data-placement="bottom" aria-haspopup="dialog" tabindex="0">
+<button style="margin:5rem;" class="dds__btn dds__btn-secondary" data-toggle="dds__popover" data-placement="bottom" aria-haspopup="dialog" tabindex="0">
   Popover on bottom
 </button>
 
