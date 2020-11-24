@@ -1,194 +1,188 @@
 
 <h1>Forms</h1>
 
-<h2 class="csTitle">Text</h2>
-<div class="dds__form-group">
-  <label for="name-3">Input field</label>
-  <input type="text" class="dds__form-control" placeholder="Sample Placeholder Text (e.g. 99-1234-5678)" maxlength="256"
-    name="name-3" id="name-3">
-</div>
+<form data-toggle="dds__form-validation">
+    <h2 class="csTitle">Text</h2>
+    <div class="dds__form-group">
+        <label for="name-3">Input field</label>
+        <input type="text" class="dds__form-control" placeholder="Sample Placeholder Text (e.g. 99-1234-5678)" maxlength="256" name="name-3" id="name-3">
+    </div>
 
-<h2 class="csTitle">Text Read-only</h2>
-<label for="readonlyTextInput">Read-only name label</label>
-<input type="text" id="readonlyTextInput" class="dds__form-control" value="Read-only text here" readonly>
+    <h2 class="csTitle">Text Read-only</h2>
+    <label for="readonlyTextInput">Read-only name label</label>
+    <input type="text" id="readonlyTextInput" class="dds__form-control" value="Read-only text here" readonly>
 
-<h2 class="csTitle">Text Disabled</h2>
-<label for="disabledTextInput">Disabled name label</label>
-<input type="text" id="disabledTextInput" class="dds__form-control" disabled>
+    <h2 class="csTitle">Text Disabled</h2>
+    <label for="disabledTextInput">Disabled name label</label>
+    <input type="text" id="disabledTextInput" class="dds__form-control" disabled>
 
-<h2 class="csTitle">Text Area</h2>
-<label for="exampleFormControlTextarea1">Message label</label>
-<textarea class="dds__form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <h2 class="csTitle">Text Area</h2>
+    <label for="exampleFormControlTextarea1">Message label</label>
+    <textarea class="dds__form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 
-<h2 class="csTitle">Phone</h2>
-<div class="dds__form-group">
-  <label for="phoneInput">Phone</label>
-  <input id="phoneInput" type="text" placeholder="(___) ___-____" set-cursor="1"
-        pattern="\([1-9]{1}[0-9]{2}\) [0-9]{3}-[0-9]{4}" class="dds__form-control dds__input-masked"
-        data-charset="(XXX) XXX-XXXX" required />
-    <sub><i>This field does not conform to its mask because it is not part of a form element.</i></sub>
-</div>
+    <h2 class="csTitle">Phone</h2>
+    <div class="dds__form-group">
+        <label for="phoneInput">Phone</label>
+        <input id="phoneInput" type="text" placeholder="(___) ___-____" set-cursor="1"
+                pattern="\([1-9]{1}[0-9]{2}\) [0-9]{3}-[0-9]{4}" class="dds__form-control dds__input-masked"
+                data-charset="(XXX) XXX-XXXX" required />
+    </div>
 
-<h2 class="csTitle">Password</h2>
-<div class="dds__form-group">
-  <label for="password">Password label</label>
-  <input type="password" class="dds__form-control" maxlength="256" name="password" id="password"
-    aria-describedby="PasswordHelpBlock">
-  <small id="PasswordHelpBlock" class="dds__form-text dds__text-muted">
-    This is sample helper text. Your password must be 8-20 characters long, contain letters and numbers, and must
-    not contain spaces, special characters, or emoji.
-  </small>
-  <div class="dds__form-check">
-    <label class="dds__form-check-label" for="checkboxPassword">
-      <input type="checkbox" id="checkboxPassword" name="checkboxPassword" class="dds__form-check-input">
-      <span>Show Password</span>
-    </label>
-  </div>
-</div>
+    <h2 class="csTitle">Password</h2>
+    <div class="dds__form-group">
+        <label for="password">Password label</label>
+        <input type="password" class="dds__form-control" maxlength="256" name="password" id="password" aria-describedby="PasswordHelpBlock">
+        <small id="PasswordHelpBlock" class="dds__form-text dds__text-muted">
+            This is sample helper text. Your password must be 8-20 characters long, contain letters and numbers, and must
+            not contain spaces, special characters, or emoji.
+        </small>
+        <div class="dds__form-check">
+            <label class="dds__form-check-label" for="checkboxPassword">
+                <input type="checkbox" id="checkboxPassword" name="checkboxPassword" class="dds__form-check-input" data-target="password">
+                <span>Show Password</span>
+            </label>
+        </div>
+    </div>
+</form>
 
 <h2 class="csTitle">Error</h2>
 <form data-toggle="dds__form-validation" novalidate>
-  <div class="dds__form-group">
-    <label for="emailInput-validation">Email label</label>
-    <input type="email" class="dds__form-control" maxlength="256" name="email" id="emailInput-validation" required
-      aria-invalid="false" aria-describedby="">
-    <div class="dds__invalid-feedback" id="emailInput-validationFeedback">
-      Please enter your email.
+    <div class="dds__form-group">
+        <label for="emailInput-validation">Email label</label>
+        <input type="email" class="dds__form-control" maxlength="256" name="email" id="emailInput-validation" required aria-invalid="false" aria-describedby="">
+        <div class="dds__invalid-feedback" id="emailInput-validationFeedback">
+            Please enter your email.
+        </div>
     </div>
-  </div>
-  <div class="dds__form-row">
-    <div class="dds__col-md-4 dds__mb-3">
-      <label for="firstnameInput-validation">First name</label>
-      <input type="text" class="dds__form-control" id="firstnameInput-validation" required aria-invalid="false"
-        aria-describedby="">
-      <div class="dds__invalid-feedback" id="firstnameInput-validationFeedback">
-        Please enter your first name.
-      </div>
+    <div class="dds__form-row">
+        <div class="dds__col-md-4 dds__mb-3">
+            <label for="firstnameInput-validation">First name</label>
+            <input type="text" class="dds__form-control" id="firstnameInput-validation" required aria-invalid="false"
+            aria-describedby="">
+            <div class="dds__invalid-feedback" id="firstnameInput-validationFeedback">
+                Please enter your first name.
+            </div>
+        </div>
+        <div class="dds__col-md-4 dds__mb-3">
+            <label for="lastnameInput-validation">Last name</label>
+            <input type="text" class="dds__form-control" id="lastnameInput-validation" required aria-invalid="false" aria-describedby="">
+            <div class="dds__invalid-feedback" id="lastnameInput-validationFeedback">
+                Please enter your last name.
+            </div>
+        </div>
+        <div class="dds__col-md-4 dds__mb-3">
+            <label for="usernameInput-validation">Username</label>
+            <input type="text" class="dds__form-control" id="usernameInput-validation" required aria-invalid="false" aria-describedby="">
+            <div class="dds__invalid-feedback" id="usernameInput-validationFeedback">
+                Please choose a username.
+            </div>
+        </div>
     </div>
-    <div class="dds__col-md-4 dds__mb-3">
-      <label for="lastnameInput-validation">Last name</label>
-      <input type="text" class="dds__form-control" id="lastnameInput-validation" required aria-invalid="false"
-        aria-describedby="">
-      <div class="dds__invalid-feedback" id="lastnameInput-validationFeedback">
-        Please enter your last name.
-      </div>
+    <div class="dds__form-row">
+        <div class="dds__col-md-6 dds__mb-3">
+            <label for="cityInput-validation">City</label>
+            <input type="text" class="dds__form-control" id="cityInput-validation" required aria-invalid="false" aria-describedby="">
+            <div class="dds__invalid-feedback" id="cityInput-validationFeedback">
+                Please provide a valid city.
+            </div>
+        </div>
+        <div class="dds__col-md-3 dds__mb-3">
+            <label for="stateInput-validation">State</label>
+            <input type="text" placeholder="texas" class="dds__form-control" id="stateInput-validation" required aria-invalid="false" aria-describedby="">
+            <div class="dds__invalid-feedback" id="stateInput-validationFeedback">
+                Please provide a valid state.
+            </div>
+        </div>
+        <div class="dds__col-md-3 dds__mb-3">
+            <label for="zipcodeInput-validation">Zip</label>
+            <input id="zipcodeInput-validation" type="text" placeholder="#####" pattern="[1-9]{1}[0-9]{4}"
+                class="dds__form-control dds__input-masked" data-charset="XXXXX" required pattern="^[0-9]{5}(?:-9]{4})?$"
+                aria-invalid="false" aria-describedby="" />
+            <div class="dds__invalid-feedback" id="zipcodeInput-validationFeedback">
+                Please provide a valid zip.
+            </div>
+        </div>
     </div>
-    <div class="dds__col-md-4 dds__mb-3">
-      <label for="usernameInput-validation">Username</label>
-      <input type="text" class="dds__form-control" id="usernameInput-validation" required aria-invalid="false"
-        aria-describedby="">
-      <div class="dds__invalid-feedback" id="usernameInput-validationFeedback">
-        Please choose a username.
-      </div>
+    <div class="dds__form-row">
+        <div class="dds__col-md-3 dds__mb-3">
+            <label for="phoneInput-validation">Phone</label>
+            <input id="phoneInput-validation" type="text" placeholder="(___) ___-____" set-cursor="1"
+                pattern="\([1-9]{1}[0-9]{2}\) [0-9]{3}-[0-9]{4}" class="dds__form-control dds__input-masked"
+                data-charset="(XXX) XXX-XXXX" required />
+            <div class="dds__invalid-feedback" id="phoneInput-validationFeedback">
+                Please provide a valid phone.
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="dds__form-row">
-    <div class="dds__col-md-6 dds__mb-3">
-      <label for="cityInput-validation">City</label>
-      <input type="text" class="dds__form-control" id="cityInput-validation" required aria-invalid="false"
-        aria-describedby="">
-      <div class="dds__invalid-feedback" id="cityInput-validationFeedback">
-        Please provide a valid city.
-      </div>
-    </div>
-    <div class="dds__col-md-3 dds__mb-3">
-      <label for="stateInput-validation">State</label>
-      <input type="text" placeholder="texas" class="dds__form-control" id="stateInput-validation" required
-        aria-invalid="false" aria-describedby="">
-      <div class="dds__invalid-feedback" id="stateInput-validationFeedback">
-        Please provide a valid state.
-      </div>
-    </div>
-    <div class="dds__col-md-3 dds__mb-3">
-      <label for="zipcodeInput-validation">Zip</label>
-      <input id="zipcodeInput-validation" type="text" placeholder="#####" pattern="[1-9]{1}[0-9]{4}"
-        class="dds__form-control dds__input-masked" data-charset="XXXXX" required pattern="^[0-9]{5}(?:-9]{4})?$"
-        aria-invalid="false" aria-describedby="">
-      <div class="dds__invalid-feedback" id="zipcodeInput-validationFeedback">
-        Please provide a valid zip.
-      </div>
-    </div>
-  </div>
-  <div class="dds__form-row">
-    <div class="dds__col-md-3 dds__mb-3">
-      <label for="phoneInput-validation">Phone</label>
-      <input id="phoneInput-validation" type="text" placeholder="(___) ___-____" set-cursor="1"
-        pattern="\([1-9]{1}[0-9]{2}\) [0-9]{3}-[0-9]{4}" class="dds__form-control dds__input-masked"
-        data-charset="(XXX) XXX-XXXX" required />
-      <div class="dds__invalid-feedback" id="phoneInput-validationFeedback">
-        Please provide a valid phone.
-      </div>
-    </div>
-  </div>
 
-  <button class="dds__btn dds__btn-primary" type="submit">Submit form</button>
+    <button class="dds__btn dds__btn-primary" type="submit">Submit form</button>
 </form>
 
-
-<h2 class="csTitle">Email</h2>
-<div class="dds__form-group">
-  <label for="email">Email label</label>
-  <input type="email" class="dds__form-control" maxlength="256" name="email" id="email">
-</div>
-
-<h2 class="csTitle">Checkbox</h2>
-<div class="dds__form-check">
-  <label class="dds__form-check-label" for="checkboxName">
-    <input type="checkbox" id="checkboxName" name="checkboxName" class="dds__form-check-input">
-    <span>Value 1</span>
-  </label>
-</div>
-<div class="dds__form-check">
-  <label class="dds__form-check-label" for="checkboxDisabledName">
-    <input type="checkbox" id="checkboxDisabledName" name="checkboxDisabledName" class="dds__form-check-input" disabled>
-    <span>Value 2 (disabled)</span>
-  </label>
-</div>
-
-<h2 class="csTitle">Checkbox Inline</h2>
-<div class="dds__form-check dds__form-check-inline">
-  <label class="dds__form-check-label" for="inlineCheckboxName0">
-    <input type="checkbox" id="inlineCheckboxName0" name="inlineCheckboxName0" class="dds__form-check-input">
-    <span>Value 1</span>
-  </label>
-</div>
-<div class="dds__form-check dds__form-check-inline">
-  <label class="dds__form-check-label" for="inlineCheckboxName1">
-    <input type="checkbox" id="inlineCheckboxName1" name="inlineCheckboxName1" class="dds__form-check-input">
-    <span>Value 2</span>
-  </label>
-</div>
-<div class="dds__form-check dds__form-check-inline">
-  <label class="dds__form-check-label" for="inlineCheckboxDisabledName">
-    <input type="checkbox" id="inlineCheckboxDisabledName" name="inlineCheckboxDisabledName"
-      class="dds__form-check-input" disabled>
-    <span>Value 3 (disabled)</span>
-  </label>
-</div>
-
-<h2 class="csTitle">Checkbox Error</h2>
-<div class="dds__form-group">
-  <fieldset>
-    <legend class="dds__mb-1">Select at least one.</legend>
-    <div class="dds__alert-styling">
-      <div class="dds__form-check">
-        <label class="dds__form-check-label" for="checkboxName1">
-          <input type="checkbox" id="checkboxName1" name="checkboxName1" class="dds__form-check-input">
-          <span>Option 1</span>
-        </label>
-      </div>
-      <div class="dds__form-check">
-        <label class="dds__form-check-label" for="checkboxName2">
-          <input type="checkbox" id="checkboxName2" name="checkboxName2" class="dds__form-check-input">
-          <span>Option 2</span>
-        </label>
-      </div>
+<form data-toggle="dds__form-validation">
+    <h2 class="csTitle">Email</h2>
+    <div class="dds__form-group">
+        <label for="email">Email label</label>
+        <input type="email" class="dds__form-control" maxlength="256" name="email" id="email">
     </div>
-    <div class="dds__invalid-feedback">
-      Error message goes here.
+
+    <h2 class="csTitle">Checkbox</h2>
+    <div class="dds__form-check">
+        <label class="dds__form-check-label" for="checkboxName">
+            <input type="checkbox" id="checkboxName" name="checkboxName" class="dds__form-check-input">
+            <span>Value 1</span>
+        </label>
     </div>
-  </fieldset>
-</div>
+    <div class="dds__form-check">
+        <label class="dds__form-check-label" for="checkboxDisabledName">
+            <input type="checkbox" id="checkboxDisabledName" name="checkboxDisabledName" class="dds__form-check-input" disabled>
+            <span>Value 2 (disabled)</span>
+        </label>
+    </div>
+
+    <h2 class="csTitle">Checkbox Inline</h2>
+    <div class="dds__form-check dds__form-check-inline">
+        <label class="dds__form-check-label" for="inlineCheckboxName0">
+            <input type="checkbox" id="inlineCheckboxName0" name="inlineCheckboxName0" class="dds__form-check-input">
+            <span>Value 1</span>
+        </label>
+    </div>
+    <div class="dds__form-check dds__form-check-inline">
+        <label class="dds__form-check-label" for="inlineCheckboxName1">
+            <input type="checkbox" id="inlineCheckboxName1" name="inlineCheckboxName1" class="dds__form-check-input">
+            <span>Value 2</span>
+        </label>
+    </div>
+    <div class="dds__form-check dds__form-check-inline">
+        <label class="dds__form-check-label" for="inlineCheckboxDisabledName">
+            <input type="checkbox" id="inlineCheckboxDisabledName" name="inlineCheckboxDisabledName" class="dds__form-check-input" disabled>
+            <span>Value 3 (disabled)</span>
+        </label>
+    </div>
+
+    <h2 class="csTitle">Checkbox Error</h2>
+    <div class="dds__form-group">
+        <fieldset>
+            <legend class="dds__mb-1">Select at least one.</legend>
+            <div class="dds__alert-styling">
+                <div class="dds__form-check">
+                    <label class="dds__form-check-label" for="checkboxName1">
+                        <input type="checkbox" id="checkboxName1" name="checkboxName1" class="dds__form-check-input">
+                        <span>Option 1</span>
+                    </label>
+                </div>
+                <div class="dds__form-check">
+                    <label class="dds__form-check-label" for="checkboxName2">
+                        <input type="checkbox" id="checkboxName2" name="checkboxName2" class="dds__form-check-input">
+                        <span>Option 2</span>
+                    </label>
+                </div>
+            </div>
+            <div class="dds__invalid-feedback">
+                Error message goes here.
+            </div>
+        </fieldset>
+    </div>
+</form>
 
 <script>
 
