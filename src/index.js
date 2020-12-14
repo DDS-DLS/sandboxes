@@ -54,6 +54,7 @@ const _getAllFilesFromFolder = function (dir) {
             "modal",
             "modal-loading",
             "nav",
+            "nav-anchored-vertical",
             "nav-left",
             "pagination",
             "popover",

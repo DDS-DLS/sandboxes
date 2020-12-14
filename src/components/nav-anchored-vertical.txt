@@ -1,0 +1,52 @@
+<div class="dds__nav-anchored-vertical-container">
+    <nav class="dds__nav-anchored-vertical dds__tabs-container"
+        data-toggle="dds__nav-anchored-vertical"
+        data-target="#exampleResponsiveNav"
+        aria-label="Example description of navigation">
+
+        <ul class="dds__nav-anchored-vertical-list">
+            <li class="dds__nav-anchored-vertical-item" role="none">
+                <button class="dds__nav-anchored-vertical-link dds__active" data-target="#verticalSection1"  aria-controls="section1" aria-selected="true" role="tab">
+                    Section 1
+                </button>
+            </li>
+            <li class="dds__nav-anchored-vertical-item" role="none">
+                <button class="dds__nav-anchored-vertical-link" tabindex="-1" data-target="#verticalSection2" aria-controls="section2" aria-selected="false" role="tab">
+                    Section 2
+                </button>
+            </li>
+            <li class="dds__flex-tab" role="none">
+                <button class="dds__nav-anchored-vertical-link" tabindex="-1" data-target="#verticalSection3" aria-controls="section3" aria-selected="false" role="tab">
+                    Section 3
+                </button>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="dds__nav-anchored-vertical-content">
+        <div id="verticalSection1" class="dds__nav-section" role="tabpanel" aria-labelledby="section1">
+            <h2>Section 1</h2>
+            <p>The quick brown fox jumped over the lazy dog.</p>
+            <p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+        </div>
+        <div id="verticalSection2" class="dds__nav-section" role="tabpanel" aria-labelledby="section2">
+            <h2>Section 2</h2>
+            <p>Several fabulous dixieland jazz groups played with quick tempo.</p>
+            <p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+        </div>
+        <div id="verticalSection3" class="dds__nav-section" role="tabpanel" aria-labelledby="section3">
+            <h2>Section 3</h2>
+            <p>Back in my quaint garden, jaunty zinnias vie with flaunting phlox.</p>
+            <p><img src="http://placehold.it/320x1600?text=TallPage" /></p>
+        </div>
+    </div>
+</div>
+
+<!-- THE SCRIPT -->
+<script>
+    [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__nav-anchored-vertical\"]"), function(element) {
+        console.log(UIC);
+        new UIC.NavAnchoredVertical(element);
+    });
+
+</script>
