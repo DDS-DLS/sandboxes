@@ -1,0 +1,137 @@
+	<!-- BEGIN Tab component -->
+	<div class="dds__tabs-container-vertical">
+		<ul class="dds__tabs dds__tabs-vertical" aria-orientation="vertical" role="tablist" aria-label="Example description of tabs vertical">
+			<li role="none">
+				<button
+					id="home-tab-vertical"
+					class="dds__tab-link dds__active" 
+					data-toggle="dds__tab-vertical"
+					data-target="#exampleResponsiveVerticalTab"
+					role="tab"
+					aria-controls="home-vertical"
+					aria-selected="true">
+						Home
+					<i class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i>
+				</button>
+			</li>
+			<li role="none">
+				<button
+					id="profile-tab-vertical"
+					class="dds__tab-link"
+					tabindex="-1"
+					data-toggle="dds__tab-vertical"
+					data-target="#exampleResponsiveVerticalTab"
+					role="tab"
+					aria-controls="profile-vertical"
+					aria-selected="false">
+						Profile
+					<i class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i>
+				</button>
+			</li>
+			<li role="none">
+				<button
+					id="contact-tab-vertical"
+					class="dds__tab-link"
+					tabindex="-1"
+					data-toggle="dds__tab-vertical"
+					data-target="#exampleResponsiveVerticalTab"
+					role="tab"
+					aria-controls="contact-vertical"
+					aria-selected="false">
+						Contact
+					<i class="dds__icons dds__chevron-right dds__tab-icon" aria-hidden="true"></i>
+				</button>
+			</li>
+		</ul>
+		<div class="dds__tab-content">
+			<div id="home-vertical" class="dds__tab-pane dds__fade dds__show dds__active" role="tabpanel" tabindex="0" aria-labelled="home-tab-vertical">
+				<p>Home content</p>
+				<p>Bacon ipsum dolor amet pork pig turkey prosciutto filet mignon. Landjaeger doner pork belly fatback, jerky porchetta ham filet mignon ribeye jowl short ribs beef ribs meatball. Prosciutto kevin venison ham biltong cupim landjaeger ribeye. Short ribs pig beef ribs biltong kielbasa tenderloin strip steak boudin shoulder bresaola. Hamburger alcatra chuck andouille prosciutto pancetta.</p>
+				<p>Ham hock chicken jowl, strip steak landjaeger shoulder andouille pork chop fatback ham biltong brisket. Ribeye jerky cow porchetta shank turkey bacon tenderloin ham venison kevin biltong pig bresaola swine. Cupim prosciutto venison tri-tip fatback porchetta drumstick burgdoggen shank strip steak bresaola ham hock. Biltong landjaeger beef, short ribs drumstick bresaola fatback pork loin pork chop bacon kielbasa chuck brisket venison tail. Jowl swine shoulder brisket.</p>
+				<p>T-bone kielbasa alcatra, frankfurter tri-tip swine ham hock rump cow pancetta cupim spare ribs ham leberkas tongue. Tenderloin landjaeger doner chicken strip steak burgdoggen. Ball tip meatball bacon, pig filet mignon t-bone ham hock kielbasa. Pork loin cupim ground round bresaola ribeye flank chicken. Flank tongue sausage andouille, spare ribs landjaeger pastrami shoulder. Frankfurter beef shank, meatball alcatra beef ribs jerky ribeye rump corned beef porchetta chuck cow.</p>
+				<p>Lorem ipsum dolor amet narwhal mlkshk kale chips try-hard forage, gentrify copper mug four dollar toast tumeric chartreuse. Messenger bag listicle XOXO DIY, microdosing health goth semiotics palo santo pabst vape. Vape ennui cronut tbh ugh. Banjo marfa organic affogato. Organic venmo vinyl vaporware. Chillwave cold-pressed aesthetic, jean shorts godard celiac man bun twee banh mi raw denim keffiyeh lo-fi skateboard. Pickled air plant next level, woke DIY adaptogen cliche austin.</p>
+				<p>Bicycle rights franzen keffiyeh ugh crucifix affogato pabst knausgaard austin scenester narwhal polaroid. Forage mlkshk prism air plant activated charcoal, lo-fi kitsch master cleanse unicorn squid PBR&B chillwave drinking vinegar iceland. Hoodie raw denim selfies drinking vinegar vegan jean shorts. Cray brunch narwhal live-edge edison bulb synth biodiesel you probably haven't heard of them offal. Shaman master cleanse venmo tumblr, kombucha flexitarian cornhole paleo forage air plant pug. Distillery intelligentsia salvia vice prism adaptogen small batch iceland gastropub scenester craft beer schlitz. Cardigan kogi distillery chartreuse.</p>
+				<p>Distillery sartorial cliche iPhone twee vaporware. Health goth heirloom shabby chic taxidermy lomo. Tattooed fashion axe brunch portland heirloom. Pork belly neutra authentic fashion axe normcore, kombucha succulents poutine etsy. Man bun truffaut four dollar toast leggings. Disrupt gentrify freegan kale chips pour-over knausgaard post-ironic jianbing.</p>
+				<p>Edison bulb typewriter helvetica, readymade kinfolk subway tile food truck. Sriracha locavore tumblr tofu cliche art party live-edge sartorial single-origin coffee man braid fashion axe. Coloring book aesthetic leggings keytar synth. Hashtag roof party irony, shaman gastropub photo booth hella bespoke iceland banh mi YOLO cardigan offal. Kitsch polaroid hexagon, freegan cliche locavore typewriter mumblecore air plant DIY edison bulb. Skateboard truffaut raw denim chillwave poutine, tacos banjo roof party pop-up blog tilde prism. Single-origin coffee fingerstache taiyaki gochujang art party copper mug literally fixie.</p>
+
+				<form data-toggle="dds__form-validation" novalidate>
+					<div class="dds__form-group">
+						<label for="tab-emailInput-validation">Email label</label>
+						<input type="email"  class="dds__form-control" maxlength="256" name="email" id="tab-emailInput-validation" required aria-invalid="false" aria-describedby="">
+						<div class="dds__invalid-feedback" id="tab-emailInput-validationFeedback">
+							Please enter your email.
+						</div>
+					</div>
+					<div class="dds__form-row">
+						<div class="dds__col-md-4 dds__mb-3">
+							<label for="tab-firstnameInput-validation">First name</label>
+							<input type="text"  class="dds__form-control" id="tab-firstnameInput-validation" required aria-invalid="false" aria-describedby="">
+							<div class="dds__invalid-feedback" id="tab-firstnameInput-validationFeedback">
+								Please enter your first name.
+							</div>
+						</div>
+						<div class="dds__col-md-4 dds__mb-3">
+							<label for="tab-lastnameInput-validation">Last name</label>
+							<input type="text" class="dds__form-control" id="tab-lastnameInput-validation" required aria-invalid="false" aria-describedby="">
+							<div class="dds__invalid-feedback" id="tab-lastnameInput-validationFeedback">
+								Please enter your last name.
+							</div>
+						</div>
+						<div class="dds__col-md-4 dds__mb-3">
+							<label for="tab-usernameInput-validation">Username</label>
+								<input type="text"  class="dds__form-control" id="tab-usernameInput-validation" required aria-invalid="false" aria-describedby="">
+								<div class="dds__invalid-feedback" id="tab-usernameInput-validationFeedback">
+									Please choose a username.
+								</div>
+						</div>
+					</div>
+					<div class="dds__form-row">
+						<div class="dds__col-md-6 dds__mb-3">
+							<label for="tab-cityInput-validation">City</label>
+							<input type="text"  class="dds__form-control" id="tab-cityInput-validation" required aria-invalid="false" aria-describedby="">
+							<div class="dds__invalid-feedback" id="tab-cityInput-validationFeedback">
+								Please provide a valid city.
+							</div>
+						</div>
+						<div class="dds__col-md-3 dds__mb-3">
+							<label for="tab-stateInput-validation">State</label>
+							<input type="text" placeholder="texas" class="dds__form-control" id="tab-stateInput-validation" required aria-invalid="false" aria-describedby="">
+							<div class="dds__invalid-feedback"  id="tab-stateInput-validationFeedback">
+								Please provide a valid state.
+							</div>
+						</div>
+						<div class="dds__col-md-3 dds__mb-3">
+							<label for="tab-zipcodeInput-validation">Zip</label>
+							<input id="tab-zipcodeInput-validation" type="text" placeholder="#####" pattern="[1-9]{1}[0-9]{4}" class="dds__form-control dds__input-masked"
+								data-charset="XXXXX" required
+								pattern="^[0-9]{5}(?:-9]{4})?$" aria-invalid="false" aria-describedby="">
+							<div class="dds__invalid-feedback" id="tab-zipcodeInput-validationFeedback">
+								Please provide a valid zip.
+							</div>
+						</div>
+					</div>
+					<div class="dds__form-row">
+						<div class="dds__col-md-3 dds__mb-3">
+							<label for="tab-phoneInput-validation">Phone</label>
+							<input id="tab-phoneInput-validation" type="text" placeholder="(___) ___-____" set-cursor="1" pattern="\([1-9]{1}[0-9]{2}\) [0-9]{3}-[0-9]{4}" class="dds__form-control dds__input-masked" 
+								data-charset="(XXX) XXX-XXXX" required/>
+							<div class="dds__invalid-feedback" id="tab-phoneInput-validationFeedback">
+								Please provide a valid phone.
+							</div>
+						</div>
+					</div>
+					<button class="dds__btn dds__btn-primary" type="submit">Submit form</button>
+				</form>         
+			</div>
+			<div id="profile-vertical" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="profile-tab-vertical"><p>Profile content</p></div>
+			<div id="contact-vertical" class="dds__tab-pane dds__fade" role="tabpanel" tabindex="0" aria-labelledby="contact-tab-vertical"><p>Contact content</p></div>
+		</div>
+	</div>
+
+		<!-- END Tab component -->
+
+  <script>
+		[].forEach.call(document.querySelectorAll("[data-toggle=\"dds__tab-vertical\"]"), function(element) {
+			new UIC.Tab(element, {lazyload: false});
+		});
+	</script>
