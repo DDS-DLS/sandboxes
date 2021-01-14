@@ -73,6 +73,7 @@ const _getAllFilesFromFolder = function (dir) {
             "tab-justified",
             "tab-lazyload",
             "tab-overflow",
+            "tab-vertical",
             "table-complex",
             "tooltip"            
         ];
