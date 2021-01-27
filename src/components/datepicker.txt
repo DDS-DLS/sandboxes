@@ -2,7 +2,7 @@
     <div class="dds__datepicker" data-toggle="dds__datepicker" data-target="#myCalendar">
         <label for="datepicker-input">Date Picker Label</label>
         <div class="dds__form-group dds__datepicker-form">
-            <input type="text" class="dds__form-control dds__input-masked" pattern="(0[1-9]|1[0-2])\/[0-3]{1}[0-9]{1}\/[0-9]{4}" data-charset="XX/XX/XXXX" maxlength="10" name="date" id="datepicker-input" required aria-invalid="false" aria-describedby="">
+            <input type="text" class="dds__form-control dds__input-masked dds__datepicker-input" placeholder="__/__/____" pattern="(0[1-9]|1[0-2])\/([0-2]{1}[0-9]{1}|[3]{1}[0-1]{1})\/[0-9]{4}" data-charset="XX/XX/XXXX" maxlength="10" name="date" id="datepicker-input" required aria-invalid="false" aria-describedby="">
             <button class="dds__datepicker-btn" aria-label="select date" type="button">
                 <svg class="dds__calendar" aria-hidden="true" focusable="false"><use xlink:href="#dds__calendar"></use></svg>
             </button>
@@ -13,7 +13,9 @@
         <div class="dds__invalid-feedback" id="datepicker-inputFeedback">
             Please enter a valid date.
         </div>
-        <div id="myCalendar" class="dds__datepicker-calendar dds__d-none" tabindex="0"></div>
+        <div class="dds__calendar-wrapper dds__hide">
+            <div id="myCalendar" class="dds__datepicker-calendar dds__d-none" tabindex="0"></div>
+        </div>
     </div>
 </form>
 
