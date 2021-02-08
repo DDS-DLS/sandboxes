@@ -1,6 +1,8 @@
-<h1 class="footnote padded" style="height:200px">
-  Pretend there would be a site in this spot.<br />
-</h1>
+<main class="dds__d-flex dds__flex-column">
+    <h2>Sample Headline</h2>
+    <p>The quick brown fox jumped over the lazy dog.</p>
+</main>
+
 <footer class="dds__default-footer" data-toggle="dds__footer">
 		<nav class="dds__footer-nav">
 				<div class="dds__container">
@@ -47,5 +49,8 @@
 
 <script>
   // Some UICore components require SVGs; loadURLSVGs accepts two parameters: an array of the SVGs to load, and a boolean for whether or not to lazy-load.  True by default; this Sandbox requires False.
-  UIC.loadURLSVGs(["//uicore.dellcdn.com/0.2.10/svgs/dds__chevron-right.svg"], false);
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.3.2/svgs/dds__chevron-right.svg"], false);
+
+  // This is to get around a Codesandbox peculiarity
+  document.getElementById("codesandboxFileDisplay").classList.add("codesandbox-footer-container");
 </script>

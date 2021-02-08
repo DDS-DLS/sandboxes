@@ -1,0 +1,47 @@
+<div id="dds__full-screen-overlay" class="dds__overlay"></div>
+<!-- .dds__overlay div is required once per application -->
+
+<!-- BEGIN component -->
+<div id="exampleModalLoading" class="dds__modal dds__loading-modal" tabindex="-1" role="dialog">
+    <div class="dds__modal-dialog" role="document">
+        <div class="dds__modal-content">
+            <div class="dds__modal-body dds__text-center">
+            <div class="dds__mb-3" id="modalId">
+                <svg style="height: 32px; width: 32px;">
+                <use xlink:href="#dds__loading-sqrs"/>
+                </svg>
+            </div>
+            <p>Processing&#8230; Please wait.</p>
+            <p>
+                <a id="closeExample" href="#">
+                    Close this sample.
+                </a><br />
+                You would not include <br />
+                this link in your site.
+            </p>
+            </div>
+        </div>
+    </div>
+</div>
+<button id="loading-test-button" class="dds__btn dds__btn-primary" data-target="#exampleModalLoading">Programmatic Modal Launch</button>
+<!-- END component -->
+
+<script>
+    //  Add the required SVG to the page
+    UIC.loadURLSVGs(["//uicore.dellcdn.com/1.3.2/svgs/dds__loading-sqrs.svg"], false);
+
+    // Construct the "Processing... Please Wait." Modal and assign it to a variable, so we can control it programatically
+    var loadingModal = new UIC.Modal(document.getElementById("loading-test-button"), {
+        backdrop: 'static' // if backdrop is static, then modal should not disapear on overlay click
+    });
+
+    // Assign a method to a button, to programatically launch the "Processing... Please Wait." modal (eg. On HTTP request)
+    document.querySelector("#loading-test-button").addEventListener("click", function (e){
+        loadingModal.show();
+    });
+
+    // Programatically hide the loading modal (eg. HTTP request completes) using the loadingModal variable reference
+    document.querySelector("#closeExample").addEventListener("click", function (e){
+        loadingModal.hide();
+    });
+</script>

@@ -1,0 +1,147 @@
+<style>
+    #fileDisplayArea { 
+        padding: 2rem;
+    }
+</style>
+
+
+<!-- BEGIN component -->
+<nav class="dds__progress-wrapper-thin dds__col dds__d-flex dds__align-items-start dds__justify-content-center dds__pr-0 dds__pl-0" aria-label="Progress Status">
+  <ol class="dds__d-flex dds__d-row dds__w-100 dds__list-unstyled">
+    <li class="dds__completed dds__col-2 dds__text-center">
+        <div class="dds__d-flex dds__flex-row dds__w-100 dds__justify-content-center dds__align-items-center">
+          <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+          <div class="dds__progress-circle"></div>
+          <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+        </div>
+        <p class="dds__progress-label-thin">
+          <a href="#">
+            <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+            <span class="dds__sr-only">Completed: </span>
+            <span class="dds__progress-thin-text">Step Name 1</span>
+          </a>
+        </p>
+      </li>
+    <li class="dds__completed dds__col-2 dds__text-center">
+      <div class=" dds__d-flex dds__flex-row dds__w-100 dds__justify-content-center dds__align-items-center">
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+        <div class="dds__progress-circle"></div>
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+      </div>
+      <p class="dds__progress-label-thin">
+        <span>
+          <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+          <span class="dds__sr-only">Completed: </span>
+          <span class="dds__progress-thin-text">Step Name 2</span>
+        </span>
+      </p>
+    </li>
+    <li class="dds__completed dds__col-2 dds__text-center">
+      <div class="dds__d-flex dds__flex-row dds__w-100 dds__justify-content-center dds__align-items-center">
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+        <div class="dds__progress-circle"></div>
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+      </div>
+      <p class="dds__progress-label-thin">
+        <a href="#">
+          <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+          <span class="dds__sr-only">Completed: </span>
+          <span class="dds__progress-thin-text">Step Name 3</span>
+        </a>
+      </p>
+    </li>
+    <li class="dds__current dds__col-2 dds__text-center" aria-current="step"> 
+      <div class="dds__d-flex dds__flex-row dds__w-100 dds__justify-content-center dds__align-items-center">
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+        <div class="dds__progress-circle dds__rounded-circle"></div>
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+      </div>
+      <p class="dds__progress-label-thin">
+        <span>
+          <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+          <span class="dds__progress-thin-text">Step Name 4</span>
+        </span>
+      </p>
+    </li>
+    <li class="dds__col-2 dds__text-center">
+      <div class="dds__d-flex dds__flex-row dds__w-100 dds__justify-content-center dds__align-items-center">
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+        <div class="dds__progress-circle"></div>
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+      </div>
+      <p class="dds__progress-label-thin">
+        <span>
+          <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+          <span class="dds__progress-thin-text">Step Name 5</span>
+        </span>
+      </p>
+    </li>
+    <li class="dds__col-2 dds__text-center">
+      <div class="dds__d-flex dds__flex-row dds__w-100 dds__justify-content-center dds__align-items-center">
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+        <div class="dds__progress-circle"></div>
+        <div class="dds__col-6 dds__progress-bar-thin dds__position-relative dds__pr-0 dds__pl-0"></div>
+      </div>
+      <p class="dds__progress-label-thin">
+        <span>
+          <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+          <span class="dds__progress-thin-text">Step Name 6</span>
+        </span>
+      </p>
+    </li>
+  </ol>
+</nav>
+
+<div class="dds__mb-0 dds__btn-dropdown dds__dropdown-progress dds__progress-thin-dropdown" tabindex="-1">
+  <button class="dds__btn dds__btn-secondary dds__text-truncate" tabindex="0" data-toggle="dds__dropdown"
+  data-target="#buttonDropdownThin" aria-expanded="false" aria-controls="buttonDropdownThin">
+      Step 4 of 6: Step Name 4
+      <svg class="dds__arrow-tri-solid-right" focusable="false" aria-hidden="true">
+          <use xlink:href="#dds__arrow-tri-solid-right"></use>
+      </svg>
+  </button>
+  <ul id="buttonDropdownThin" class="dds__button-dropdown-container dds__collapse" role="menu">
+      <li class="dds__dropdown-list-item" role="none" tabindex="0">
+          <a class="dds__dropdown-item dds__text-truncate dds__completed" role="menuitem" href="https://www.dell.com/en-us" tabindex="-1" >
+              <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+              Step 1 of 6: Step Name 1
+          </a>
+      </li>
+      <li class="dds__dropdown-list-item" role="none" tabindex="-1">
+          <a class="dds__dropdown-item dds__text-truncate dds__completed dds__disabled" role="menuitem" href="#" tabindex="-1" aria-disabled="true">
+              <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+              Step 2 of 6: Step Name 2
+          </a>
+      </li>
+      <li class="dds__dropdown-list-item" role="none" tabindex="0">
+          <a class="dds__dropdown-item dds__text-truncate dds__completed" role="menuitem" href="#" tabindex="-1" aria-disabled="true">
+              <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+              Step 3 of 6: Step Name 3
+          </a>
+      </li>
+      <li class="dds__dropdown-list-item" role="none" tabindex="0">
+          <a class="dds__dropdown-item dds__text-truncate dds__current" role="menuitem" href="#" tabindex="-1" >
+              <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+              Step 4 of 6: Step Name 4
+          </a>
+      </li>
+      <li class="dds__dropdown-list-item" role="none" tabindex="0">
+          <a class="dds__dropdown-item dds__text-truncate dds__disabled" role="menuitem" href="#" tabindex="-1" >
+              <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+              Step 5 of 6: Step Name 5
+          </a>
+      </li>
+      <li class="dds__dropdown-list-item" role="none" tabindex="-1">
+          <a class="dds__dropdown-item dds__text-truncate dds__disabled" role="menuitem" href="#" tabindex="-1" >
+              <svg class="dds__check" aria-hidden="true" focusable="false"><use xlink:href="#dds__check"></use></svg>
+              Step 6 of 6: Step Name 6
+          </a>
+      </li>
+  </ul>
+</div> 
+<!-- END component -->
+
+<script>
+    //  Add the required SVG to the page
+    UIC.loadURLSVGs(["//uicore.dellcdn.com/1.3.2/svgs/dds__loading-sqrs.svg"], false);
+</script>

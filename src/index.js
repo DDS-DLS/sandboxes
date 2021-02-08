@@ -1,17 +1,17 @@
 import "./styles.scss";
 
-document.getElementById("app").innerHTML = `
-<a id="thisLink" style="display:none; float:right;" href="">Link to this page</a>
-<select id="fileSelection">
-    <option value="">Select One</option>
-</select>
-<div id="fileDisplayArea"><div>
-`;
+var theBod = document.querySelector('body');
+
+var fileSel = document.createElement('select');
+fileSel.id = 'fileSelection';
+theBod.appendChild(fileSel);
+
+var selOpt = document.createElement('option');
+selOpt.text = 'Select One';
+fileSel.appendChild(selOpt);
 
 const dir = "/src/components";
 const ext = ".txt";
-const thisLink = document.getElementById("thisLink");
-const fileDisplayArea = document.getElementById("fileDisplayArea");
 const fileSelection = document.getElementById("fileSelection");
 const urlParams = new URLSearchParams(window.location.search);
 const doc = urlParams.get('doc');
@@ -32,32 +32,50 @@ const _getAllFilesFromFolder = function (dir) {
     } else {
         console.log("readdirSync unavailable"); // currently and intentionally only processes locally
         const comps = [
-            "Alert",
-            "Button",
-            "ButtonFilter",
-            "Carousel",
-            "Collapse",
-            "Complex-Table",
-            "Contact-Drawer",
-            "Contributor-Model",
-            "Datepicker",
-            "Dropdown",
-            "Filmstrip-Carousel",
-            "Footer",
-            "Form",
-            "Linkpicker",
-            "Masthead",
-            "Modal",
-            "Nav",
-            "Pagination",
-            "Popover",
-            "Progress-Bar",
-            "Radio-Button-Css",
-            "Skipnav",
-            "Slider",
-            "Spinbox",
-            "Tab",
-            "Tooltip"
+            "alert",
+            "button",
+            "button-filter",
+            "carousel",
+            "carousel-buttons",
+            "carousel-filmstrip",
+            "carousel-filmstrip-page",
+            "collapse",
+            "collapse-showmore",
+            "contact-drawer",
+            "datepicker",
+            "dropdown-multiselect",
+            "dropdown-primary",
+            "filter-collection",
+            "footer",
+            "form",
+            "linkpicker",
+            "masthead",
+            "masthead-fluid",
+            "modal",
+            "modal-loading",
+            "nav",
+            "nav-anchored-vertical",
+            "nav-left",
+            "pagination",
+            "popover",
+            "progress-bar",
+            "progress-bar-animated",
+            "progress-bar-thin",
+            "progress-dropdown",
+            "progress-status",
+            "progress-status-disabled",
+            "radio-button-css",
+            "select-bar",
+            "skipnav",
+            "slider-horizontal",
+            "spinbox",
+            "tab-centered",
+            "tab-justified",
+            "tab-lazyload",
+            "tab-overflow",
+            "tab-vertical",
+            "table-complex",
+            "tooltip"            
         ];
         results = [];
         comps.forEach((comp) => {
@@ -78,57 +96,49 @@ _getAllFilesFromFolder(dir).forEach(file => {
     }
 });
 
-async function _getFile(filename) {
-    // console.log(filename);
-    return fetch(filename, { redirect: "error" })
-        .then(response => response.text())
-        .then(text => {
-            return text;
-        }).catch((err) => {
-            return (err);
-        });
+function getFile(path, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+            // The request is done; did it work?
+            if (xhr.status == 200) {
+                // ***Yes, use `xhr.responseText` here***
+                callback(xhr.responseText);
+            } else {
+                // ***No, tell the callback the call failed***
+                callback(null);
+            }
+        }
+    };
+    xhr.open("GET", path);
+    xhr.send();
 }
 
 function docName(inp) {
     return inp.replace(dir + "/", "").replace(ext, "")
 }
 
-function setLink(page) {
-    thisLink.href = "./?doc=" + page;
-}
-
 function writePage(text) {
     var evalScript = text.substring(text.indexOf('<script>') + 8, text.lastIndexOf('</script>'));
-    fileDisplayArea.innerHTML = text;
+    theBod.innerHTML = '<div id="codesandboxFileDisplay" class="dds__container codesandbox-container">' + text + '</div>';
+    // theBod.innerHTML = text;
     eval(evalScript);
 }
 
 if (doc) {
-    if (doc.toLowerCase() === "nav") {
-        // EXCEPTION :( for nav, which does not like to be sticky for some reason. TODO: See if this can be fixed - it's likely a failure of the import/eval magic
-        window.location = "nav.html";
-    } else if (doc.toLowerCase() === "nav-left") {
-        // EXCEPTION :( for left-nav, but this might be replaced once the next bugfix goes out. Hopeful.
-        window.location = "nav-left.html";
-    } else {
-        fileSelection.style.display = "none";
-        _getFile(dir + "/" + doc + ext)
-            .then(text => {
-                writePage(text);
-            }).catch((err) => {
-                console.log("Unable to retrieve file from querystring.\n" + err);
-            });
-    }
+    fileSelection.style.display = "none";
+    getFile(dir + "/" + doc + ext, function(text) {
+        if (text) {
+            writePage(text);
+        }
+    });
 } else {
     fileSelection.addEventListener("change", e => {
         const selectedValue = fileSelection.value.toLowerCase();
-        setLink(docName(selectedValue));
-        thisLink.style.display = "block";
-        _getFile(selectedValue)
-        .then(text => {
-            writePage(text);
-        }).catch((err) => {
-            console.log("Unable to retrieve selected file.\n" + err);
+        getFile(selectedValue, function(text) {
+            if (text) {
+                writePage(text);
+            }
         });
     });
 }

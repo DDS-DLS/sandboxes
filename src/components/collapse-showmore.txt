@@ -1,0 +1,22 @@
+<div>
+    <div class="dds__show-hide">
+        <nav class="dds__mb-1" aria-label="Some example description"> <a class="dds__d-block" href="javascript:;">Link
+                1</a> <a class="dds__d-block" href="javascript:;">Link 2</a> <a class="dds__d-block"
+                href="javascript:;">Link 3</a> <a class="dds__d-block" href="javascript:;">Link 4</a>
+            <div class="dds__collapse dds__inner" id="collapseShowHideFromButtom" aria-expanded="false"> <a
+                    class="dds__d-block" href="javascript:;">Link 5</a> <a class="dds__d-block" href="javascript:;">Link
+                    6</a> <a class="dds__d-block" href="javascript:;">Link 7</a> <a class="dds__d-block"
+                    href="javascript:;">Link 8</a> </div>
+        </nav>
+    </div> <button class="dds__secondary-accordion-btn dds__d-flex dds__collapsed" type="button"
+        data-toggle="dds__collapse" data-target="#collapseShowHideFromButtom" aria-expanded="false"
+        aria-controls="collapseShowHideFromButtom"> <span class="dds__mx-2 dds__more"> Show more </span> <span
+            class="dds__mx-2 dds__less"> Show less </span> </button>
+</div>
+
+<script>
+  // Initialize component (if framework lifecycle requires it)
+  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__collapse\"]"), function(element) {
+    new UIC.Collapse(element);
+  });
+</script>

@@ -1,45 +1,5 @@
-	<div id="exampleModalLoading" class="dds__modal dds__loading-modal" tabindex="-1" role="dialog">
-		<div class="dds__modal-dialog" role="document">
-				<div class="dds__modal-content">
-						<div class="dds__modal-body dds__text-center">
-							<div class="dds__mb-3" id="modalId">
-								<svg style="height: 32px; width: 32px;">
-									<use xlink:href="#dds__loading-sqrs"/>
-								</svg>
-							</div>
-							<p>Processing&#8230; Please wait.</p>
-						</div>
-				</div>
-		</div>
-	</div>
-	<button id="loading-test-button" class="dds__btn dds__btn-primary" data-target="#exampleModalLoading">Programmatic Modal Launch</button>
+<div>Please see <a href="/?doc=modal-loading">Modal-Loading</a></div>
 
 <script>
-  UIC.loadURLSVGs(["//uicore.dellcdn.com/0.2.10/svgs/dds__loading-sqrs.svg"], false);
-
-  //if backdrop is not static, then modal should disapear on overlay click
-  [].forEach.call(document.querySelectorAll("[data-toggle='dds__modal']"), function (element) {
-    new UIC.Modal(element, {
-        backdrop: 'static'
-      }
-    );
-  });
-  // Construct the Loading the Modal and assign it to a variable so we control it programatically
-  var loadingModal = new UIC.Modal(document.getElementById("loading-test-button"), {
-    backdrop: 'static' }
-  );
-  // This is just to show how you could programatically launch the loading modal (eg. On HTTP request) using the loadingModal variable reference 
-  document.querySelector("#loading-test-button").addEventListener("click", function (e){
-    loadingModal.show();
-  });
-  //This is just to show how to programatically hide the loading modal (eg. HTTP request completes) using the loadingModal variable reference
-  document.querySelector("#exampleModalLoading").addEventListener("click", function (e){
-    loadingModal.hide();
-  });
-
-  [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__form-validation\"]"), function(element) {
-    new UIC.Form(element);
-  });
-
-
+    console.log("This page has been moved.");
 </script>

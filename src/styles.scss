@@ -18,3 +18,15 @@
   padding: 0.625rem;
   margin-top: 4rem;
 }
+
+.codesandbox-container {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
+
+.codesandbox-footer-container {
+    min-height: 100%;
+    flex-direction: column;
+    display: flex;
+}

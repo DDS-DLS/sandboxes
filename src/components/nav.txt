@@ -63,7 +63,7 @@
     <h2>Other Content that may be on the page</h2>
     <p>About sixty codfish eggs will make a quarter pound of very fizzy jelly.</p>
     <p><img src="http://placehold.it/320x1600?text=MuchContent-VeryWow" /></p>
-    <p><img src="https://i.picsum.photos/id/1025/4951/3301.jpg" width="320" height="240" /></p>
+    <p><img src="https://picsum.photos/480/320" width="320" height="240" /></p>
 </div>
 
 <!-- Optional modal responsive implementation. The div below along with data-target set on the above nav element with the 

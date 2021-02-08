@@ -1,0 +1,214 @@
+<div id="dds__full-screen-overlay" class="dds__overlay"></div>
+<!-- .dds__overlay div is required once per application -->
+
+    <header>
+    
+        <div class="dds__msthd" data-toggle="dds__msthd">
+            <nav class="dds__navbar dds__msthd-navbar-top">
+                <div class="dds__msthd-top dds__container dds__no-gutters">
+                <div class="dds__row dds__no-gutter">
+                    <div class="dds__msthd-top-ctnr">
+                        <div class="dds__msthd-icon-ctnr dds__msthd-logo">
+                            <a class="dds__icons dds__msthd-dell-icon" href="//www.dell.com" tabindex="0" aria-label="Dell"></a>
+                        </div>
+                    </div>
+                    <div class="dds__msthd-search" role="search">
+                        <button class="dds__msthd-icon-ctnr dds__d-sm-flex dds__d-md-none" data-target="msthd-search-ctnr" aria-haspopup="true" aria-expanded="false">
+                            <svg focusable="false">
+                                <use xlink:href="#dds__search"/>
+                            </svg>
+                            <span class="dds__msthd-label dds__text-truncate">Search</span>
+                        </button>
+                        <div id="msthd-search-ctnr" class="dds__msthd-search-ctnr dds__d-md-block dds__d-none">
+                            <form action="/masthead">
+                            <input type="search" class="dds__msthd-search-input" tabindex="0" placeholder="What can we help you find?" aria-label="Search"/>
+                            <button type="submit" class="dds__msthd-search-btn dds__d-md-block dds__d-none" aria-label="search" tabindex="0"><i class="dds__icons dds__search"></i>Search</button> 
+                            <button type="submit" class="dds__msthd-search-btn dds__d-md-none" aria-label="search" tabindex="0"><i class="dds__icons dds__search"></i></button> 
+                            </form>
+                        </div>
+                    </div>
+                    <div class="dds__msthd-top-ctnr">
+                        <button class="dds__msthd-icon-ctnr" data-target="msthd-signin-ctnr" aria-label="Sign in" aria-haspopup="true" aria-expanded="false">
+                            <svg focusable="false">
+                                <use xlink:href="#dds__user"/>
+                            </svg>
+                            <span class="dds__badge dds__badge-success" hidden>
+                                <i class="dds__icons dds__check"></i>
+                            </span>
+                            <span class="dds__msthd-label dds__text-truncate">Sign In</span>
+                        </button>
+                        <div id="msthd-signin-ctnr" class="dds__msthd-ctnr dds__pb-0" role="menu">
+                            <div class="dds__col-sm-12 dds__col-md-12 dds__col-lg-12">
+                            My Account Area
+                            </div>
+                        </div>
+                        <div id="msthd-signout-ctnr" class="dds__msthd-ctnr" role="menu">
+                            <div class="dds__col-sm-12 dds__col-md-12 dds__col-lg-12">
+                                Sign Out
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__msthd-top-ctnr">
+                        <button class="dds__msthd-icon-ctnr" data-target="msthd-cart-ctnr" aria-label="Cart" aria-haspopup="true" aria-expanded="false">
+                            <svg focusable="false">
+                                <use xlink:href="#dds__cart"/>
+                            </svg>
+                            <span class="dds__badge dds__badge-dark" hidden>
+                            <i class="dds__icons dds__badge-dark"></i>
+                            </span>
+                            <span class="dds__msthd-label dds__text-truncate">Cart</span>
+                        </button>
+                        <div id="msthd-cart-ctnr" class="dds__msthd-ctnr" role="menu">
+                            <div class="dds__col-sm-12 dds__col-md-12 dds__col-lg-12">
+                            Cart Area
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dds__msthd-top-ctnr dds__msthd-hidden">
+                        <button class="dds__msthd-icon-ctnr" data-toggle="dds__msthd-offcanvas" data-target="msthd-off-canvas-menu" aria-label="Menu" aria-haspopup="true" aria-expanded="false">
+                            <svg focusable="false">
+                                <use xlink:href="#dds__menu-closed"/>
+                            </svg>
+                            <span class="dds__msthd-label dds__text-truncate">Menu</span>
+                        </button>
+                        <aside id="msthd-off-canvas-menu" class="dds__msthd-offcanvas-menu" hidden>
+                            <ul role="menu">
+                                <li class="dds__msthd-offcanvas-tier-1" role="menuitem">
+                                    <button class="dds__msthd-offcanvas-nav-item dds__collapsed" data-toggle="dds__collapse" data-target="#item1-tier1" aria-expanded="false">Components
+                                        <svg class="dds__arrow-tri-solid-right" aria-hidden="true" focusable="false">
+                                            <use xlink:href="#dds__arrow-tri-solid-right"></use>
+                                        </svg>
+                                    </button>
+                                    <ul id="item1-tier1" class="dds__collapse" role="menu">
+                                        <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="viewAll" >View All</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dds__msthd-offcanvas-tier-1" role="menuitem">
+                                    <button class="dds__msthd-offcanvas-nav-item dds__collapsed" data-toggle="dds__collapse" data-target="#products" aria-expanded="false">Products
+                                        <svg class="dds__arrow-tri-solid-right" aria-hidden="true" focusable="false">
+                                            <use xlink:href="#dds__arrow-tri-solid-right"></use>
+                                        </svg>
+                                    </button>
+                                    <ul id="products" class="dds__collapse" role="menu">
+                                        <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="#">Enterprise</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+                </div>
+            </nav>
+            <div id="dds__msthd-overlay" class="dds__msthd-overlay"></div>
+        </div>
+          
+    </header>
+  
+    <main>
+        <aside id="navLeft-root" class="dds__navLeft-wrapper" data-toggle="dds__nav-left" data-main="mainContent" data-menu="navLeft-list" data-altmenu="customOffCanvasMenu"  data-arrows="right">
+            <nav class="dds__navLeft">
+                <ul id="navLeft-list" class="dds__navLeft-list">
+                    <li><a href="#">Sample Link</a></li>
+                    <li><a href="#">Sample Link</a></li>
+                    <li><a href="#">Sample Link</a></li>
+                    <li><a href="#">Sample Link</a></li>
+                    <li><a href="#">Sample Link</a></li>
+                    <li><a href="#">Sample Link</a></li>
+                    <li><a href="#">Sample Link</a></li>
+                    <li><a href="#">Sample Link</a></li>
+                    <li><a href="#">Sample Link</a></li>                        
+                </ul>
+                <div class="dds__navLeft-border"></div>
+                <button class="dds__btn dds__btn-primary dds__navLeft-btn-toggle" aria-label="Show / Hide content for Left Nav" aria-expanded="true">
+                    <svg focusable="false" class="dds__svg-icons">
+                        <use xlink:href="#dds__chevron-left" class="dds__svg-icons-item dds__show"></use>
+                    </svg>
+                </button>
+            </nav>
+            <aside class="dds__msthd-offcanvas-menu dds__navLeft" hidden>
+                <ul role="menu" class="dds__navLeft-list">
+                    <li class="dds__msthd-offcanvas-tier-1" role="menuitem">
+                        <button class="dds__msthd-offcanvas-nav-item dds__collapsed" data-toggle="dds__collapse" data-target="#item1-tier1" aria-expanded="false">Components
+                            <svg class="dds__arrow-tri-solid-right" aria-hidden="true" focusable="false">
+                                <use xlink:href="#dds__arrow-tri-solid-right"></use>
+                            </svg>
+                        </button>
+                        <ul id="item1-tier1" class="dds__collapse" role="menu">
+                            <li class="dds__msthd-offcanvas-tier-2" role="menuitem"><a class="dds__msthd-offcanvas-nav-item" href="viewAll" >View All</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+        </aside>
+
+        <div id="mainContent" class="dds__body-ml-20">   
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in suscipit tellus, et tristique nisi. Curabitur rutrum pulvinar magna. Donec id eros et lacus porttitor cursus nec at libero. Nam vitae aliquet arcu. Ut ac nisi eget metus convallis mollis ac sed enim. Morbi ultricies urna lacus, at tempor risus bibendum nec. Nulla ac blandit orci, sed posuere urna. Duis at nulla fermentum urna egestas volutpat ac at nunc. Maecenas id ex sit amet nisi tincidunt tristique. Vivamus sed nunc sed tellus cursus tincidunt sollicitudin interdum massa.</p>
+            <a href="#"><img style="float:right; margin-left: 1rem;" src="//placehold.it/200x300?text=Image"></a>
+            <p>Donec dapibus lorem sit amet eros ultrices gravida. Nullam ac feugiat dolor, ut pharetra sapien. Donec efficitur orci tortor, in tempor mi consequat sit amet. Sed tincidunt finibus justo sit amet finibus. Nam arcu erat, scelerisque ac tristique vel, euismod semper mi. Fusce pharetra gravida luctus. Integer tristique libero sit amet magna iaculis fermentum. Sed imperdiet, tellus nec tincidunt bibendum, orci metus rhoncus sapien, ac pulvinar felis arcu in turpis. Cras semper eros lectus, id euismod magna pellentesque et. Cras non semper libero. Aliquam molestie nulla vel elit egestas lacinia.</p>
+            <p>Curabitur aliquam, diam viverra tincidunt sollicitudin, enim eros dapibus nibh, in pretium purus enim at velit. Nam diam metus, pulvinar in efficitur at, eleifend eu urna. Donec quis dolor nec elit sodales interdum non aliquet lectus. Nunc sodales nunc ut tellus tristique consequat. Proin malesuada massa vitae imperdiet scelerisque. Vivamus aliquam odio a nibh dignissim, at sagittis odio faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus maximus justo ac lorem ullamcorper, nec semper elit malesuada. Nam dictum, dui sit amet molestie gravida, nulla tortor pellentesque ex, eget posuere augue ligula et ipsum. Vestibulum sit amet ipsum luctus, egestas mi malesuada, sagittis mauris.</p>
+            <p>Vestibulum sollicitudin <a href="#">efficitur volutpat</a>. Quisque in nisl dapibus justo mattis aliquam eu vitae leo. In sit amet imperdiet sapien. Praesent mollis pellentesque pretium. In eros mauris, finibus sit amet ante a, ornare dignissim dui. In nunc dui, venenatis quis imperdiet vitae, viverra ac nulla. Quisque porta iaculis auctor. Suspendisse pharetra venenatis turpis in varius. Sed sapien felis, consequat ac dui ut, molestie tincidunt nibh. Donec tincidunt, nisi quis scelerisque dictum, nisi lacus laoreet metus, ac tincidunt lorem eros id tortor. Donec nisl neque, imperdiet vel venenatis non, imperdiet molestie augue.</p>
+            <p>Integer vestibulum rutrum dui vitae posuere. Sed blandit lobortis dignissim. Curabitur mattis, ex et eleifend cursus, orci enim porta dui, vel iaculis lacus magna ac purus. Sed eget elit id elit aliquam lobortis. Nulla tempor nec lacus quis lobortis. Etiam auctor sem nec libero pharetra, vel gravida lorem suscipit. Vivamus eget ex vehicula, volutpat est sed, iaculis odio. Pellentesque in nulla sagittis, maximus est vel, efficitur lectus. Vivamus malesuada augue in leo auctor ultrices. Quisque dapibus lacinia porta. Phasellus nec metus vel nisi cursus posuere.</p>
+            <p>I'm baby xOXO tacos pinterest, celiac DIY tote bag gluten-free four dollar toast chicharrones scenester cray whatever pickled tilde fam. Crucifix PBR&B semiotics everyday carry VHS. Photo booth thundercats biodiesel, palo santo fixie helvetica twee crucifix raw denim. Sartorial butcher literally chillwave 90's unicorn everyday carry offal air plant before they sold out.</p>
+            <p>Chillwave jean shorts gentrify freegan VHS, brooklyn meh yr vaporware cardigan paleo stumptown skateboard lumbersexual neutra. Post-ironic vice salvia live-edge. Austin bitters coloring book gentrify street art. Cold-pressed kombucha aesthetic pabst. Blog migas fixie truffaut, thundercats VHS coloring book asymmetrical. Readymade humblebrag lumbersexual fam vape beard man braid poutine.</p>
+            <p>Vestibulum sollicitudin efficitur volutpat. Quisque in nisl dapibus justo mattis aliquam eu vitae leo. In sit amet imperdiet sapien. Praesent mollis pellentesque pretium. In eros mauris, finibus sit amet ante a, ornare dignissim dui. In nunc dui, venenatis quis imperdiet vitae, viverra ac nulla. Quisque porta iaculis auctor. Suspendisse pharetra venenatis turpis in varius. Sed sapien felis, consequat ac dui ut, molestie tincidunt nibh. Donec tincidunt, nisi quis scelerisque dictum, nisi lacus laoreet metus, ac tincidunt lorem eros id tortor. Donec nisl neque, imperdiet vel venenatis non, imperdiet molestie augue.</p>
+            <h2 id="myHeader">This is my header</h2>
+        </div>
+
+        <div id="customOffCanvasMenu">
+        <ul role="menu">
+            <li role="presentation" class="dds__msthd-offcanvas-tier-1"><a class="dds__msthd-offcanvas-nav-item" href="#">This menu will show</a></li>
+            <li role="presentation" class="dds__msthd-offcanvas-tier-1"><a class="dds__msthd-offcanvas-nav-item" href="#">at small breakpoints</a></li>
+            <li role="presentation" class="dds__msthd-offcanvas-tier-1"><a class="dds__msthd-offcanvas-nav-item" href="#">Leftnav knows to use this</a></li>
+            <li role="presentation" class="dds__msthd-offcanvas-tier-1"><a class="dds__msthd-offcanvas-nav-item" href="#">as data-altmenu = its ID</a></li>
+        </ul>
+        </div>
+        
+    </main>
+
+    <footer class="dds__default-footer" data-toggle="dds__footer">
+        <nav class="dds__footer-nav">
+            <div class="dds__container">
+                <ul class="dds__page-nav">
+                    <li>
+                        <a href="#" class="">Footer Link</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="dds__footer-legal-nav">
+            <div  class="dds__container">
+                <ul>
+                    <li>
+                        <a href="#" class="">© 20XX Dell</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+        
+    <script>
+        UIC.loadURLSVGs([
+            "//uicore.dellcdn.com/1.3.2/svgs/dds__chevron-right.svg", // needed for left-nav
+            "//uicore.dellcdn.com/1.3.2/svgs/dds__chevron-left.svg", // needed for left-nav
+			"//uicore.dellcdn.com/1.3.2/svgs/dds__search.svg",
+			"//uicore.dellcdn.com/1.3.2/svgs/dds__user.svg",
+			"//uicore.dellcdn.com/1.3.2/svgs/dds__cart.svg",
+			"//uicore.dellcdn.com/1.3.2/svgs/dds__menu-closed.svg",
+			"//uicore.dellcdn.com/1.3.2/svgs/dds__arrow-tri-solid-right.svg"
+        ], false);
+
+	  
+        [].forEach.call(document.querySelectorAll("[data-toggle='dds__msthd']"), function(element) {
+            window.Masthead = new UIC.Masthead(element); 
+        });
+
+        [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__collapse\"]"), function(element) {
+            new UIC.Collapse(element);
+        });
+
+        [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__nav-left\"]"), function(element) {
+            new UIC.NavLeft(element);
+        })
+
+    </script>
+      
