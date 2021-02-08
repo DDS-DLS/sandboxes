@@ -86,18 +86,55 @@
 
 <h2 class="csTitle">Icon Toggle Button / Favorited Item</h2>
 <section>
-  <button class="dds__btn-toggle dds__btn-toggle-icon dds__btn-toggle-container"  type="button" data-toggle="dds__button" role="switch" aria-checked="false"        aria-label="button toggle bookmark favorite">    
+  <button class="dds__btn-toggle dds__btn-toggle-icon dds__btn-toggle-container"  type="button" data-toggle="dds__button" role="switch" aria-checked="false" aria-label="button toggle bookmark">    
     <div class="dds__icons dds__icon-svg-grid-item">
-      <svg class="dds__svg-icons dds__toggle-icon-off" aria-hidden="true">
+      <svg class="dds__svg-icons dds__toggle-icon-off" focusable="false" aria-hidden="true">
         <use xlink:href="#dds__bookmark"></use>
       </svg>
-      <svg class="dds__svg-icons dds__toggle-icon-on" aria-hidden="true">
+      <svg class="dds__svg-icons dds__toggle-icon-on" focusable="false" aria-hidden="true">
         <use xlink:href="#dds__bookmark-filled"></use>
+      </svg>
+    </div>
+  </button>
+  <button class="dds__btn-toggle dds__btn-toggle-icon dds__btn-toggle-container"  type="button" data-toggle="dds__button" role="switch" aria-checked="false" aria-label="button toggle bookmark favorite">    
+    <div class="dds__icons dds__icon-svg-grid-item">
+      <svg class="dds__svg-icons dds__toggle-icon-off" focusable="false" aria-hidden="true">
+        <use xlink:href="#dds__bookmark"></use>
+      </svg>
+      <svg class="dds__svg-icons dds__toggle-icon-on" focusable="false" aria-hidden="true">
+        <use xlink:href="#dds__bookmark-filled"></use>
+      </svg>
+    </div>
+    <span>Favorite</span>
+  </button> 
+
+</section>
+<section>
+  <button class="dds__btn-toggle dds__btn-toggle-icon dds__btn-toggle-container" type="button" data-toggle="dds__button" role="switch" aria-checked="false" aria-label="button toggle icon star" disabled>
+    <div class="dds__icons dds__icon-svg-grid-item">
+      <svg class="dds__svg-icons dds__toggle-icon-off" focusable="false" aria-hidden="true">
+        <use xlink:href="#dds__star"></use>
+      </svg>
+      <svg class="dds__svg-icons dds__toggle-icon-on" focusable="false" aria-hidden="true">
+        <use xlink:href="#dds__star-filled"></use>
+      </svg>
+    </div>
+  </button>
+</section>
+<section>
+  <button class="dds__btn-toggle dds__btn-toggle-icon dds__btn-toggle-container" type="button" data-toggle="dds__button" role="switch" aria-checked="false" aria-label="button toggle icon star favorite" disabled>
+    <div class="dds__icons dds__icon-svg-grid-item">
+      <svg class="dds__svg-icons dds__toggle-icon-off" focusable="false" aria-hidden="true">
+        <use xlink:href="#dds__star"></use>
+      </svg>
+      <svg class="dds__svg-icons dds__toggle-icon-on" focusable="false" aria-hidden="true">
+        <use xlink:href="#dds__star-filled"></use>
       </svg>
     </div>
     <span>Favorite</span>
   </button>
 </section>
+
 
 <script>
 
