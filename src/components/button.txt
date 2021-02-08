@@ -101,10 +101,10 @@
 
 <script>
 
-  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.4.0/svgs/dds__bookmark.svg",
-    "//uicore.dellcdn.com/1.4.0/svgs/dds__bookmark-filled.svg",
-    "//uicore.dellcdn.com/1.4.0/svgs/dds__star.svg",
-    "//uicore.dellcdn.com/1.4.0/svgs/dds__star-filled.svg",
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.3.4/svgs/dds__bookmark.svg",
+    "//uicore.dellcdn.com/1.3.4/svgs/dds__bookmark-filled.svg",
+    "//uicore.dellcdn.com/1.3.4/svgs/dds__star.svg",
+    "//uicore.dellcdn.com/1.3.4/svgs/dds__star-filled.svg",
   ], false);
 
   [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__button\"]"), function(element) {
