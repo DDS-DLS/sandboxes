@@ -48,7 +48,7 @@
 <h2 class="csTitle">Secondary Mini</h2>
 <button type="button" class="dds__btn dds__btn-secondary dds__btn-sm dds__text-truncate">Secondary General Mini</button>
 
-<h2 class="csTitle">Secondary Toggle</h2>
+<h2 class="csTitle">Toggle Buttons</h2>
 <section>
   <button class="dds__btn-toggle-container dds__btn-toggle" type="button" data-toggle="dds__button" role="switch" aria-checked="false" aria-label="button toggle example 1">
     <span class="dds__toggle-txt-off" aria-hidden="false">izklopljeno</span>
@@ -84,7 +84,29 @@
   </button>
 </section>
 
+<h2 class="csTitle">Icon Toggle Button / Favorited Item</h2>
+<section>
+  <button class="dds__btn-toggle dds__btn-toggle-icon dds__btn-toggle-container"  type="button" data-toggle="dds__button" role="switch" aria-checked="false"        aria-label="button toggle bookmark favorite">    
+    <div class="dds__icons dds__icon-svg-grid-item">
+      <svg class="dds__svg-icons dds__toggle-icon-off" aria-hidden="true">
+        <use xlink:href="#dds__bookmark"></use>
+      </svg>
+      <svg class="dds__svg-icons dds__toggle-icon-on" aria-hidden="true">
+        <use xlink:href="#dds__bookmark-filled"></use>
+      </svg>
+    </div>
+    <span>Favorite</span>
+  </button>
+</section>
+
 <script>
+
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.4.0/svgs/dds__bookmark.svg",
+    "//uicore.dellcdn.com/1.4.0/svgs/dds__bookmark-filled.svg",
+    "//uicore.dellcdn.com/1.4.0/svgs/dds__star.svg",
+    "//uicore.dellcdn.com/1.4.0/svgs/dds__star-filled.svg",
+  ], false);
+
   [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__button\"]"), function(element) {
     new UIC.Button(element);
   });
