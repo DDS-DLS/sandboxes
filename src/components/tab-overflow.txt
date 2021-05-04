@@ -83,7 +83,7 @@
 <!-- END Tabs component -->
 
 <script>
-  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.3.2/svgs/dds__chevron-left.svg","//uicore.dellcdn.com/1.3.2/svgs/dds__chevron-right.svg"], false);
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.5.1/svgs/dds__chevron-left.svg","//uicore.dellcdn.com/1.5.1/svgs/dds__chevron-right.svg"], false);
     
   [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__tab\"]"), function(element) {
     new UIC.Tab(element, {lazyload: false});
