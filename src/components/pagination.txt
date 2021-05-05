@@ -1,7 +1,7 @@
 <nav class="dds__pagination dds__pagination-justified-filter" data-toggle="dds__pagination" aria-label="pagination" data-page='{"items":1500,"perPage":12,"buttonLabelLeft":"Left", "buttonLabelRight":"Right"}'></nav>
 
 <script>
-  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.3.2/svgs/dds__chevron-left.svg","//uicore.dellcdn.com/1.3.2/svgs/dds__chevron-right.svg"], false);
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.5.1/svgs/dds__chevron-left.svg","//uicore.dellcdn.com/1.5.1/svgs/dds__chevron-right.svg"], false);
     
   [].forEach.call(document.querySelectorAll("[data-toggle='dds__pagination']"), function (element) {
     new UIC.Pagination(element, {});

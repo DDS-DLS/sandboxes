@@ -50,16 +50,16 @@
 							
 			// Some UICore components require SVGs; loadURLSVGs accepts two parameters: an array of the SVGs to load, and a boolean for whether or not to lazy-load.  True by default; this Sandbox requires False.
 			UIC.loadURLSVGs([
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__search.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__import-alt.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__handle.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__chevron-right.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__chevron-left.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__loading-sqrs.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__chevron-right.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__arrow-tri-solid-right.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__printer.svg",
-                "https://uicore.dellcdn.com/1.3.2/svgs/dds__gear.svg"
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__search.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__import-alt.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__handle.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__chevron-right.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__chevron-left.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__loading-sqrs.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__chevron-right.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__arrow-tri-solid-right.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__printer.svg",
+                "https://uicore.dellcdn.com/1.5.1/svgs/dds__gear.svg"
             ], false);
 
 			var randomAll = mock.tableRow(80);

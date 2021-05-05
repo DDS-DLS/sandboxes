@@ -143,5 +143,5 @@
 
 <script>
     //  Add the required SVG to the page
-    UIC.loadURLSVGs(["//uicore.dellcdn.com/1.3.2/svgs/dds__loading-sqrs.svg"], false);
+    UIC.loadURLSVGs(["//uicore.dellcdn.com/1.5.1/svgs/dds__loading-sqrs.svg"], false);
 </script>
