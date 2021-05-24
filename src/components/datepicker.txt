@@ -21,11 +21,11 @@
 
 <script>
     UIC.loadURLSVGs([
-      "//uicore.dellcdn.com/1.5.1/svgs/dds__plus-add.svg",
-      "//uicore.dellcdn.com/1.5.1/svgs/dds__minus-minimize.svg",
-      "//uicore.dellcdn.com/1.5.1/svgs/dds__calendar.svg",
-      "//uicore.dellcdn.com/1.5.1/svgs/dds__chevron-right.svg",
-      "//uicore.dellcdn.com/1.5.1/svgs/dds__chevron-left.svg"
+      "//uicore.dellcdn.com/1.5.2/svgs/dds__plus-add.svg",
+      "//uicore.dellcdn.com/1.5.2/svgs/dds__minus-minimize.svg",
+      "//uicore.dellcdn.com/1.5.2/svgs/dds__calendar.svg",
+      "//uicore.dellcdn.com/1.5.2/svgs/dds__chevron-right.svg",
+      "//uicore.dellcdn.com/1.5.2/svgs/dds__chevron-left.svg"
     ], false);
 
   [].forEach.call(document.querySelectorAll("[data-toggle=\"dds__datepicker\"]"), function(element) {
