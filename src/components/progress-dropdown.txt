@@ -72,8 +72,8 @@
 
 <script>
     UIC.loadURLSVGs([
-        "//uicore.dellcdn.com/1.5.2/svgs/dds__check.svg",
-        "//uicore.dellcdn.com/1.5.2/svgs/dds__arrow-tri-solid-right.svg"
+        "//uicore.dellcdn.com/1.6.0/svgs/dds__check.svg",
+        "//uicore.dellcdn.com/1.6.0/svgs/dds__arrow-tri-solid-right.svg"
     ], false);
 
     // set element, speed of progress bar, and showText
