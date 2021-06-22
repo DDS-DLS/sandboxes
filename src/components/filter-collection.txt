@@ -906,7 +906,7 @@
 </div>
 
 <script>
-  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.5.2/svgs/dds__close-x.svg","//uicore.dellcdn.com/1.5.2/svgs/dds__search.svg"]);
+  UIC.loadURLSVGs(["//uicore.dellcdn.com/1.6.0/svgs/dds__close-x.svg","//uicore.dellcdn.com/1.6.0/svgs/dds__search.svg"]);
 
   [].forEach.call(document.querySelectorAll("[data-toggle='dds__filter-keyword']"), function (element) {
     new UIC.FilterKeyword(element);
