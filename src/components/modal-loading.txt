@@ -28,7 +28,7 @@
 
 <script>
     //  Add the required SVG to the page
-    UIC.loadURLSVGs(["//uicore.dellcdn.com/1.3.2/svgs/dds__loading-sqrs.svg"], false);
+    UIC.loadURLSVGs(["//uicore.dellcdn.com/1.6.0/svgs/dds__loading-sqrs.svg"], false);
 
     // Construct the "Processing... Please Wait." Modal and assign it to a variable, so we can control it programatically
     var loadingModal = new UIC.Modal(document.getElementById("loading-test-button"), {

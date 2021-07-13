@@ -113,12 +113,12 @@
 
 <script>
     UIC.loadURLSVGs([
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__chevron-right.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__search.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__user.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__cart.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__menu-closed.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__arrow-tri-solid-right.svg"
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__chevron-right.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__search.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__user.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__cart.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__menu-closed.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__arrow-tri-solid-right.svg"
     ], false); // boolean is for lazy loading
 
   // Initialize component (if framework lifecycle requires it)

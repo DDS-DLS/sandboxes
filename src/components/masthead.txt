@@ -509,74 +509,74 @@
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="laptops">
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">XPS
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="xps">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">11 inch</a>
                       </li>
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">13 inch</a>
                       </li>
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">15 inch</a>
                       </li>
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">17 inch</a>
                       </li>
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">20 inch</a>
                       </li>
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">21 inch</a>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">Servers</a>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Gaming
                   <svg focusable="false" class="dds__svg-icons">
                     <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="gaming">
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad A Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad a machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">A 13 inch</a>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Alienware
                   <svg focusable="false" class="dds__svg-icons">
                     <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-img" role="menu" aria-label="alienware">
-                  <li class="dds__msthd-menu-item-img" role="presentation">
+                  <li class="dds__msthd-menu-item-img" role="none">
                     <a href="//www.dell.com/en-us/shop/scc/sc/2-in-1-laptop?~ck=mn" tabindex="-1" role="menuitem">
                       <img src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forhome-2in1-pcs.png" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forhome-2in1-pcs.png" mh-lazy-prior="low" alt="View all 2-in-1 Laptops for Home" width="115" height="75" onerror="this.style.display = 'none'">
                       <span class="dds__msthd-img-caption">For Home</span>
                       <span class="dds__msthd-img-subtitle">View all 2-in-1 Laptops for Home</span>
                     </a>
                   </li>
-                  <li class="dds__msthd-menu-item-img" role="presentation">
+                  <li class="dds__msthd-menu-item-img" role="none">
                     <a href="//www.dell.com/en-us/work/shop/scc/sc/dell-tablets?~ck=mn" tabindex="-1" role="menuitem" data-testid="header-navigation-menu-t3-item">
                       <img src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forwork-tablets2.png" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forwork-tablets2.png" mh-lazy-prior="low" alt="View all Tablets &amp; 2-in-1 Laptops for Work" width="115" height="75" onerror="this.style.display = 'none'">
                       <span class="dds__msthd-img-caption">For Work</span>
@@ -585,149 +585,149 @@
                   </li>   
                 </ul>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">Enterprise</a>
               </li>
             </ul>
           </li>
-          <li class="dds__msthd-menu-top-item" role="presentation">
+          <li class="dds__msthd-menu-top-item" role="none">
             <a class="dds__msthd-menu-top-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Solution</a>
             <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-one" role="menu" aria-label="solutions">
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Laptops
                   <svg focusable="false" class="dds__svg-icons">
                     <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="laptops">
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">XPS
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="xps">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">13 inch</a>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">Servers</a>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem"><span>Gaming Computers for Games</span>
                   <svg focusable="false" class="dds__svg-icons">
                     <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="gaming computers for games">
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad A Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad a machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">A 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad B Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad b machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">B 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad C Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad c machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">C 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad D Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad d machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">D 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad E Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad e machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">E 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad F Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad f machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">F 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad G Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad g machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">G 13 inch</a>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">Alienware</a>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Enterprise
                   <svg focusable="false" class="dds__svg-icons">
                     <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-img" role="menu" aria-label="enterprise">
-                  <li class="dds__msthd-menu-item-img" role="presentation">
+                  <li class="dds__msthd-menu-item-img" role="none">
                     <a href="//www.dell.com/en-us/shop/scc/sc/2-in-1-laptop?~ck=mn" tabindex="-1" role="menuitem">
                       <img src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forhome-2in1-pcs.png" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forhome-2in1-pcs.png" mh-lazy-prior="low" alt="View all 2-in-1 Laptops for Home" width="115" height="75" onerror="this.style.display = 'none'">
                       <span class="dds__msthd-img-caption">For Home</span>
                       <span class="dds__msthd-img-subtitle">View all 2-in-1 Laptops for Home</span>
                     </a>
                   </li>
-                  <li class="dds__msthd-menu-item-img" role="presentation">
+                  <li class="dds__msthd-menu-item-img" role="none">
                     <a href="//www.dell.com/en-us/work/shop/scc/sc/dell-tablets?~ck=mn" tabindex="-1" role="menuitem" data-testid="header-navigation-menu-t3-item">
                       <img src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forwork-tablets2.png" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forwork-tablets2.png" mh-lazy-prior="low" alt="View all Tablets &amp; 2-in-1 Laptops for Work" width="115" height="75" onerror="this.style.display = 'none'">
                       <span class="dds__msthd-img-caption">For Work</span>
@@ -738,24 +738,24 @@
               </li>
             </ul>
           </li>
-          <li class="dds__msthd-menu-top-item" role="presentation">
+          <li class="dds__msthd-menu-top-item" role="none">
             <a class="dds__msthd-menu-top-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Services</a>
             <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-one" role="menu" aria-label="services">
-                <li class="dds__msthd-menu-item" role="presentation">
+                <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Enterprise
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-img" role="menu" aria-label="enterprise">
-                      <li class="dds__msthd-menu-item-img" role="presentation">
+                      <li class="dds__msthd-menu-item-img" role="none">
                         <a href="//www.dell.com/en-us/shop/scc/sc/2-in-1-laptop?~ck=mn" tabindex="-1" role="menuitem">
                           <img src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forhome-2in1-pcs.png" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forhome-2in1-pcs.png" mh-lazy-prior="low" alt="View all 2-in-1 Laptops for Home" width="115" height="75" onerror="this.style.display = 'none'">
                           <span class="dds__msthd-img-caption">For Home</span>
                           <span class="dds__msthd-img-subtitle">View all 2-in-1 Laptops for Home</span>
                         </a>
                       </li>
-                      <li class="dds__msthd-menu-item-img" role="presentation">
+                      <li class="dds__msthd-menu-item-img" role="none">
                         <a href="//www.dell.com/en-us/work/shop/scc/sc/dell-tablets?~ck=mn" tabindex="-1" role="menuitem" data-testid="header-navigation-menu-t3-item">
                           <img src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forwork-tablets2.png" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forwork-tablets2.png" mh-lazy-prior="low" alt="View all Tablets &amp; 2-in-1 Laptops for Work" width="115" height="75" onerror="this.style.display = 'none'">
                           <span class="dds__msthd-img-caption">For Work</span>
@@ -764,146 +764,146 @@
                       </li>   
                     </ul>
                   </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Laptops
                   <svg focusable="false" class="dds__svg-icons">
                     <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="laptops">
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">XPS
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="xps">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">13 inch</a>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">Servers</a>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Gaming Computers for Games
                   <svg focusable="false" class="dds__svg-icons">
                     <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="gaming computers for games">
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad A Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad a machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">A 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad B Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad b machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">B 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad C Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad c machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">C 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad D Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad d machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">D 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad E Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad e machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">E 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad F Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad f machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">F 13 inch</a>
                       </li>
                     </ul>
                   </li>
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Bad G Machine
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="bad g machine">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">G 13 inch</a>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">Alienware</a>
               </li>
             </ul>
           </li>
-          <li class="dds__msthd-menu-top-item" role="presentation">
+          <li class="dds__msthd-menu-top-item" role="none">
             <a class="dds__msthd-menu-top-link" tabindex="-1" href="#" role="menuitem">Support</a>
             <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-one" role="menu" aria-label="services">
-                <li class="dds__msthd-menu-item" role="presentation">
+                <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Enterprise
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-img" role="menu" aria-label="enterprise">
-                      <li class="dds__msthd-menu-item-img" role="presentation">
+                      <li class="dds__msthd-menu-item-img" role="none">
                         <a href="//www.dell.com/en-us/shop/scc/sc/2-in-1-laptop?~ck=mn" tabindex="-1" role="menuitem">
                           <img src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forhome-2in1-pcs.png" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forhome-2in1-pcs.png" mh-lazy-prior="low" alt="View all 2-in-1 Laptops for Home" width="115" height="75" onerror="this.style.display = 'none'">
                           <span class="dds__msthd-img-caption">For Home</span>
                           <span class="dds__msthd-img-subtitle">View all 2-in-1 Laptops for Home</span>
                         </a>
                       </li>
-                      <li class="dds__msthd-menu-item-img" role="presentation">
+                      <li class="dds__msthd-menu-item-img" role="none">
                         <a href="//www.dell.com/en-us/work/shop/scc/sc/dell-tablets?~ck=mn" tabindex="-1" role="menuitem" data-testid="header-navigation-menu-t3-item">
                           <img src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forwork-tablets2.png" mh-lazy-src="//i.dell.com/sites/content/DellMicroContent/Responsive_Images/english/_values/mast-forwork-tablets2.png" mh-lazy-prior="low" alt="View all Tablets &amp; 2-in-1 Laptops for Work" width="115" height="75" onerror="this.style.display = 'none'">
                           <span class="dds__msthd-img-caption">For Work</span>
@@ -912,21 +912,21 @@
                       </li>   
                     </ul>
                   </li>
-              <li class="dds__msthd-menu-item" role="presentation">
+              <li class="dds__msthd-menu-item" role="none">
                 <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">Laptops
                   <svg focusable="false" class="dds__svg-icons">
                     <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                   </svg>
                 </a>
                 <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="laptops">
-                  <li class="dds__msthd-menu-item" role="presentation">
+                  <li class="dds__msthd-menu-item" role="none">
                     <a class="dds__msthd-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="-1" href="#" role="menuitem">XPS
                       <svg focusable="false" class="dds__svg-icons">
                         <use xlink:href="#dds__chevron-right" class="dds__svg-icons-item dds__show"></use>
                       </svg>
                     </a>
                     <ul class="dds__msthd-menu-ctnr dds__msthd-menu-tier-sub" role="menu" aria-label="xps">
-                      <li class="dds__msthd-menu-item" role="presentation">
+                      <li class="dds__msthd-menu-item" role="none">
                         <a class="dds__msthd-menu-link" tabindex="-1" href="#" role="menuitem">13 inch</a>
                       </li>
                     </ul>
@@ -935,10 +935,10 @@
               </li>
             </ul>
           </li>
-          <li class="dds__msthd-menu-top-item" role="presentation">
+          <li class="dds__msthd-menu-top-item" role="none">
             <a class="dds__msthd-menu-top-link" tabindex="-1" href="#" role="menuitem">Deals</a>
           </li>
-          <li class="dds__msthd-menu-top-item" role="presentation">
+          <li class="dds__msthd-menu-top-item" role="none">
             <a class="dds__msthd-menu-top-link" tabindex="-1" href="#" role="menuitem">Financing</a>
           </li>
         </ul>
@@ -950,12 +950,12 @@
 
 <script>
     UIC.loadURLSVGs([
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__chevron-right.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__search.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__user.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__cart.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__menu-closed.svg",
-    "https://uicore.dellcdn.com/1.3.2/svgs/dds__arrow-tri-solid-right.svg"
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__chevron-right.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__search.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__user.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__cart.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__menu-closed.svg",
+    "https://uicore.dellcdn.com/1.6.0/svgs/dds__arrow-tri-solid-right.svg"
     ], false); // boolean is for lazy loading
 
   // Initialize component (if framework lifecycle requires it)
